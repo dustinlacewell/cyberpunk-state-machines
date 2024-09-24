@@ -1,0 +1,468 @@
+{
+    "transitions": [
+        {
+            "from": "meleeEquipping",
+            "to": "meleeNotReady"
+        },
+        {
+            "from": "meleeNotReady",
+            "to": "meleeThrowReload"
+        },
+        {
+            "from": "meleeThrowReload",
+            "to": "allMeleeNotReady"
+        },
+        {
+            "from": "meleeThrowReload",
+            "to": "meleeLeap"
+        },
+        {
+            "from": "meleeLeap",
+            "to": "meleeNotReady"
+        },
+        {
+            "from": "meleeLeap",
+            "to": "meleeStrongAttack"
+        },
+        {
+            "from": "meleeStrongAttack",
+            "to": "allMeleeNotReady"
+        },
+        {
+            "from": "meleeStrongAttack",
+            "to": "allMeleeBlocks"
+        },
+        {
+            "from": "meleeStrongAttack",
+            "to": "allMeleeStrongAttacks"
+        },
+        {
+            "from": "meleeStrongAttack",
+            "to": "allMeleeFinalAttacks"
+        },
+        {
+            "from": "meleeStrongAttack",
+            "to": "meleeGroundSlamAttack"
+        },
+        {
+            "from": "meleeGroundSlamAttack",
+            "to": "allMeleeNotReady"
+        },
+        {
+            "from": "meleeGroundSlamAttack",
+            "to": "allMeleeBlocks"
+        },
+        {
+            "from": "meleeGroundSlamAttack",
+            "to": "allMeleeLocoAttacks"
+        },
+        {
+            "from": "meleeGroundSlamAttack",
+            "to": "allMeleeFinalAttacks"
+        },
+        {
+            "from": "meleeGroundSlamAttack",
+            "to": "meleeGroundSlamAttack"
+        },
+        {
+            "from": "meleeGroundSlamAttack",
+            "to": "allMeleeComboAttacks"
+        },
+        {
+            "from": "meleeGroundSlamAttack",
+            "to": "meleeChargedHold"
+        },
+        {
+            "from": "meleeChargedHold",
+            "to": "allMeleeNotReady"
+        },
+        {
+            "from": "meleeChargedHold",
+            "to": "allMeleeBlocks"
+        },
+        {
+            "from": "meleeChargedHold",
+            "to": "meleeLeap"
+        },
+        {
+            "from": "meleeChargedHold",
+            "to": "meleeMountedStrongAttack"
+        },
+        {
+            "from": "meleeMountedStrongAttack",
+            "to": "allMeleeNotReady"
+        },
+        {
+            "from": "meleeMountedStrongAttack",
+            "to": "allMeleeBlocks"
+        },
+        {
+            "from": "meleeMountedStrongAttack",
+            "to": "allMeleeStrongAttacks"
+        },
+        {
+            "from": "meleeMountedStrongAttack",
+            "to": "allMeleeFinalAttacks"
+        },
+        {
+            "from": "meleeMountedStrongAttack",
+            "to": "allMeleeComboAttacks"
+        },
+        {
+            "from": "meleeMountedStrongAttack",
+            "to": "allMeleeHolds"
+        },
+        {
+            "from": "meleeMountedStrongAttack",
+            "to": "meleeIdle"
+        },
+        {
+            "from": "meleeIdle",
+            "to": "allMeleeNotReady"
+        },
+        {
+            "from": "meleeIdle",
+            "to": "meleeBodySlamAttack"
+        },
+        {
+            "from": "meleeBodySlamAttack",
+            "to": "allMeleeNotReady"
+        },
+        {
+            "from": "meleeBodySlamAttack",
+            "to": "meleeGroundSlamAttack"
+        },
+        {
+            "from": "meleeBodySlamAttack",
+            "to": "allMeleeBlocks"
+        },
+        {
+            "from": "meleeBodySlamAttack",
+            "to": "meleeIdle"
+        },
+        {
+            "from": "meleeIdle",
+            "to": "allMeleeBlocks"
+        },
+        {
+            "from": "meleeIdle",
+            "to": "meleeDash"
+        },
+        {
+            "from": "meleeDash",
+            "to": "meleeNotReady"
+        },
+        {
+            "from": "meleeDash",
+            "to": "meleeSprintAttack"
+        },
+        {
+            "from": "meleeSprintAttack",
+            "to": "allMeleeNotReady"
+        },
+        {
+            "from": "meleeSprintAttack",
+            "to": "allMeleeBlocks"
+        },
+        {
+            "from": "meleeSprintAttack",
+            "to": "allMeleeLocoAttacks"
+        },
+        {
+            "from": "meleeSprintAttack",
+            "to": "meleeChargedHold"
+        },
+        {
+            "from": "meleeSprintAttack",
+            "to": "allMeleeFinalAttacks"
+        },
+        {
+            "from": "meleeSprintAttack",
+            "to": "meleeGroundSlamAttack"
+        },
+        {
+            "from": "meleeSprintAttack",
+            "to": "allMeleeComboAttacks"
+        },
+        {
+            "from": "meleeSprintAttack",
+            "to": "meleeIdle"
+        },
+        {
+            "from": "meleeDash",
+            "to": "meleeIdle"
+        },
+        {
+            "from": "meleeIdle",
+            "to": "meleeLeap"
+        },
+        {
+            "from": "meleeIdle",
+            "to": "allMeleeLocoAttacks"
+        },
+        {
+            "from": "meleeIdle",
+            "to": "meleeGroundSlamAttack"
+        },
+        {
+            "from": "meleeIdle",
+            "to": "allMeleeComboAttacks"
+        },
+        {
+            "from": "meleeIdle",
+            "to": "meleeHold"
+        },
+        {
+            "from": "meleeHold",
+            "to": "allMeleeNotReady"
+        },
+        {
+            "from": "meleeHold",
+            "to": "allMeleeBlocks"
+        },
+        {
+            "from": "meleeHold",
+            "to": "allMeleeLocoAttacks"
+        },
+        {
+            "from": "meleeHold",
+            "to": "meleeChargedHold"
+        },
+        {
+            "from": "meleeHold",
+            "to": "meleeMountedFinalAttack"
+        },
+        {
+            "from": "meleeMountedFinalAttack",
+            "to": "allMeleeNotReady"
+        },
+        {
+            "from": "meleeMountedFinalAttack",
+            "to": "allMeleeBlocks"
+        },
+        {
+            "from": "meleeMountedFinalAttack",
+            "to": "allMeleeComboAttacks"
+        },
+        {
+            "from": "meleeMountedFinalAttack",
+            "to": "meleeIdle"
+        },
+        {
+            "from": "meleeHold",
+            "to": "meleeFinalAttack"
+        },
+        {
+            "from": "meleeFinalAttack",
+            "to": "allMeleeNotReady"
+        },
+        {
+            "from": "meleeFinalAttack",
+            "to": "allMeleeBlocks"
+        },
+        {
+            "from": "meleeFinalAttack",
+            "to": "meleeGroundSlamAttack"
+        },
+        {
+            "from": "meleeFinalAttack",
+            "to": "allMeleeComboAttacks"
+        },
+        {
+            "from": "meleeFinalAttack",
+            "to": "meleeIdle"
+        },
+        {
+            "from": "meleeHold",
+            "to": "meleeGroundSlamAttack"
+        },
+        {
+            "from": "meleeHold",
+            "to": "allMeleeComboAttacks"
+        },
+        {
+            "from": "meleeHold",
+            "to": "meleeIdle"
+        },
+        {
+            "from": "meleeIdle",
+            "to": "meleePublicSafe"
+        },
+        {
+            "from": "meleePublicSafe",
+            "to": "allMeleeNotReady"
+        },
+        {
+            "from": "meleePublicSafe",
+            "to": "allMeleeBlocks"
+        },
+        {
+            "from": "meleePublicSafe",
+            "to": "meleeSafeAttack"
+        },
+        {
+            "from": "meleeSafeAttack",
+            "to": "allMeleeNotReady"
+        },
+        {
+            "from": "meleeSafeAttack",
+            "to": "meleeGroundSlamAttack"
+        },
+        {
+            "from": "meleeSafeAttack",
+            "to": "allMeleeComboAttacks"
+        },
+        {
+            "from": "meleeSafeAttack",
+            "to": "meleeIdle"
+        },
+        {
+            "from": "meleePublicSafe",
+            "to": "allMeleeLocoAttacks"
+        },
+        {
+            "from": "meleePublicSafe",
+            "to": "meleeGroundSlamAttack"
+        },
+        {
+            "from": "meleePublicSafe",
+            "to": "allMeleeComboAttacks"
+        },
+        {
+            "from": "meleePublicSafe",
+            "to": "meleeHold"
+        },
+        {
+            "from": "meleePublicSafe",
+            "to": "meleeIdle"
+        },
+        {
+            "from": "meleeChargedHold",
+            "to": "meleeStrongAttack"
+        },
+        {
+            "from": "meleeGroundSlamAttack",
+            "to": "meleeIdle"
+        },
+        {
+            "from": "meleeStrongAttack",
+            "to": "allMeleeComboAttacks"
+        },
+        {
+            "from": "meleeStrongAttack",
+            "to": "allMeleeLocoAttacks"
+        },
+        {
+            "from": "meleeStrongAttack",
+            "to": "allMeleeHolds"
+        },
+        {
+            "from": "meleeStrongAttack",
+            "to": "meleeIdle"
+        },
+        {
+            "from": "meleeLeap",
+            "to": "meleeIdle"
+        },
+        {
+            "from": "meleeThrowReload",
+            "to": "meleeIdle"
+        },
+        {
+            "from": "meleeNotReady",
+            "to": "meleeSafe"
+        },
+        {
+            "from": "meleeSafe",
+            "to": "meleeNotReady"
+        },
+        {
+            "from": "meleeSafe",
+            "to": "meleePublicSafe"
+        },
+        {
+            "from": "meleeNotReady",
+            "to": "meleeIdle"
+        },
+        {
+            "from": "meleeEquipping",
+            "to": "meleeThrowReload"
+        },
+        {
+            "from": "meleeEquipping",
+            "to": "meleeSafe"
+        },
+        {
+            "from": "meleeEquipping",
+            "to": "meleeEquipAttack"
+        },
+        {
+            "from": "meleeEquipAttack",
+            "to": "allMeleeNotReady"
+        },
+        {
+            "from": "meleeEquipAttack",
+            "to": "allMeleeBlocks"
+        },
+        {
+            "from": "meleeEquipAttack",
+            "to": "allMeleeLocoAttacks"
+        },
+        {
+            "from": "meleeEquipAttack",
+            "to": "meleeChargedHold"
+        },
+        {
+            "from": "meleeEquipAttack",
+            "to": "allMeleeFinalAttacks"
+        },
+        {
+            "from": "meleeEquipAttack",
+            "to": "meleeGroundSlamAttack"
+        },
+        {
+            "from": "meleeEquipAttack",
+            "to": "allMeleeComboAttacks"
+        },
+        {
+            "from": "meleeEquipAttack",
+            "to": "meleeIdle"
+        },
+        {
+            "from": "meleeEquipping",
+            "to": "meleeBodySlamAttack"
+        },
+        {
+            "from": "meleeEquipping",
+            "to": "allMeleeBlocks"
+        },
+        {
+            "from": "meleeEquipping",
+            "to": "meleeDash"
+        },
+        {
+            "from": "meleeEquipping",
+            "to": "meleeLeap"
+        },
+        {
+            "from": "meleeEquipping",
+            "to": "allMeleeLocoAttacks"
+        },
+        {
+            "from": "meleeEquipping",
+            "to": "meleeGroundSlamAttack"
+        },
+        {
+            "from": "meleeEquipping",
+            "to": "allMeleeComboAttacks"
+        },
+        {
+            "from": "meleeEquipping",
+            "to": "meleeHold"
+        },
+        {
+            "from": "meleeEquipping",
+            "to": "meleeIdle"
+        }
+    ]
+}

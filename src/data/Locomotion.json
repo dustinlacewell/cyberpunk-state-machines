@@ -1,0 +1,1533 @@
+{
+    "initialState": "initial",
+    "transitions": [
+        {
+            "from": "initial",
+            "to": "workspot"
+        },
+        {
+            "from": "workspot",
+            "to": "forcedKnockdown"
+        },
+        {
+            "from": "forcedKnockdown",
+            "to": "toForceState"
+        },
+        {
+            "from": "forcedKnockdown",
+            "to": "knockdown"
+        },
+        {
+            "from": "knockdown",
+            "to": "toForceState"
+        },
+        {
+            "from": "knockdown",
+            "to": "knockdown"
+        },
+        {
+            "from": "knockdown",
+            "to": "fall"
+        },
+        {
+            "from": "fall",
+            "to": "dodge"
+        },
+        {
+            "from": "dodge",
+            "to": "workspot"
+        },
+        {
+            "from": "dodge",
+            "to": "toStatusEffect"
+        },
+        {
+            "from": "dodge",
+            "to": "airHover"
+        },
+        {
+            "from": "airHover",
+            "to": "workspot"
+        },
+        {
+            "from": "airHover",
+            "to": "superheroFall"
+        },
+        {
+            "from": "superheroFall",
+            "to": "workspot"
+        },
+        {
+            "from": "superheroFall",
+            "to": "deathLand"
+        },
+        {
+            "from": "deathLand",
+            "to": "workspot"
+        },
+        {
+            "from": "deathLand",
+            "to": "stand"
+        },
+        {
+            "from": "stand",
+            "to": "felled"
+        },
+        {
+            "from": "felled",
+            "to": "stand"
+        },
+        {
+            "from": "stand",
+            "to": "workspot"
+        },
+        {
+            "from": "stand",
+            "to": "toStatusEffect"
+        },
+        {
+            "from": "stand",
+            "to": "aimWalk"
+        },
+        {
+            "from": "aimWalk",
+            "to": "workspot"
+        },
+        {
+            "from": "aimWalk",
+            "to": "toStatusEffect"
+        },
+        {
+            "from": "aimWalk",
+            "to": "airHover"
+        },
+        {
+            "from": "aimWalk",
+            "to": "stand"
+        },
+        {
+            "from": "aimWalk",
+            "to": "ladder"
+        },
+        {
+            "from": "ladder",
+            "to": "workspot"
+        },
+        {
+            "from": "ladder",
+            "to": "stand"
+        },
+        {
+            "from": "ladder",
+            "to": "crouch"
+        },
+        {
+            "from": "crouch",
+            "to": "toStatusEffect"
+        },
+        {
+            "from": "crouch",
+            "to": "toForceState"
+        },
+        {
+            "from": "crouch",
+            "to": "airHover"
+        },
+        {
+            "from": "crouch",
+            "to": "stand"
+        },
+        {
+            "from": "crouch",
+            "to": "vault"
+        },
+        {
+            "from": "vault",
+            "to": "workspot"
+        },
+        {
+            "from": "vault",
+            "to": "toStatusEffect"
+        },
+        {
+            "from": "vault",
+            "to": "slide"
+        },
+        {
+            "from": "slide",
+            "to": "toForceState"
+        },
+        {
+            "from": "slide",
+            "to": "toStatusEffect"
+        },
+        {
+            "from": "slide",
+            "to": "slideFall"
+        },
+        {
+            "from": "slideFall",
+            "to": "workspot"
+        },
+        {
+            "from": "slideFall",
+            "to": "slideAfterFall"
+        },
+        {
+            "from": "slideAfterFall",
+            "to": "toForceState"
+        },
+        {
+            "from": "slideAfterFall",
+            "to": "toStatusEffect"
+        },
+        {
+            "from": "slideAfterFall",
+            "to": "slideFall"
+        },
+        {
+            "from": "slideAfterFall",
+            "to": "vault"
+        },
+        {
+            "from": "slideAfterFall",
+            "to": "climb"
+        },
+        {
+            "from": "climb",
+            "to": "workspot"
+        },
+        {
+            "from": "climb",
+            "to": "forcedKnockdown"
+        },
+        {
+            "from": "climb",
+            "to": "toStatusEffect"
+        },
+        {
+            "from": "climb",
+            "to": "stand"
+        },
+        {
+            "from": "climb",
+            "to": "crouch"
+        },
+        {
+            "from": "slideAfterFall",
+            "to": "jump"
+        },
+        {
+            "from": "jump",
+            "to": "dodge"
+        },
+        {
+            "from": "jump",
+            "to": "toForceState"
+        },
+        {
+            "from": "jump",
+            "to": "unsecureFootingFall"
+        },
+        {
+            "from": "unsecureFootingFall",
+            "to": "toForceState"
+        },
+        {
+            "from": "unsecureFootingFall",
+            "to": "regularLand"
+        },
+        {
+            "from": "regularLand",
+            "to": "workspot"
+        },
+        {
+            "from": "regularLand",
+            "to": "jump"
+        },
+        {
+            "from": "regularLand",
+            "to": "slide"
+        },
+        {
+            "from": "regularLand",
+            "to": "crouch"
+        },
+        {
+            "from": "regularLand",
+            "to": "sprint"
+        },
+        {
+            "from": "sprint",
+            "to": "dodge"
+        },
+        {
+            "from": "sprint",
+            "to": "toForceState"
+        },
+        {
+            "from": "sprint",
+            "to": "toStatusEffect"
+        },
+        {
+            "from": "sprint",
+            "to": "airHover"
+        },
+        {
+            "from": "sprint",
+            "to": "slide"
+        },
+        {
+            "from": "sprint",
+            "to": "crouch"
+        },
+        {
+            "from": "sprint",
+            "to": "vault"
+        },
+        {
+            "from": "sprint",
+            "to": "climb"
+        },
+        {
+            "from": "sprint",
+            "to": "bodySlamJump"
+        },
+        {
+            "from": "bodySlamJump",
+            "to": "dodge"
+        },
+        {
+            "from": "bodySlamJump",
+            "to": "toForceState"
+        },
+        {
+            "from": "bodySlamJump",
+            "to": "unsecureFootingFall"
+        },
+        {
+            "from": "bodySlamJump",
+            "to": "regularLand"
+        },
+        {
+            "from": "bodySlamJump",
+            "to": "hardLand"
+        },
+        {
+            "from": "hardLand",
+            "to": "workspot"
+        },
+        {
+            "from": "hardLand",
+            "to": "stand"
+        },
+        {
+            "from": "hardLand",
+            "to": "crouch"
+        },
+        {
+            "from": "bodySlamJump",
+            "to": "veryHardLand"
+        },
+        {
+            "from": "veryHardLand",
+            "to": "workspot"
+        },
+        {
+            "from": "veryHardLand",
+            "to": "stand"
+        },
+        {
+            "from": "veryHardLand",
+            "to": "crouch"
+        },
+        {
+            "from": "bodySlamJump",
+            "to": "deathLand"
+        },
+        {
+            "from": "bodySlamJump",
+            "to": "airHover"
+        },
+        {
+            "from": "bodySlamJump",
+            "to": "chargeJump"
+        },
+        {
+            "from": "chargeJump",
+            "to": "toForceState"
+        },
+        {
+            "from": "chargeJump",
+            "to": "unsecureFootingFall"
+        },
+        {
+            "from": "chargeJump",
+            "to": "regularLand"
+        },
+        {
+            "from": "chargeJump",
+            "to": "hardLand"
+        },
+        {
+            "from": "chargeJump",
+            "to": "veryHardLand"
+        },
+        {
+            "from": "chargeJump",
+            "to": "deathLand"
+        },
+        {
+            "from": "chargeJump",
+            "to": "airHover"
+        },
+        {
+            "from": "chargeJump",
+            "to": "climb"
+        },
+        {
+            "from": "chargeJump",
+            "to": "dodge"
+        },
+        {
+            "from": "chargeJump",
+            "to": "dodgeAir"
+        },
+        {
+            "from": "dodgeAir",
+            "to": "toForceState"
+        },
+        {
+            "from": "dodgeAir",
+            "to": "regularLand"
+        },
+        {
+            "from": "dodgeAir",
+            "to": "hardLand"
+        },
+        {
+            "from": "dodgeAir",
+            "to": "veryHardLand"
+        },
+        {
+            "from": "dodgeAir",
+            "to": "deathLand"
+        },
+        {
+            "from": "dodgeAir",
+            "to": "climb"
+        },
+        {
+            "from": "dodgeAir",
+            "to": "ladder"
+        },
+        {
+            "from": "dodgeAir",
+            "to": "fall"
+        },
+        {
+            "from": "dodgeAir",
+            "to": "airHover"
+        },
+        {
+            "from": "dodgeAir",
+            "to": "toStatusEffect"
+        },
+        {
+            "from": "dodgeAir",
+            "to": "airThrusters"
+        },
+        {
+            "from": "airThrusters",
+            "to": "doubleJump"
+        },
+        {
+            "from": "doubleJump",
+            "to": "dodge"
+        },
+        {
+            "from": "doubleJump",
+            "to": "toForceState"
+        },
+        {
+            "from": "doubleJump",
+            "to": "unsecureFootingFall"
+        },
+        {
+            "from": "doubleJump",
+            "to": "regularLand"
+        },
+        {
+            "from": "doubleJump",
+            "to": "hardLand"
+        },
+        {
+            "from": "doubleJump",
+            "to": "veryHardLand"
+        },
+        {
+            "from": "doubleJump",
+            "to": "deathLand"
+        },
+        {
+            "from": "doubleJump",
+            "to": "airHover"
+        },
+        {
+            "from": "doubleJump",
+            "to": "climb"
+        },
+        {
+            "from": "doubleJump",
+            "to": "dodgeAir"
+        },
+        {
+            "from": "doubleJump",
+            "to": "ladder"
+        },
+        {
+            "from": "doubleJump",
+            "to": "doubleJump"
+        },
+        {
+            "from": "doubleJump",
+            "to": "toStatusEffect"
+        },
+        {
+            "from": "doubleJump",
+            "to": "airThrusters"
+        },
+        {
+            "from": "airThrusters",
+            "to": "fall"
+        },
+        {
+            "from": "airThrusters",
+            "to": "stand"
+        },
+        {
+            "from": "airThrusters",
+            "to": "crouch"
+        },
+        {
+            "from": "chargeJump",
+            "to": "ladder"
+        },
+        {
+            "from": "chargeJump",
+            "to": "toStatusEffect"
+        },
+        {
+            "from": "chargeJump",
+            "to": "airThrusters"
+        },
+        {
+            "from": "chargeJump",
+            "to": "doubleJump"
+        },
+        {
+            "from": "bodySlamJump",
+            "to": "doubleJump"
+        },
+        {
+            "from": "bodySlamJump",
+            "to": "hoverJump"
+        },
+        {
+            "from": "hoverJump",
+            "to": "toForceState"
+        },
+        {
+            "from": "hoverJump",
+            "to": "unsecureFootingFall"
+        },
+        {
+            "from": "hoverJump",
+            "to": "regularLand"
+        },
+        {
+            "from": "hoverJump",
+            "to": "hardLand"
+        },
+        {
+            "from": "hoverJump",
+            "to": "veryHardLand"
+        },
+        {
+            "from": "hoverJump",
+            "to": "deathLand"
+        },
+        {
+            "from": "hoverJump",
+            "to": "airHover"
+        },
+        {
+            "from": "hoverJump",
+            "to": "climb"
+        },
+        {
+            "from": "hoverJump",
+            "to": "dodge"
+        },
+        {
+            "from": "hoverJump",
+            "to": "dodgeAir"
+        },
+        {
+            "from": "hoverJump",
+            "to": "ladder"
+        },
+        {
+            "from": "hoverJump",
+            "to": "toStatusEffect"
+        },
+        {
+            "from": "hoverJump",
+            "to": "airThrusters"
+        },
+        {
+            "from": "bodySlamJump",
+            "to": "dodgeAir"
+        },
+        {
+            "from": "bodySlamJump",
+            "to": "climb"
+        },
+        {
+            "from": "bodySlamJump",
+            "to": "ladder"
+        },
+        {
+            "from": "bodySlamJump",
+            "to": "toStatusEffect"
+        },
+        {
+            "from": "bodySlamJump",
+            "to": "airThrusters"
+        },
+        {
+            "from": "sprint",
+            "to": "jump"
+        },
+        {
+            "from": "sprint",
+            "to": "chargeJump"
+        },
+        {
+            "from": "sprint",
+            "to": "hoverJump"
+        },
+        {
+            "from": "sprint",
+            "to": "toAir"
+        },
+        {
+            "from": "sprint",
+            "to": "ladder"
+        },
+        {
+            "from": "sprint",
+            "to": "stand"
+        },
+        {
+            "from": "regularLand",
+            "to": "stand"
+        },
+        {
+            "from": "unsecureFootingFall",
+            "to": "hardLand"
+        },
+        {
+            "from": "unsecureFootingFall",
+            "to": "veryHardLand"
+        },
+        {
+            "from": "unsecureFootingFall",
+            "to": "deathLand"
+        },
+        {
+            "from": "unsecureFootingFall",
+            "to": "ladder"
+        },
+        {
+            "from": "unsecureFootingFall",
+            "to": "toStatusEffect"
+        },
+        {
+            "from": "jump",
+            "to": "regularLand"
+        },
+        {
+            "from": "jump",
+            "to": "hardLand"
+        },
+        {
+            "from": "jump",
+            "to": "veryHardLand"
+        },
+        {
+            "from": "jump",
+            "to": "deathLand"
+        },
+        {
+            "from": "jump",
+            "to": "airHover"
+        },
+        {
+            "from": "jump",
+            "to": "chargeJump"
+        },
+        {
+            "from": "jump",
+            "to": "doubleJump"
+        },
+        {
+            "from": "jump",
+            "to": "hoverJump"
+        },
+        {
+            "from": "jump",
+            "to": "dodgeAir"
+        },
+        {
+            "from": "jump",
+            "to": "climb"
+        },
+        {
+            "from": "jump",
+            "to": "ladder"
+        },
+        {
+            "from": "jump",
+            "to": "toStatusEffect"
+        },
+        {
+            "from": "jump",
+            "to": "airThrusters"
+        },
+        {
+            "from": "slideAfterFall",
+            "to": "chargeJump"
+        },
+        {
+            "from": "slideAfterFall",
+            "to": "hoverJump"
+        },
+        {
+            "from": "slideAfterFall",
+            "to": "crouch"
+        },
+        {
+            "from": "slideAfterFall",
+            "to": "stand"
+        },
+        {
+            "from": "slideAfterFall",
+            "to": "ladder"
+        },
+        {
+            "from": "slideAfterFall",
+            "to": "dodge"
+        },
+        {
+            "from": "slideFall",
+            "to": "hardLand"
+        },
+        {
+            "from": "slideFall",
+            "to": "veryHardLand"
+        },
+        {
+            "from": "slideFall",
+            "to": "airHover"
+        },
+        {
+            "from": "slideFall",
+            "to": "doubleJump"
+        },
+        {
+            "from": "slideFall",
+            "to": "dodgeAir"
+        },
+        {
+            "from": "slideFall",
+            "to": "climb"
+        },
+        {
+            "from": "slideFall",
+            "to": "ladder"
+        },
+        {
+            "from": "slideFall",
+            "to": "fall"
+        },
+        {
+            "from": "slideFall",
+            "to": "toStatusEffect"
+        },
+        {
+            "from": "slide",
+            "to": "vault"
+        },
+        {
+            "from": "slide",
+            "to": "climb"
+        },
+        {
+            "from": "slide",
+            "to": "jump"
+        },
+        {
+            "from": "slide",
+            "to": "chargeJump"
+        },
+        {
+            "from": "slide",
+            "to": "hoverJump"
+        },
+        {
+            "from": "slide",
+            "to": "crouch"
+        },
+        {
+            "from": "slide",
+            "to": "stand"
+        },
+        {
+            "from": "slide",
+            "to": "ladder"
+        },
+        {
+            "from": "slide",
+            "to": "dodge"
+        },
+        {
+            "from": "vault",
+            "to": "crouch"
+        },
+        {
+            "from": "vault",
+            "to": "stand"
+        },
+        {
+            "from": "crouch",
+            "to": "climb"
+        },
+        {
+            "from": "crouch",
+            "to": "jump"
+        },
+        {
+            "from": "crouch",
+            "to": "chargeJump"
+        },
+        {
+            "from": "crouch",
+            "to": "hoverJump"
+        },
+        {
+            "from": "crouch",
+            "to": "toAir"
+        },
+        {
+            "from": "crouch",
+            "to": "crouchSprint"
+        },
+        {
+            "from": "crouchSprint",
+            "to": "toStatusEffect"
+        },
+        {
+            "from": "crouchSprint",
+            "to": "toForceState"
+        },
+        {
+            "from": "crouchSprint",
+            "to": "airHover"
+        },
+        {
+            "from": "crouchSprint",
+            "to": "dodge"
+        },
+        {
+            "from": "crouchSprint",
+            "to": "stand"
+        },
+        {
+            "from": "crouchSprint",
+            "to": "vault"
+        },
+        {
+            "from": "crouchSprint",
+            "to": "climb"
+        },
+        {
+            "from": "crouchSprint",
+            "to": "jump"
+        },
+        {
+            "from": "crouchSprint",
+            "to": "chargeJump"
+        },
+        {
+            "from": "crouchSprint",
+            "to": "hoverJump"
+        },
+        {
+            "from": "crouchSprint",
+            "to": "toAir"
+        },
+        {
+            "from": "crouchSprint",
+            "to": "crouch"
+        },
+        {
+            "from": "crouchSprint",
+            "to": "ladder"
+        },
+        {
+            "from": "crouch",
+            "to": "sprint"
+        },
+        {
+            "from": "crouch",
+            "to": "ladder"
+        },
+        {
+            "from": "crouch",
+            "to": "dodge"
+        },
+        {
+            "from": "ladder",
+            "to": "ladderSlide"
+        },
+        {
+            "from": "ladderSlide",
+            "to": "workspot"
+        },
+        {
+            "from": "ladderSlide",
+            "to": "stand"
+        },
+        {
+            "from": "ladderSlide",
+            "to": "crouch"
+        },
+        {
+            "from": "ladderSlide",
+            "to": "ladder"
+        },
+        {
+            "from": "ladderSlide",
+            "to": "toStatusEffect"
+        },
+        {
+            "from": "ladder",
+            "to": "ladderSprint"
+        },
+        {
+            "from": "ladderSprint",
+            "to": "workspot"
+        },
+        {
+            "from": "ladderSprint",
+            "to": "stand"
+        },
+        {
+            "from": "ladderSprint",
+            "to": "crouch"
+        },
+        {
+            "from": "ladderSprint",
+            "to": "ladder"
+        },
+        {
+            "from": "ladderSprint",
+            "to": "ladderJump"
+        },
+        {
+            "from": "ladderJump",
+            "to": "dodge"
+        },
+        {
+            "from": "ladderJump",
+            "to": "toForceState"
+        },
+        {
+            "from": "ladderJump",
+            "to": "unsecureFootingFall"
+        },
+        {
+            "from": "ladderJump",
+            "to": "regularLand"
+        },
+        {
+            "from": "ladderJump",
+            "to": "hardLand"
+        },
+        {
+            "from": "ladderJump",
+            "to": "veryHardLand"
+        },
+        {
+            "from": "ladderJump",
+            "to": "deathLand"
+        },
+        {
+            "from": "ladderJump",
+            "to": "airHover"
+        },
+        {
+            "from": "ladderJump",
+            "to": "chargeJump"
+        },
+        {
+            "from": "ladderJump",
+            "to": "doubleJump"
+        },
+        {
+            "from": "ladderJump",
+            "to": "hoverJump"
+        },
+        {
+            "from": "ladderJump",
+            "to": "dodgeAir"
+        },
+        {
+            "from": "ladderJump",
+            "to": "climb"
+        },
+        {
+            "from": "ladderJump",
+            "to": "ladder"
+        },
+        {
+            "from": "ladderJump",
+            "to": "toStatusEffect"
+        },
+        {
+            "from": "ladderJump",
+            "to": "airThrusters"
+        },
+        {
+            "from": "ladderSprint",
+            "to": "ladderCrouch"
+        },
+        {
+            "from": "ladderCrouch",
+            "to": "dodge"
+        },
+        {
+            "from": "ladderCrouch",
+            "to": "toForceState"
+        },
+        {
+            "from": "ladderCrouch",
+            "to": "unsecureFootingFall"
+        },
+        {
+            "from": "ladderCrouch",
+            "to": "regularLand"
+        },
+        {
+            "from": "ladderCrouch",
+            "to": "hardLand"
+        },
+        {
+            "from": "ladderCrouch",
+            "to": "veryHardLand"
+        },
+        {
+            "from": "ladderCrouch",
+            "to": "deathLand"
+        },
+        {
+            "from": "ladderCrouch",
+            "to": "airHover"
+        },
+        {
+            "from": "ladderCrouch",
+            "to": "chargeJump"
+        },
+        {
+            "from": "ladderCrouch",
+            "to": "doubleJump"
+        },
+        {
+            "from": "ladderCrouch",
+            "to": "hoverJump"
+        },
+        {
+            "from": "ladderCrouch",
+            "to": "dodgeAir"
+        },
+        {
+            "from": "ladderCrouch",
+            "to": "climb"
+        },
+        {
+            "from": "ladderCrouch",
+            "to": "ladder"
+        },
+        {
+            "from": "ladderCrouch",
+            "to": "toStatusEffect"
+        },
+        {
+            "from": "ladderCrouch",
+            "to": "airThrusters"
+        },
+        {
+            "from": "ladderSprint",
+            "to": "chargeJump"
+        },
+        {
+            "from": "ladderSprint",
+            "to": "toStatusEffect"
+        },
+        {
+            "from": "ladder",
+            "to": "ladderJump"
+        },
+        {
+            "from": "ladder",
+            "to": "ladderCrouch"
+        },
+        {
+            "from": "ladder",
+            "to": "chargeJump"
+        },
+        {
+            "from": "ladder",
+            "to": "toStatusEffect"
+        },
+        {
+            "from": "aimWalk",
+            "to": "forceIdle"
+        },
+        {
+            "from": "forceIdle",
+            "to": "workspot"
+        },
+        {
+            "from": "forceIdle",
+            "to": "forceWalk"
+        },
+        {
+            "from": "forceWalk",
+            "to": "workspot"
+        },
+        {
+            "from": "forceWalk",
+            "to": "forceIdle"
+        },
+        {
+            "from": "forceWalk",
+            "to": "forceFreeze"
+        },
+        {
+            "from": "forceFreeze",
+            "to": "workspot"
+        },
+        {
+            "from": "forceFreeze",
+            "to": "forceIdle"
+        },
+        {
+            "from": "forceFreeze",
+            "to": "forceWalk"
+        },
+        {
+            "from": "forceFreeze",
+            "to": "stand"
+        },
+        {
+            "from": "forceFreeze",
+            "to": "crouch"
+        },
+        {
+            "from": "forceWalk",
+            "to": "stand"
+        },
+        {
+            "from": "forceWalk",
+            "to": "crouch"
+        },
+        {
+            "from": "forceWalk",
+            "to": "dodge"
+        },
+        {
+            "from": "forceIdle",
+            "to": "forceFreeze"
+        },
+        {
+            "from": "forceIdle",
+            "to": "stand"
+        },
+        {
+            "from": "forceIdle",
+            "to": "crouch"
+        },
+        {
+            "from": "aimWalk",
+            "to": "forceWalk"
+        },
+        {
+            "from": "aimWalk",
+            "to": "forceFreeze"
+        },
+        {
+            "from": "aimWalk",
+            "to": "dodge"
+        },
+        {
+            "from": "aimWalk",
+            "to": "crouch"
+        },
+        {
+            "from": "aimWalk",
+            "to": "vault"
+        },
+        {
+            "from": "aimWalk",
+            "to": "climb"
+        },
+        {
+            "from": "aimWalk",
+            "to": "jump"
+        },
+        {
+            "from": "aimWalk",
+            "to": "chargeJump"
+        },
+        {
+            "from": "aimWalk",
+            "to": "hoverJump"
+        },
+        {
+            "from": "aimWalk",
+            "to": "toAir"
+        },
+        {
+            "from": "aimWalk",
+            "to": "sprint"
+        },
+        {
+            "from": "stand",
+            "to": "ladder"
+        },
+        {
+            "from": "stand",
+            "to": "forceIdle"
+        },
+        {
+            "from": "stand",
+            "to": "forceWalk"
+        },
+        {
+            "from": "stand",
+            "to": "forceFreeze"
+        },
+        {
+            "from": "stand",
+            "to": "airHover"
+        },
+        {
+            "from": "stand",
+            "to": "dodge"
+        },
+        {
+            "from": "stand",
+            "to": "slide"
+        },
+        {
+            "from": "stand",
+            "to": "crouch"
+        },
+        {
+            "from": "stand",
+            "to": "vault"
+        },
+        {
+            "from": "stand",
+            "to": "climb"
+        },
+        {
+            "from": "stand",
+            "to": "jump"
+        },
+        {
+            "from": "stand",
+            "to": "chargeJump"
+        },
+        {
+            "from": "stand",
+            "to": "hoverJump"
+        },
+        {
+            "from": "stand",
+            "to": "toAir"
+        },
+        {
+            "from": "stand",
+            "to": "sprint"
+        },
+        {
+            "from": "deathLand",
+            "to": "crouch"
+        },
+        {
+            "from": "superheroFall",
+            "to": "superheroLand"
+        },
+        {
+            "from": "superheroLand",
+            "to": "workspot"
+        },
+        {
+            "from": "superheroLand",
+            "to": "superheroLandRecovery"
+        },
+        {
+            "from": "superheroLandRecovery",
+            "to": "workspot"
+        },
+        {
+            "from": "superheroLandRecovery",
+            "to": "stand"
+        },
+        {
+            "from": "superheroLandRecovery",
+            "to": "crouch"
+        },
+        {
+            "from": "dodge",
+            "to": "ladder"
+        },
+        {
+            "from": "dodge",
+            "to": "vault"
+        },
+        {
+            "from": "dodge",
+            "to": "slide"
+        },
+        {
+            "from": "dodge",
+            "to": "stand"
+        },
+        {
+            "from": "dodge",
+            "to": "fall"
+        },
+        {
+            "from": "dodge",
+            "to": "climb"
+        },
+        {
+            "from": "dodge",
+            "to": "jump"
+        },
+        {
+            "from": "dodge",
+            "to": "chargeJump"
+        },
+        {
+            "from": "dodge",
+            "to": "hoverJump"
+        },
+        {
+            "from": "dodge",
+            "to": "doubleJump"
+        },
+        {
+            "from": "dodge",
+            "to": "crouch"
+        },
+        {
+            "from": "fall",
+            "to": "toForceState"
+        },
+        {
+            "from": "fall",
+            "to": "unsecureFootingFall"
+        },
+        {
+            "from": "fall",
+            "to": "regularLand"
+        },
+        {
+            "from": "fall",
+            "to": "hardLand"
+        },
+        {
+            "from": "fall",
+            "to": "veryHardLand"
+        },
+        {
+            "from": "fall",
+            "to": "deathLand"
+        },
+        {
+            "from": "fall",
+            "to": "airThrusters"
+        },
+        {
+            "from": "fall",
+            "to": "doubleJump"
+        },
+        {
+            "from": "fall",
+            "to": "chargeJump"
+        },
+        {
+            "from": "fall",
+            "to": "hoverJump"
+        },
+        {
+            "from": "fall",
+            "to": "dodgeAir"
+        },
+        {
+            "from": "fall",
+            "to": "climb"
+        },
+        {
+            "from": "fall",
+            "to": "ladder"
+        },
+        {
+            "from": "fall",
+            "to": "airHover"
+        },
+        {
+            "from": "fall",
+            "to": "toStatusEffect"
+        },
+        {
+            "from": "knockdown",
+            "to": "stand"
+        },
+        {
+            "from": "knockdown",
+            "to": "crouch"
+        },
+        {
+            "from": "forcedKnockdown",
+            "to": "fall"
+        },
+        {
+            "from": "forcedKnockdown",
+            "to": "stand"
+        },
+        {
+            "from": "forcedKnockdown",
+            "to": "crouch"
+        },
+        {
+            "from": "workspot",
+            "to": "forceIdle"
+        },
+        {
+            "from": "workspot",
+            "to": "forceWalk"
+        },
+        {
+            "from": "workspot",
+            "to": "forceFreeze"
+        },
+        {
+            "from": "workspot",
+            "to": "coolExitJump"
+        },
+        {
+            "from": "coolExitJump",
+            "to": "dodge"
+        },
+        {
+            "from": "coolExitJump",
+            "to": "toForceState"
+        },
+        {
+            "from": "coolExitJump",
+            "to": "unsecureFootingFall"
+        },
+        {
+            "from": "coolExitJump",
+            "to": "regularLand"
+        },
+        {
+            "from": "coolExitJump",
+            "to": "hardLand"
+        },
+        {
+            "from": "coolExitJump",
+            "to": "veryHardLand"
+        },
+        {
+            "from": "coolExitJump",
+            "to": "deathLand"
+        },
+        {
+            "from": "coolExitJump",
+            "to": "airHover"
+        },
+        {
+            "from": "coolExitJump",
+            "to": "chargeJump"
+        },
+        {
+            "from": "coolExitJump",
+            "to": "doubleJump"
+        },
+        {
+            "from": "coolExitJump",
+            "to": "hoverJump"
+        },
+        {
+            "from": "coolExitJump",
+            "to": "dodgeAir"
+        },
+        {
+            "from": "coolExitJump",
+            "to": "climb"
+        },
+        {
+            "from": "coolExitJump",
+            "to": "ladder"
+        },
+        {
+            "from": "coolExitJump",
+            "to": "toStatusEffect"
+        },
+        {
+            "from": "coolExitJump",
+            "to": "airThrusters"
+        },
+        {
+            "from": "workspot",
+            "to": "slide"
+        },
+        {
+            "from": "workspot",
+            "to": "stand"
+        },
+        {
+            "from": "workspot",
+            "to": "crouch"
+        },
+        {
+            "from": "initial",
+            "to": "forceIdle"
+        },
+        {
+            "from": "initial",
+            "to": "stand"
+        },
+        {
+            "from": "initial",
+            "to": "crouch"
+        }
+    ]
+}

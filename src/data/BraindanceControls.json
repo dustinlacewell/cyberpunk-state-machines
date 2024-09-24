@@ -1,0 +1,13 @@
+{
+    "initialState": "controlsInactive",
+    "transitions": [
+        {
+            "from": "controlsInactive",
+            "to": "controlsActive"
+        },
+        {
+            "from": "controlsActive",
+            "to": "controlsInactive"
+        }
+    ]
+}

@@ -1,0 +1,193 @@
+{
+    "initialState": "standLowGravity",
+    "transitions": [
+        {
+            "from": "standLowGravity",
+            "to": "preCrouchLowGravity"
+        },
+        {
+            "from": "preCrouchLowGravity",
+            "to": "crouchLowGravity"
+        },
+        {
+            "from": "crouchLowGravity",
+            "to": "dodgeLowGravity"
+        },
+        {
+            "from": "dodgeLowGravity",
+            "to": "fallLowGravity"
+        },
+        {
+            "from": "fallLowGravity",
+            "to": "regularLandLowGravity"
+        },
+        {
+            "from": "regularLandLowGravity",
+            "to": "standLowGravity"
+        },
+        {
+            "from": "fallLowGravity",
+            "to": "dodgeAirLowGravity"
+        },
+        {
+            "from": "dodgeAirLowGravity",
+            "to": "regularLandLowGravity"
+        },
+        {
+            "from": "dodgeAirLowGravity",
+            "to": "fallLowGravity"
+        },
+        {
+            "from": "dodgeAirLowGravity",
+            "to": "climbLowGravity"
+        },
+        {
+            "from": "climbLowGravity",
+            "to": "standLowGravity"
+        },
+        {
+            "from": "climbLowGravity",
+            "to": "crouchLowGravity"
+        },
+        {
+            "from": "fallLowGravity",
+            "to": "climbLowGravity"
+        },
+        {
+            "from": "dodgeLowGravity",
+            "to": "standLowGravity"
+        },
+        {
+            "from": "dodgeLowGravity",
+            "to": "jumpLowGravity"
+        },
+        {
+            "from": "jumpLowGravity",
+            "to": "regularLandLowGravity"
+        },
+        {
+            "from": "jumpLowGravity",
+            "to": "fallLowGravity"
+        },
+        {
+            "from": "jumpLowGravity",
+            "to": "dodgeAirLowGravity"
+        },
+        {
+            "from": "jumpLowGravity",
+            "to": "climbLowGravity"
+        },
+        {
+            "from": "dodgeLowGravity",
+            "to": "sprintLowGravity"
+        },
+        {
+            "from": "sprintLowGravity",
+            "to": "standLowGravity"
+        },
+        {
+            "from": "sprintLowGravity",
+            "to": "fallLowGravity"
+        },
+        {
+            "from": "sprintLowGravity",
+            "to": "jumpLowGravity"
+        },
+        {
+            "from": "sprintLowGravity",
+            "to": "slideLowGravity"
+        },
+        {
+            "from": "slideLowGravity",
+            "to": "crouchLowGravity"
+        },
+        {
+            "from": "sprintLowGravity",
+            "to": "sprintJumpLowGravity"
+        },
+        {
+            "from": "sprintJumpLowGravity",
+            "to": "sprintLowGravity"
+        },
+        {
+            "from": "sprintJumpLowGravity",
+            "to": "jumpLowGravity"
+        },
+        {
+            "from": "sprintJumpLowGravity",
+            "to": "fallLowGravity"
+        },
+        {
+            "from": "crouchLowGravity",
+            "to": "preCrouchLowGravity"
+        },
+        {
+            "from": "crouchLowGravity",
+            "to": "fallLowGravity"
+        },
+        {
+            "from": "crouchLowGravity",
+            "to": "jumpLowGravity"
+        },
+        {
+            "from": "crouchLowGravity",
+            "to": "sprintWindupLowGravity"
+        },
+        {
+            "from": "sprintWindupLowGravity",
+            "to": "standLowGravity"
+        },
+        {
+            "from": "sprintWindupLowGravity",
+            "to": "fallLowGravity"
+        },
+        {
+            "from": "sprintWindupLowGravity",
+            "to": "jumpLowGravity"
+        },
+        {
+            "from": "sprintWindupLowGravity",
+            "to": "sprintLowGravity"
+        },
+        {
+            "from": "preCrouchLowGravity",
+            "to": "standLowGravity"
+        },
+        {
+            "from": "preCrouchLowGravity",
+            "to": "dodgeLowGravity"
+        },
+        {
+            "from": "preCrouchLowGravity",
+            "to": "dodgeCrouchLowGravity"
+        },
+        {
+            "from": "dodgeCrouchLowGravity",
+            "to": "fallLowGravity"
+        },
+        {
+            "from": "dodgeCrouchLowGravity",
+            "to": "crouchLowGravity"
+        },
+        {
+            "from": "dodgeCrouchLowGravity",
+            "to": "jumpLowGravity"
+        },
+        {
+            "from": "dodgeCrouchLowGravity",
+            "to": "sprintLowGravity"
+        },
+        {
+            "from": "standLowGravity",
+            "to": "jumpLowGravity"
+        },
+        {
+            "from": "standLowGravity",
+            "to": "fallLowGravity"
+        },
+        {
+            "from": "standLowGravity",
+            "to": "sprintWindupLowGravity"
+        }
+    ]
+}

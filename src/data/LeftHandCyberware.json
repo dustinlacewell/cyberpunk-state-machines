@@ -1,0 +1,73 @@
+{
+    "initialState": "leftHandCyberwareEquip",
+    "transitions": [
+        {
+            "from": "leftHandCyberwareEquip",
+            "to": "leftHandCyberwareQuickAction"
+        },
+        {
+            "from": "leftHandCyberwareQuickAction",
+            "to": "leftHandCyberwareUnequip"
+        },
+        {
+            "from": "leftHandCyberwareEquip",
+            "to": "leftHandCyberwareCharge"
+        },
+        {
+            "from": "leftHandCyberwareCharge",
+            "to": "leftHandCyberwareChargeAction"
+        },
+        {
+            "from": "leftHandCyberwareChargeAction",
+            "to": "leftHandCyberwareWaitForUnequip"
+        },
+        {
+            "from": "leftHandCyberwareWaitForUnequip",
+            "to": "leftHandCyberwareUnequip"
+        },
+        {
+            "from": "leftHandCyberwareCharge",
+            "to": "leftHandCyberwareChargeRepeatAction"
+        },
+        {
+            "from": "leftHandCyberwareChargeRepeatAction",
+            "to": "leftHandCyberwareWaitForUnequip"
+        },
+        {
+            "from": "leftHandCyberwareChargeRepeatAction",
+            "to": "leftHandCyberwareChargeRepeatAction"
+        },
+        {
+            "from": "leftHandCyberwareCharge",
+            "to": "leftHandCyberwareWaitForUnequip"
+        },
+        {
+            "from": "leftHandCyberwareCharge",
+            "to": "leftHandCyberwareUnequip"
+        },
+        {
+            "from": "leftHandCyberwareEquip",
+            "to": "leftHandCyberwareLoop"
+        },
+        {
+            "from": "leftHandCyberwareLoop",
+            "to": "leftHandCyberwareWaitForUnequip"
+        },
+        {
+            "from": "leftHandCyberwareLoop",
+            "to": "leftHandCyberwareUnequip"
+        },
+        {
+            "from": "leftHandCyberwareEquip",
+            "to": "leftHandCyberwareUnequip"
+        },
+        {
+            "from": "leftHandCyberwareEquip",
+            "to": "leftHandCyberwareSafe"
+        },
+        {
+            "from": "leftHandCyberwareSafe",
+            "to": "leftHandCyberwareUnequip"
+        }
+    ]
+}

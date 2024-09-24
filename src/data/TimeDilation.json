@@ -1,0 +1,37 @@
+{
+    "initialState": "timeDilationReady",
+    "transitions": [
+        {
+            "from": "timeDilationReady",
+            "to": "sandevistan"
+        },
+        {
+            "from": "sandevistan",
+            "to": "timeDilationReady"
+        },
+        {
+            "from": "sandevistan",
+            "to": "timeDilationFocusMode"
+        },
+        {
+            "from": "timeDilationFocusMode",
+            "to": "timeDilationReady"
+        },
+        {
+            "from": "timeDilationReady",
+            "to": "kerenzikov"
+        },
+        {
+            "from": "kerenzikov",
+            "to": "timeDilationReady"
+        },
+        {
+            "from": "kerenzikov",
+            "to": "timeDilationFocusMode"
+        },
+        {
+            "from": "timeDilationReady",
+            "to": "timeDilationFocusMode"
+        }
+    ]
+}

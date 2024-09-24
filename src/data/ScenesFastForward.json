@@ -1,0 +1,33 @@
+{
+    "initialState": "fastForwardUnavailable",
+    "transitions": [
+        {
+            "from": "fastForwardUnavailable",
+            "to": "fastForwardAvailable"
+        },
+        {
+            "from": "fastForwardAvailable",
+            "to": "fastForwardUnavailable"
+        },
+        {
+            "from": "fastForwardAvailable",
+            "to": "fastForwardActive"
+        },
+        {
+            "from": "fastForwardActive",
+            "to": "fastForwardAvailable"
+        },
+        {
+            "from": "fastForwardActive",
+            "to": "fastForwardUnavailable"
+        },
+        {
+            "from": "fastForwardAvailable",
+            "to": "fastForwardSelfRemoval"
+        },
+        {
+            "from": "fastForwardUnavailable",
+            "to": "fastForwardSelfRemoval"
+        }
+    ]
+}

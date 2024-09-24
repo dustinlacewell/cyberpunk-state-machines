@@ -1,0 +1,77 @@
+{
+    "initialState": "pickUp",
+    "transitions": [
+        {
+            "from": "pickUp",
+            "to": "carry"
+        },
+        {
+            "from": "carry",
+            "to": "drop"
+        },
+        {
+            "from": "drop",
+            "to": "release"
+        },
+        {
+            "from": "carry",
+            "to": "release"
+        },
+        {
+            "from": "carry",
+            "to": "dispose"
+        },
+        {
+            "from": "dispose",
+            "to": "release"
+        },
+        {
+            "from": "carry",
+            "to": "forceDropBody"
+        },
+        {
+            "from": "forceDropBody",
+            "to": "release"
+        },
+        {
+            "from": "carry",
+            "to": "throw"
+        },
+        {
+            "from": "throw",
+            "to": "release"
+        },
+        {
+            "from": "throw",
+            "to": "forceDropBody"
+        },
+        {
+            "from": "pickUp",
+            "to": "release"
+        },
+        {
+            "from": "pickUp",
+            "to": "aim"
+        },
+        {
+            "from": "aim",
+            "to": "release"
+        },
+        {
+            "from": "aim",
+            "to": "throw"
+        },
+        {
+            "from": "aim",
+            "to": "forceDropBody"
+        },
+        {
+            "from": "pickUp",
+            "to": "forceDropBody"
+        },
+        {
+            "from": "pickUp",
+            "to": "throw"
+        }
+    ]
+}

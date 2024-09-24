@@ -1,0 +1,173 @@
+{
+    "initialState": "unarmedLookAt",
+    "transitions": [
+        {
+            "from": "unarmedLookAt",
+            "to": "assualtRifleLookAt"
+        },
+        {
+            "from": "assualtRifleLookAt",
+            "to": "unarmedLookAt"
+        },
+        {
+            "from": "unarmedLookAt",
+            "to": "fistsLookAt"
+        },
+        {
+            "from": "fistsLookAt",
+            "to": "unarmedLookAt"
+        },
+        {
+            "from": "unarmedLookAt",
+            "to": "hammerLookAt"
+        },
+        {
+            "from": "hammerLookAt",
+            "to": "unarmedLookAt"
+        },
+        {
+            "from": "unarmedLookAt",
+            "to": "handgunLookAt"
+        },
+        {
+            "from": "handgunLookAt",
+            "to": "unarmedLookAt"
+        },
+        {
+            "from": "unarmedLookAt",
+            "to": "hmgLookAt"
+        },
+        {
+            "from": "hmgLookAt",
+            "to": "unarmedLookAt"
+        },
+        {
+            "from": "unarmedLookAt",
+            "to": "katanaLookAt"
+        },
+        {
+            "from": "katanaLookAt",
+            "to": "unarmedLookAt"
+        },
+        {
+            "from": "unarmedLookAt",
+            "to": "knifeLookAt"
+        },
+        {
+            "from": "knifeLookAt",
+            "to": "unarmedLookAt"
+        },
+        {
+            "from": "unarmedLookAt",
+            "to": "lmgLookAt"
+        },
+        {
+            "from": "lmgLookAt",
+            "to": "unarmedLookAt"
+        },
+        {
+            "from": "unarmedLookAt",
+            "to": "longBladeLookAt"
+        },
+        {
+            "from": "longBladeLookAt",
+            "to": "unarmedLookAt"
+        },
+        {
+            "from": "unarmedLookAt",
+            "to": "meleeLookAt"
+        },
+        {
+            "from": "meleeLookAt",
+            "to": "unarmedLookAt"
+        },
+        {
+            "from": "unarmedLookAt",
+            "to": "oneHandedClubLookAt"
+        },
+        {
+            "from": "oneHandedClubLookAt",
+            "to": "unarmedLookAt"
+        },
+        {
+            "from": "unarmedLookAt",
+            "to": "precisionRifleLookAt"
+        },
+        {
+            "from": "precisionRifleLookAt",
+            "to": "unarmedLookAt"
+        },
+        {
+            "from": "unarmedLookAt",
+            "to": "revolverLookAt"
+        },
+        {
+            "from": "revolverLookAt",
+            "to": "unarmedLookAt"
+        },
+        {
+            "from": "unarmedLookAt",
+            "to": "rifleLookAt"
+        },
+        {
+            "from": "rifleLookAt",
+            "to": "unarmedLookAt"
+        },
+        {
+            "from": "unarmedLookAt",
+            "to": "shortBladeLookAt"
+        },
+        {
+            "from": "shortBladeLookAt",
+            "to": "unarmedLookAt"
+        },
+        {
+            "from": "unarmedLookAt",
+            "to": "shotgunLookAt"
+        },
+        {
+            "from": "shotgunLookAt",
+            "to": "unarmedLookAt"
+        },
+        {
+            "from": "unarmedLookAt",
+            "to": "shotgunDualLookAt"
+        },
+        {
+            "from": "shotgunDualLookAt",
+            "to": "unarmedLookAt"
+        },
+        {
+            "from": "unarmedLookAt",
+            "to": "sniperRifleLookAt"
+        },
+        {
+            "from": "sniperRifleLookAt",
+            "to": "unarmedLookAt"
+        },
+        {
+            "from": "unarmedLookAt",
+            "to": "smgLookAt"
+        },
+        {
+            "from": "smgLookAt",
+            "to": "unarmedLookAt"
+        },
+        {
+            "from": "unarmedLookAt",
+            "to": "twoHandedClubLookAt"
+        },
+        {
+            "from": "twoHandedClubLookAt",
+            "to": "unarmedLookAt"
+        },
+        {
+            "from": "unarmedLookAt",
+            "to": "grenadeLookAt"
+        },
+        {
+            "from": "grenadeLookAt",
+            "to": "unarmedLookAt"
+        }
+    ]
+}

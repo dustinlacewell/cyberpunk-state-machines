@@ -1,0 +1,309 @@
+{
+    "initialState": "hipfire",
+    "transitions": [
+        {
+            "from": "hipfire",
+            "to": "quickHack"
+        },
+        {
+            "from": "quickHack",
+            "to": "quickHack"
+        },
+        {
+            "from": "quickHack",
+            "to": "safe"
+        },
+        {
+            "from": "safe",
+            "to": "quickHack"
+        },
+        {
+            "from": "safe",
+            "to": "aim"
+        },
+        {
+            "from": "aim",
+            "to": "quickHack"
+        },
+        {
+            "from": "aim",
+            "to": "safe"
+        },
+        {
+            "from": "aim",
+            "to": "reload"
+        },
+        {
+            "from": "reload",
+            "to": "quickHack"
+        },
+        {
+            "from": "reload",
+            "to": "safe"
+        },
+        {
+            "from": "reload",
+            "to": "aim"
+        },
+        {
+            "from": "reload",
+            "to": "sprint"
+        },
+        {
+            "from": "sprint",
+            "to": "quickHack"
+        },
+        {
+            "from": "sprint",
+            "to": "safe"
+        },
+        {
+            "from": "sprint",
+            "to": "aim"
+        },
+        {
+            "from": "sprint",
+            "to": "reload"
+        },
+        {
+            "from": "sprint",
+            "to": "hipfire"
+        },
+        {
+            "from": "sprint",
+            "to": "grenadeCharging"
+        },
+        {
+            "from": "grenadeCharging",
+            "to": "quickHack"
+        },
+        {
+            "from": "grenadeCharging",
+            "to": "safe"
+        },
+        {
+            "from": "grenadeCharging",
+            "to": "reload"
+        },
+        {
+            "from": "grenadeCharging",
+            "to": "sprint"
+        },
+        {
+            "from": "grenadeCharging",
+            "to": "hipfire"
+        },
+        {
+            "from": "grenadeCharging",
+            "to": "scanning"
+        },
+        {
+            "from": "scanning",
+            "to": "quickHack"
+        },
+        {
+            "from": "scanning",
+            "to": "safe"
+        },
+        {
+            "from": "scanning",
+            "to": "reload"
+        },
+        {
+            "from": "scanning",
+            "to": "reloadDriverCombatMountedWeapons"
+        },
+        {
+            "from": "reloadDriverCombatMountedWeapons",
+            "to": "quickHack"
+        },
+        {
+            "from": "reloadDriverCombatMountedWeapons",
+            "to": "safe"
+        },
+        {
+            "from": "reloadDriverCombatMountedWeapons",
+            "to": "aim"
+        },
+        {
+            "from": "reloadDriverCombatMountedWeapons",
+            "to": "hipfire"
+        },
+        {
+            "from": "reloadDriverCombatMountedWeapons",
+            "to": "scanning"
+        },
+        {
+            "from": "scanning",
+            "to": "sprint"
+        },
+        {
+            "from": "scanning",
+            "to": "hipfire"
+        },
+        {
+            "from": "scanning",
+            "to": "grenadeCharging"
+        },
+        {
+            "from": "scanning",
+            "to": "leftHandCyberware"
+        },
+        {
+            "from": "leftHandCyberware",
+            "to": "quickHack"
+        },
+        {
+            "from": "leftHandCyberware",
+            "to": "safe"
+        },
+        {
+            "from": "leftHandCyberware",
+            "to": "reload"
+        },
+        {
+            "from": "leftHandCyberware",
+            "to": "sprint"
+        },
+        {
+            "from": "leftHandCyberware",
+            "to": "hipfire"
+        },
+        {
+            "from": "leftHandCyberware",
+            "to": "scanning"
+        },
+        {
+            "from": "grenadeCharging",
+            "to": "leftHandCyberware"
+        },
+        {
+            "from": "sprint",
+            "to": "scanning"
+        },
+        {
+            "from": "sprint",
+            "to": "leftHandCyberware"
+        },
+        {
+            "from": "reload",
+            "to": "hipfire"
+        },
+        {
+            "from": "reload",
+            "to": "grenadeCharging"
+        },
+        {
+            "from": "reload",
+            "to": "scanning"
+        },
+        {
+            "from": "reload",
+            "to": "leftHandCyberware"
+        },
+        {
+            "from": "aim",
+            "to": "reloadDriverCombatMountedWeapons"
+        },
+        {
+            "from": "aim",
+            "to": "sprint"
+        },
+        {
+            "from": "aim",
+            "to": "hipfire"
+        },
+        {
+            "from": "aim",
+            "to": "grenadeCharging"
+        },
+        {
+            "from": "aim",
+            "to": "scanning"
+        },
+        {
+            "from": "aim",
+            "to": "leftHandCyberware"
+        },
+        {
+            "from": "safe",
+            "to": "reload"
+        },
+        {
+            "from": "safe",
+            "to": "reloadDriverCombatMountedWeapons"
+        },
+        {
+            "from": "safe",
+            "to": "sprint"
+        },
+        {
+            "from": "safe",
+            "to": "hipfire"
+        },
+        {
+            "from": "safe",
+            "to": "grenadeCharging"
+        },
+        {
+            "from": "safe",
+            "to": "scanning"
+        },
+        {
+            "from": "safe",
+            "to": "leftHandCyberware"
+        },
+        {
+            "from": "quickHack",
+            "to": "reload"
+        },
+        {
+            "from": "quickHack",
+            "to": "reloadDriverCombatMountedWeapons"
+        },
+        {
+            "from": "quickHack",
+            "to": "sprint"
+        },
+        {
+            "from": "quickHack",
+            "to": "hipfire"
+        },
+        {
+            "from": "quickHack",
+            "to": "scanning"
+        },
+        {
+            "from": "hipfire",
+            "to": "safe"
+        },
+        {
+            "from": "hipfire",
+            "to": "aim"
+        },
+        {
+            "from": "hipfire",
+            "to": "reload"
+        },
+        {
+            "from": "hipfire",
+            "to": "reloadDriverCombatMountedWeapons"
+        },
+        {
+            "from": "hipfire",
+            "to": "sprint"
+        },
+        {
+            "from": "hipfire",
+            "to": "grenadeCharging"
+        },
+        {
+            "from": "hipfire",
+            "to": "scanning"
+        },
+        {
+            "from": "hipfire",
+            "to": "leftHandCyberware"
+        }
+    ]
+}

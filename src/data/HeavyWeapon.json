@@ -1,0 +1,293 @@
+{
+    "initialState": "notReady",
+    "transitions": [
+        {
+            "from": "notReady",
+            "to": "allNotReadyStates"
+        },
+        {
+            "from": "notReady",
+            "to": "ready"
+        },
+        {
+            "from": "ready",
+            "to": "allNotReadyStates"
+        },
+        {
+            "from": "ready",
+            "to": "publicSafe"
+        },
+        {
+            "from": "publicSafe",
+            "to": "notReady"
+        },
+        {
+            "from": "publicSafe",
+            "to": "publicSafeToReady"
+        },
+        {
+            "from": "publicSafeToReady",
+            "to": "allNotReadyStates"
+        },
+        {
+            "from": "publicSafeToReady",
+            "to": "allActionStates"
+        },
+        {
+            "from": "publicSafeToReady",
+            "to": "ready"
+        },
+        {
+            "from": "publicSafe",
+            "to": "safe"
+        },
+        {
+            "from": "safe",
+            "to": "publicSafe"
+        },
+        {
+            "from": "safe",
+            "to": "reload"
+        },
+        {
+            "from": "reload",
+            "to": "semiAuto"
+        },
+        {
+            "from": "semiAuto",
+            "to": "allNotReadyStates"
+        },
+        {
+            "from": "semiAuto",
+            "to": "allActionStates"
+        },
+        {
+            "from": "semiAuto",
+            "to": "shoot"
+        },
+        {
+            "from": "shoot",
+            "to": "burst"
+        },
+        {
+            "from": "burst",
+            "to": "allNotReadyStates"
+        },
+        {
+            "from": "burst",
+            "to": "allActionStates"
+        },
+        {
+            "from": "burst",
+            "to": "shoot"
+        },
+        {
+            "from": "shoot",
+            "to": "cycleRound"
+        },
+        {
+            "from": "cycleRound",
+            "to": "allNotReadyStates"
+        },
+        {
+            "from": "cycleRound",
+            "to": "allActionStates"
+        },
+        {
+            "from": "cycleRound",
+            "to": "burst"
+        },
+        {
+            "from": "cycleRound",
+            "to": "fullAuto"
+        },
+        {
+            "from": "fullAuto",
+            "to": "allNotReadyStates"
+        },
+        {
+            "from": "fullAuto",
+            "to": "allActionStates"
+        },
+        {
+            "from": "fullAuto",
+            "to": "shoot"
+        },
+        {
+            "from": "fullAuto",
+            "to": "ready"
+        },
+        {
+            "from": "cycleRound",
+            "to": "ready"
+        },
+        {
+            "from": "shoot",
+            "to": "allNotReadyStates"
+        },
+        {
+            "from": "reload",
+            "to": "fullAuto"
+        },
+        {
+            "from": "reload",
+            "to": "reload"
+        },
+        {
+            "from": "reload",
+            "to": "quickMelee"
+        },
+        {
+            "from": "quickMelee",
+            "to": "semiAuto"
+        },
+        {
+            "from": "quickMelee",
+            "to": "fullAuto"
+        },
+        {
+            "from": "quickMelee",
+            "to": "charge"
+        },
+        {
+            "from": "charge",
+            "to": "allNotReadyStates"
+        },
+        {
+            "from": "charge",
+            "to": "allActionStates"
+        },
+        {
+            "from": "charge",
+            "to": "shoot"
+        },
+        {
+            "from": "charge",
+            "to": "chargeReady"
+        },
+        {
+            "from": "chargeReady",
+            "to": "allNotReadyStates"
+        },
+        {
+            "from": "chargeReady",
+            "to": "allActionStates"
+        },
+        {
+            "from": "chargeReady",
+            "to": "shoot"
+        },
+        {
+            "from": "chargeReady",
+            "to": "chargeMax"
+        },
+        {
+            "from": "chargeMax",
+            "to": "allNotReadyStates"
+        },
+        {
+            "from": "chargeMax",
+            "to": "allActionStates"
+        },
+        {
+            "from": "chargeMax",
+            "to": "shoot"
+        },
+        {
+            "from": "chargeMax",
+            "to": "discharge"
+        },
+        {
+            "from": "discharge",
+            "to": "allNotReadyStates"
+        },
+        {
+            "from": "discharge",
+            "to": "allActionStates"
+        },
+        {
+            "from": "discharge",
+            "to": "charge"
+        },
+        {
+            "from": "discharge",
+            "to": "ready"
+        },
+        {
+            "from": "chargeReady",
+            "to": "discharge"
+        },
+        {
+            "from": "charge",
+            "to": "discharge"
+        },
+        {
+            "from": "quickMelee",
+            "to": "reload"
+        },
+        {
+            "from": "quickMelee",
+            "to": "allNotReadyStates"
+        },
+        {
+            "from": "quickMelee",
+            "to": "ready"
+        },
+        {
+            "from": "reload",
+            "to": "allNotReadyStates"
+        },
+        {
+            "from": "reload",
+            "to": "ready"
+        },
+        {
+            "from": "publicSafe",
+            "to": "allActionStates"
+        },
+        {
+            "from": "publicSafe",
+            "to": "noAmmo"
+        },
+        {
+            "from": "noAmmo",
+            "to": "allNotReadyStates"
+        },
+        {
+            "from": "noAmmo",
+            "to": "reload"
+        },
+        {
+            "from": "noAmmo",
+            "to": "ready"
+        },
+        {
+            "from": "noAmmo",
+            "to": "publicSafe"
+        },
+        {
+            "from": "noAmmo",
+            "to": "quickMelee"
+        },
+        {
+            "from": "ready",
+            "to": "allActionStates"
+        },
+        {
+            "from": "ready",
+            "to": "semiAuto"
+        },
+        {
+            "from": "ready",
+            "to": "fullAuto"
+        },
+        {
+            "from": "ready",
+            "to": "charge"
+        },
+        {
+            "from": "notReady",
+            "to": "allActionStates"
+        }
+    ]
+}

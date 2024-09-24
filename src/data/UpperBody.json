@@ -1,0 +1,141 @@
+{
+    "initialState": "emptyHands",
+    "transitions": [
+        {
+            "from": "emptyHands",
+            "to": "forceSafe"
+        },
+        {
+            "from": "forceSafe",
+            "to": "forceEmptyHands"
+        },
+        {
+            "from": "forceEmptyHands",
+            "to": "emptyHands"
+        },
+        {
+            "from": "forceEmptyHands",
+            "to": "singleWield"
+        },
+        {
+            "from": "singleWield",
+            "to": "forceSafe"
+        },
+        {
+            "from": "singleWield",
+            "to": "forceEmptyHands"
+        },
+        {
+            "from": "singleWield",
+            "to": "aimingState"
+        },
+        {
+            "from": "aimingState",
+            "to": "forceEmptyHands"
+        },
+        {
+            "from": "aimingState",
+            "to": "temporaryUnequip"
+        },
+        {
+            "from": "temporaryUnequip",
+            "to": "emptyHands"
+        },
+        {
+            "from": "temporaryUnequip",
+            "to": "waitForEquip"
+        },
+        {
+            "from": "waitForEquip",
+            "to": "singleWield"
+        },
+        {
+            "from": "waitForEquip",
+            "to": "emptyHands"
+        },
+        {
+            "from": "temporaryUnequip",
+            "to": "singleWield"
+        },
+        {
+            "from": "aimingState",
+            "to": "forceSafe"
+        },
+        {
+            "from": "aimingState",
+            "to": "singleWield"
+        },
+        {
+            "from": "aimingState",
+            "to": "emptyHands"
+        },
+        {
+            "from": "singleWield",
+            "to": "temporaryUnequip"
+        },
+        {
+            "from": "singleWield",
+            "to": "emptyHands"
+        },
+        {
+            "from": "singleWield",
+            "to": "adHocAnimation"
+        },
+        {
+            "from": "adHocAnimation",
+            "to": "forceEmptyHands"
+        },
+        {
+            "from": "adHocAnimation",
+            "to": "emptyHands"
+        },
+        {
+            "from": "adHocAnimation",
+            "to": "singleWield"
+        },
+        {
+            "from": "adHocAnimation",
+            "to": "temporaryUnequip"
+        },
+        {
+            "from": "forceEmptyHands",
+            "to": "aimingState"
+        },
+        {
+            "from": "forceSafe",
+            "to": "singleWield"
+        },
+        {
+            "from": "forceSafe",
+            "to": "emptyHands"
+        },
+        {
+            "from": "forceSafe",
+            "to": "aimingState"
+        },
+        {
+            "from": "forceSafe",
+            "to": "temporaryUnequip"
+        },
+        {
+            "from": "emptyHands",
+            "to": "forceEmptyHands"
+        },
+        {
+            "from": "emptyHands",
+            "to": "aimingState"
+        },
+        {
+            "from": "emptyHands",
+            "to": "singleWield"
+        },
+        {
+            "from": "emptyHands",
+            "to": "temporaryUnequip"
+        },
+        {
+            "from": "emptyHands",
+            "to": "adHocAnimation"
+        }
+    ]
+}

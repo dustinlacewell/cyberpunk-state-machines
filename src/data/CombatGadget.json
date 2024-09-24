@@ -1,0 +1,65 @@
+{
+    "initialState": "combatGadgetStart",
+    "transitions": [
+        {
+            "from": "combatGadgetStart",
+            "to": "combatGadgetInactive"
+        },
+        {
+            "from": "combatGadgetInactive",
+            "to": "combatGadgetQuickThrow"
+        },
+        {
+            "from": "combatGadgetQuickThrow",
+            "to": "combatGadgetUnequip"
+        },
+        {
+            "from": "combatGadgetInactive",
+            "to": "combatGadgetEquip"
+        },
+        {
+            "from": "combatGadgetEquip",
+            "to": "combatGadgetQuickThrow"
+        },
+        {
+            "from": "combatGadgetEquip",
+            "to": "combatGadgetCharge"
+        },
+        {
+            "from": "combatGadgetCharge",
+            "to": "combatGadgetChargedThrow"
+        },
+        {
+            "from": "combatGadgetChargedThrow",
+            "to": "combatGadgetWaitForUnequip"
+        },
+        {
+            "from": "combatGadgetWaitForUnequip",
+            "to": "combatGadgetUnequip"
+        },
+        {
+            "from": "combatGadgetCharge",
+            "to": "combatGadgetWaitForUnequip"
+        },
+        {
+            "from": "combatGadgetCharge",
+            "to": "combatGadgetUnequip"
+        },
+        {
+            "from": "combatGadgetCharge",
+            "to": "combatGadgetEquip"
+        },
+        {
+            "from": "combatGadgetEquip",
+            "to": "combatGadgetWaitForUnequip"
+        },
+        {
+            "from": "combatGadgetEquip",
+            "to": "combatGadgetUnequip"
+        },
+        {
+            "from": "combatGadgetStart",
+            "to": "combatGadgetUnequip"
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "initialState": "unequipped",
+    "transitions": [
+        {
+            "from": "unequipped",
+            "to": "unequippedWaitingForExternalFactors"
+        },
+        {
+            "from": "unequippedWaitingForExternalFactors",
+            "to": "equipCycleInit"
+        },
+        {
+            "from": "equipCycleInit",
+            "to": "equipCycle"
+        },
+        {
+            "from": "equipCycle",
+            "to": "firstEquip"
+        },
+        {
+            "from": "firstEquip",
+            "to": "equipped"
+        },
+        {
+            "from": "equipped",
+            "to": "unequipCycle"
+        },
+        {
+            "from": "unequipCycle",
+            "to": "equipCycleInit"
+        },
+        {
+            "from": "unequipCycle",
+            "to": "unequipped"
+        },
+        {
+            "from": "equipCycle",
+            "to": "equipped"
+        },
+        {
+            "from": "equipCycle",
+            "to": "unequipCycle"
+        },
+        {
+            "from": "equipCycleInit",
+            "to": "unequipped"
+        },
+        {
+            "from": "unequippedWaitingForExternalFactors",
+            "to": "selfRemoval"
+        },
+        {
+            "from": "unequipped",
+            "to": "selfRemoval"
+        }
+    ]
+}

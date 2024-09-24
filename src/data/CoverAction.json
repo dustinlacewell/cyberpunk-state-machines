@@ -1,0 +1,13 @@
+{
+    "initialState": "inactiveCover",
+    "transitions": [
+        {
+            "from": "inactiveCover",
+            "to": "activateCover"
+        },
+        {
+            "from": "activateCover",
+            "to": "inactiveCover"
+        }
+    ]
+}

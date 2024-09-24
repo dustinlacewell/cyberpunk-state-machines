@@ -1,0 +1,13 @@
+{
+    "initialState": "turretBegin",
+    "transitions": [
+        {
+            "from": "turretBegin",
+            "to": "turretRipOff"
+        },
+        {
+            "from": "turretRipOff",
+            "to": "turretEnd"
+        }
+    ]
+}

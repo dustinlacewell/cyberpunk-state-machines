@@ -1,0 +1,13 @@
+{
+    "initialState": "fly",
+    "transitions": [
+        {
+            "from": "fly",
+            "to": "fastFly"
+        },
+        {
+            "from": "fastFly",
+            "to": "fly"
+        }
+    ]
+}

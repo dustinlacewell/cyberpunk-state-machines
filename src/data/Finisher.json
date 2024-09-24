@@ -1,0 +1,13 @@
+{
+    "initialState": "finisherLeapToTarget",
+    "transitions": [
+        {
+            "from": "finisherLeapToTarget",
+            "to": "finisherAttack"
+        },
+        {
+            "from": "finisherAttack",
+            "to": "finisherEnd"
+        }
+    ]
+}

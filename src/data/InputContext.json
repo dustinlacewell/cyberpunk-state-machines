@@ -1,0 +1,77 @@
+{
+    "initialState": "initialState",
+    "transitions": [
+        {
+            "from": "initialState",
+            "to": "uiContext"
+        },
+        {
+            "from": "uiContext",
+            "to": "allForcedContexts"
+        },
+        {
+            "from": "uiContext",
+            "to": "allUIContexts"
+        },
+        {
+            "from": "uiContext",
+            "to": "gameplayContext"
+        },
+        {
+            "from": "gameplayContext",
+            "to": "allForcedContexts"
+        },
+        {
+            "from": "gameplayContext",
+            "to": "vehicleGameplayContext"
+        },
+        {
+            "from": "vehicleGameplayContext",
+            "to": "allVehicleContexts"
+        },
+        {
+            "from": "gameplayContext",
+            "to": "allGameplayContexts"
+        },
+        {
+            "from": "initialState",
+            "to": "vehicleGameplayContext"
+        },
+        {
+            "from": "initialState",
+            "to": "baseContext"
+        },
+        {
+            "from": "baseContext",
+            "to": "vehicleRemoteControlDriverContext"
+        },
+        {
+            "from": "vehicleRemoteControlDriverContext",
+            "to": "baseContext"
+        },
+        {
+            "from": "vehicleRemoteControlDriverContext",
+            "to": "allForcedContexts"
+        },
+        {
+            "from": "vehicleRemoteControlDriverContext",
+            "to": "allUIContexts"
+        },
+        {
+            "from": "baseContext",
+            "to": "allForcedContexts"
+        },
+        {
+            "from": "baseContext",
+            "to": "allUIContexts"
+        },
+        {
+            "from": "baseContext",
+            "to": "vehicleGameplayContext"
+        },
+        {
+            "from": "baseContext",
+            "to": "allGameplayContexts"
+        }
+    ]
+}

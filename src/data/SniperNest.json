@@ -1,0 +1,9 @@
+{
+    "initialState": "SniperNestBegin",
+    "transitions": [
+        {
+            "from": "SniperNestBegin",
+            "to": "SniperNestLeave"
+        }
+    ]
+}

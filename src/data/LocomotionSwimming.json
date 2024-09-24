@@ -1,0 +1,125 @@
+{
+    "initialState": "initial",
+    "transitions": [
+        {
+            "from": "initial",
+            "to": "surface"
+        },
+        {
+            "from": "surface",
+            "to": "swimmingForceFreeze"
+        },
+        {
+            "from": "swimmingForceFreeze",
+            "to": "surface"
+        },
+        {
+            "from": "surface",
+            "to": "transition"
+        },
+        {
+            "from": "transition",
+            "to": "swimmingForceFreeze"
+        },
+        {
+            "from": "transition",
+            "to": "diving"
+        },
+        {
+            "from": "diving",
+            "to": "swimmingForceFreeze"
+        },
+        {
+            "from": "diving",
+            "to": "surface"
+        },
+        {
+            "from": "diving",
+            "to": "fastDiving"
+        },
+        {
+            "from": "fastDiving",
+            "to": "swimmingForceFreeze"
+        },
+        {
+            "from": "fastDiving",
+            "to": "surface"
+        },
+        {
+            "from": "fastDiving",
+            "to": "surfaceFastSwimming"
+        },
+        {
+            "from": "surfaceFastSwimming",
+            "to": "swimmingForceFreeze"
+        },
+        {
+            "from": "surfaceFastSwimming",
+            "to": "transition"
+        },
+        {
+            "from": "surfaceFastSwimming",
+            "to": "surface"
+        },
+        {
+            "from": "surfaceFastSwimming",
+            "to": "swimmingLadder"
+        },
+        {
+            "from": "swimmingLadder",
+            "to": "swimmingForceFreeze"
+        },
+        {
+            "from": "swimmingLadder",
+            "to": "surface"
+        },
+        {
+            "from": "swimmingLadder",
+            "to": "diving"
+        },
+        {
+            "from": "surfaceFastSwimming",
+            "to": "swimmingClimb"
+        },
+        {
+            "from": "swimmingClimb",
+            "to": "swimmingForceFreeze"
+        },
+        {
+            "from": "fastDiving",
+            "to": "diving"
+        },
+        {
+            "from": "fastDiving",
+            "to": "swimmingLadder"
+        },
+        {
+            "from": "diving",
+            "to": "swimmingLadder"
+        },
+        {
+            "from": "transition",
+            "to": "fastDiving"
+        },
+        {
+            "from": "surface",
+            "to": "surfaceFastSwimming"
+        },
+        {
+            "from": "surface",
+            "to": "swimmingLadder"
+        },
+        {
+            "from": "surface",
+            "to": "swimmingClimb"
+        },
+        {
+            "from": "surface",
+            "to": "diving"
+        },
+        {
+            "from": "initial",
+            "to": "diving"
+        }
+    ]
+}

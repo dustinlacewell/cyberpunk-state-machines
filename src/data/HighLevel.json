@@ -1,0 +1,197 @@
+{
+    "initialState": "exploration",
+    "transitions": [
+        {
+            "from": "exploration",
+            "to": "death"
+        },
+        {
+            "from": "death",
+            "to": "groundDeath"
+        },
+        {
+            "from": "groundDeath",
+            "to": "resurrect"
+        },
+        {
+            "from": "resurrect",
+            "to": "exploration"
+        },
+        {
+            "from": "resurrect",
+            "to": "death"
+        },
+        {
+            "from": "death",
+            "to": "airDeath"
+        },
+        {
+            "from": "airDeath",
+            "to": "groundDeath"
+        },
+        {
+            "from": "airDeath",
+            "to": "swimmingDeath"
+        },
+        {
+            "from": "swimmingDeath",
+            "to": "resurrect"
+        },
+        {
+            "from": "airDeath",
+            "to": "resurrect"
+        },
+        {
+            "from": "death",
+            "to": "swimmingDeath"
+        },
+        {
+            "from": "exploration",
+            "to": "sceneTierInitial"
+        },
+        {
+            "from": "sceneTierInitial",
+            "to": "sceneTierII"
+        },
+        {
+            "from": "sceneTierII",
+            "to": "death"
+        },
+        {
+            "from": "sceneTierII",
+            "to": "exploration"
+        },
+        {
+            "from": "sceneTierII",
+            "to": "sceneTierIII"
+        },
+        {
+            "from": "sceneTierIII",
+            "to": "death"
+        },
+        {
+            "from": "sceneTierIII",
+            "to": "exploration"
+        },
+        {
+            "from": "sceneTierIII",
+            "to": "sceneTierII"
+        },
+        {
+            "from": "sceneTierIII",
+            "to": "sceneTierIV"
+        },
+        {
+            "from": "sceneTierIV",
+            "to": "death"
+        },
+        {
+            "from": "sceneTierIV",
+            "to": "swimming"
+        },
+        {
+            "from": "swimming",
+            "to": "exploration"
+        },
+        {
+            "from": "swimming",
+            "to": "death"
+        },
+        {
+            "from": "swimming",
+            "to": "sceneTierInitial"
+        },
+        {
+            "from": "sceneTierIV",
+            "to": "exploration"
+        },
+        {
+            "from": "sceneTierIV",
+            "to": "sceneTierII"
+        },
+        {
+            "from": "sceneTierIV",
+            "to": "sceneTierIII"
+        },
+        {
+            "from": "sceneTierIV",
+            "to": "sceneTierV"
+        },
+        {
+            "from": "sceneTierV",
+            "to": "death"
+        },
+        {
+            "from": "sceneTierV",
+            "to": "exploration"
+        },
+        {
+            "from": "sceneTierV",
+            "to": "sceneTierII"
+        },
+        {
+            "from": "sceneTierV",
+            "to": "sceneTierIII"
+        },
+        {
+            "from": "sceneTierV",
+            "to": "sceneTierIV"
+        },
+        {
+            "from": "sceneTierIII",
+            "to": "sceneTierV"
+        },
+        {
+            "from": "sceneTierII",
+            "to": "sceneTierIV"
+        },
+        {
+            "from": "sceneTierII",
+            "to": "sceneTierV"
+        },
+        {
+            "from": "sceneTierII",
+            "to": "swimming"
+        },
+        {
+            "from": "sceneTierInitial",
+            "to": "sceneTierIII"
+        },
+        {
+            "from": "sceneTierInitial",
+            "to": "sceneTierIV"
+        },
+        {
+            "from": "sceneTierInitial",
+            "to": "sceneTierV"
+        },
+        {
+            "from": "exploration",
+            "to": "inspection"
+        },
+        {
+            "from": "inspection",
+            "to": "exploration"
+        },
+        {
+            "from": "exploration",
+            "to": "aiControlled"
+        },
+        {
+            "from": "aiControlled",
+            "to": "exploration"
+        },
+        {
+            "from": "exploration",
+            "to": "swimming"
+        },
+        {
+            "from": "exploration",
+            "to": "minigame"
+        },
+        {
+            "from": "minigame",
+            "to": "exploration"
+        }
+    ]
+}

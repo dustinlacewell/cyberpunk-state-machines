@@ -1,0 +1,6446 @@
+{
+  "nodes": [
+    {
+      "id": "DefaultTransition",
+      "name": "DefaultTransition",
+      "val": 50
+    },
+    {
+      "id": "BraindanceControlsTransition",
+      "name": "BraindanceControlsTransition",
+      "val": 50
+    },
+    {
+      "id": "CarriedObjectTransition",
+      "name": "CarriedObjectTransition",
+      "val": 50
+    },
+    {
+      "id": "CombatGadgetTransitions",
+      "name": "CombatGadgetTransitions",
+      "val": 50
+    },
+    {
+      "id": "CombatGadgetStartDecisions",
+      "name": "CombatGadgetStartDecisions",
+      "val": 50
+    },
+    {
+      "id": "ConsumableTransitions",
+      "name": "ConsumableTransitions",
+      "val": 50
+    },
+    {
+      "id": "LookAtPresetBaseDecisions",
+      "name": "LookAtPresetBaseDecisions",
+      "val": 50
+    },
+    {
+      "id": "LookAtPresetBaseEvents",
+      "name": "LookAtPresetBaseEvents",
+      "val": 50
+    },
+    {
+      "id": "BaseCrosshairState",
+      "name": "BaseCrosshairState",
+      "val": 50
+    },
+    {
+      "id": "EquipItemLeftDecisions",
+      "name": "EquipItemLeftDecisions",
+      "val": 50
+    },
+    {
+      "id": "EquipItemRightDecisions",
+      "name": "EquipItemRightDecisions",
+      "val": 50
+    },
+    {
+      "id": "EquipmentBaseTransition",
+      "name": "EquipmentBaseTransition",
+      "val": 50
+    },
+    {
+      "id": "HighLevelTransition",
+      "name": "HighLevelTransition",
+      "val": 50
+    },
+    {
+      "id": "InputContextTransition",
+      "name": "InputContextTransition",
+      "val": 50
+    },
+    {
+      "id": "LeftHandCyberwareTransition",
+      "name": "LeftHandCyberwareTransition",
+      "val": 50
+    },
+    {
+      "id": "LocomotionTransition",
+      "name": "LocomotionTransition",
+      "val": 50
+    },
+    {
+      "id": "MeleeTransition",
+      "name": "MeleeTransition",
+      "val": 50
+    },
+    {
+      "id": "Ground",
+      "name": "Ground",
+      "val": 50
+    },
+    {
+      "id": "Air",
+      "name": "Air",
+      "val": 50
+    },
+    {
+      "id": "QuickSlotsTransition",
+      "name": "QuickSlotsTransition",
+      "val": 50
+    },
+    {
+      "id": "ReactionTransition",
+      "name": "ReactionTransition",
+      "val": 50
+    },
+    {
+      "id": "ScenesFastForwardTransition",
+      "name": "ScenesFastForwardTransition",
+      "val": 50
+    },
+    {
+      "id": "StaminaTransition",
+      "name": "StaminaTransition",
+      "val": 50
+    },
+    {
+      "id": "TimeDilationTransitions",
+      "name": "TimeDilationTransitions",
+      "val": 50
+    },
+    {
+      "id": "TurretTransition",
+      "name": "TurretTransition",
+      "val": 50
+    },
+    {
+      "id": "UpperBodyTransition",
+      "name": "UpperBodyTransition",
+      "val": 50
+    },
+    {
+      "id": "VehicleTransition",
+      "name": "VehicleTransition",
+      "val": 50
+    },
+    {
+      "id": "WeaponTransition",
+      "name": "WeaponTransition",
+      "val": 50
+    },
+    {
+      "id": "ZoomTransition",
+      "name": "ZoomTransition",
+      "val": 50
+    },
+    {
+      "id": "FinisherTransition",
+      "name": "FinisherTransition",
+      "val": 50
+    },
+    {
+      "id": "MineDispenserTransition",
+      "name": "MineDispenserTransition",
+      "val": 50
+    },
+    {
+      "id": "ComDeviceTransition",
+      "name": "ComDeviceTransition",
+      "val": 50
+    },
+    {
+      "id": "CombatGadgetStartEvents",
+      "name": "CombatGadgetStartEvents",
+      "val": 50
+    },
+    {
+      "id": "ControlsInactiveDecisions",
+      "name": "ControlsInactiveDecisions",
+      "val": 50
+    },
+    {
+      "id": "ControlsInactiveEvents",
+      "name": "ControlsInactiveEvents",
+      "val": 50
+    },
+    {
+      "id": "ControlsActiveDecisions",
+      "name": "ControlsActiveDecisions",
+      "val": 50
+    },
+    {
+      "id": "ControlsActiveEvents",
+      "name": "ControlsActiveEvents",
+      "val": 50
+    },
+    {
+      "id": "CarriedObjectDecisions",
+      "name": "CarriedObjectDecisions",
+      "val": 50
+    },
+    {
+      "id": "CarriedObjectEvents",
+      "name": "CarriedObjectEvents",
+      "val": 50
+    },
+    {
+      "id": "CombatGadgetInactiveDecisions",
+      "name": "CombatGadgetInactiveDecisions",
+      "val": 50
+    },
+    {
+      "id": "CombatGadgetInactiveEvents",
+      "name": "CombatGadgetInactiveEvents",
+      "val": 50
+    },
+    {
+      "id": "CombatGadgetEquipDecisions",
+      "name": "CombatGadgetEquipDecisions",
+      "val": 50
+    },
+    {
+      "id": "CombatGadgetEquipEvents",
+      "name": "CombatGadgetEquipEvents",
+      "val": 50
+    },
+    {
+      "id": "CombatGadgetQuickThrowDecisions",
+      "name": "CombatGadgetQuickThrowDecisions",
+      "val": 50
+    },
+    {
+      "id": "CombatGadgetQuickThrowEvents",
+      "name": "CombatGadgetQuickThrowEvents",
+      "val": 50
+    },
+    {
+      "id": "CombatGadgetChargedThrowDecisions",
+      "name": "CombatGadgetChargedThrowDecisions",
+      "val": 50
+    },
+    {
+      "id": "CombatGadgetChargedThrowEvents",
+      "name": "CombatGadgetChargedThrowEvents",
+      "val": 50
+    },
+    {
+      "id": "CombatGadgetChargeDecisions",
+      "name": "CombatGadgetChargeDecisions",
+      "val": 50
+    },
+    {
+      "id": "CombatGadgetChargeEvents",
+      "name": "CombatGadgetChargeEvents",
+      "val": 50
+    },
+    {
+      "id": "CombatGadgetWaitForUnequipDecisions",
+      "name": "CombatGadgetWaitForUnequipDecisions",
+      "val": 50
+    },
+    {
+      "id": "CombatGadgetWaitForUnequipEvents",
+      "name": "CombatGadgetWaitForUnequipEvents",
+      "val": 50
+    },
+    {
+      "id": "CombatGadgetUnequipEvents",
+      "name": "CombatGadgetUnequipEvents",
+      "val": 50
+    },
+    {
+      "id": "ConsumableStartupDecisions",
+      "name": "ConsumableStartupDecisions",
+      "val": 50
+    },
+    {
+      "id": "ConsumableStartupEvents",
+      "name": "ConsumableStartupEvents",
+      "val": 50
+    },
+    {
+      "id": "ConsumableUseDecisions",
+      "name": "ConsumableUseDecisions",
+      "val": 50
+    },
+    {
+      "id": "ConsumableUseEvents",
+      "name": "ConsumableUseEvents",
+      "val": 50
+    },
+    {
+      "id": "ConsumableCleanupEvents",
+      "name": "ConsumableCleanupEvents",
+      "val": 50
+    },
+    {
+      "id": "ConsumableCleanupDecisions",
+      "name": "ConsumableCleanupDecisions",
+      "val": 50
+    },
+    {
+      "id": "UnarmedLookAtDecisions",
+      "name": "UnarmedLookAtDecisions",
+      "val": 50
+    },
+    {
+      "id": "lookAtPresetGunBaseDecisions",
+      "name": "lookAtPresetGunBaseDecisions",
+      "val": 50
+    },
+    {
+      "id": "LookAtPresetMeleeBaseDecisions",
+      "name": "LookAtPresetMeleeBaseDecisions",
+      "val": 50
+    },
+    {
+      "id": "lookAtPresetItemBaseDecisions",
+      "name": "lookAtPresetItemBaseDecisions",
+      "val": 50
+    },
+    {
+      "id": "lookAtPresetGunBaseEvents",
+      "name": "lookAtPresetGunBaseEvents",
+      "val": 50
+    },
+    {
+      "id": "LookAtPresetMeleeBaseEvents",
+      "name": "LookAtPresetMeleeBaseEvents",
+      "val": 50
+    },
+    {
+      "id": "lookAtPresetItemBaseEvents",
+      "name": "lookAtPresetItemBaseEvents",
+      "val": 50
+    },
+    {
+      "id": "UnarmedLookAtEvents",
+      "name": "UnarmedLookAtEvents",
+      "val": 50
+    },
+    {
+      "id": "BaseCrosshairStateEvents",
+      "name": "BaseCrosshairStateEvents",
+      "val": 50
+    },
+    {
+      "id": "SafeCrosshairStateDecisions",
+      "name": "SafeCrosshairStateDecisions",
+      "val": 50
+    },
+    {
+      "id": "DriverCombatMountedWeaponsReloadCrosshairStateDecisions",
+      "name": "DriverCombatMountedWeaponsReloadCrosshairStateDecisions",
+      "val": 50
+    },
+    {
+      "id": "QuickHackCrosshairStateDecisions",
+      "name": "QuickHackCrosshairStateDecisions",
+      "val": 50
+    },
+    {
+      "id": "EquipmentBaseDecisions",
+      "name": "EquipmentBaseDecisions",
+      "val": 50
+    },
+    {
+      "id": "EquipmentBaseEvents",
+      "name": "EquipmentBaseEvents",
+      "val": 50
+    },
+    {
+      "id": "ExplorationDecisions",
+      "name": "ExplorationDecisions",
+      "val": 50
+    },
+    {
+      "id": "ExplorationEvents",
+      "name": "ExplorationEvents",
+      "val": 50
+    },
+    {
+      "id": "SwimmingDecisions",
+      "name": "SwimmingDecisions",
+      "val": 50
+    },
+    {
+      "id": "SwimmingEvents",
+      "name": "SwimmingEvents",
+      "val": 50
+    },
+    {
+      "id": "AiControlledDecisions",
+      "name": "AiControlledDecisions",
+      "val": 50
+    },
+    {
+      "id": "AiControlledEvents",
+      "name": "AiControlledEvents",
+      "val": 50
+    },
+    {
+      "id": "DeathEvents",
+      "name": "DeathEvents",
+      "val": 50
+    },
+    {
+      "id": "DeathDecisions",
+      "name": "DeathDecisions",
+      "val": 50
+    },
+    {
+      "id": "DeathDecisionsWithResurrection",
+      "name": "DeathDecisionsWithResurrection",
+      "val": 50
+    },
+    {
+      "id": "ResurrectDecisions",
+      "name": "ResurrectDecisions",
+      "val": 50
+    },
+    {
+      "id": "ResurrectEvents",
+      "name": "ResurrectEvents",
+      "val": 50
+    },
+    {
+      "id": "InspectionDecisions",
+      "name": "InspectionDecisions",
+      "val": 50
+    },
+    {
+      "id": "InspectionEvents",
+      "name": "InspectionEvents",
+      "val": 50
+    },
+    {
+      "id": "MinigameDecisions",
+      "name": "MinigameDecisions",
+      "val": 50
+    },
+    {
+      "id": "MinigameEvents",
+      "name": "MinigameEvents",
+      "val": 50
+    },
+    {
+      "id": "SceneTierAbstract",
+      "name": "SceneTierAbstract",
+      "val": 50
+    },
+    {
+      "id": "InputContextTransitionDecisions",
+      "name": "InputContextTransitionDecisions",
+      "val": 50
+    },
+    {
+      "id": "InputContextTransitionEvents",
+      "name": "InputContextTransitionEvents",
+      "val": 50
+    },
+    {
+      "id": "LeftHandCyberwareEventsTransition",
+      "name": "LeftHandCyberwareEventsTransition",
+      "val": 50
+    },
+    {
+      "id": "LeftHandCyberwareSafeDecisions",
+      "name": "LeftHandCyberwareSafeDecisions",
+      "val": 50
+    },
+    {
+      "id": "LeftHandCyberwareEquipDecisions",
+      "name": "LeftHandCyberwareEquipDecisions",
+      "val": 50
+    },
+    {
+      "id": "LeftHandCyberwareChargeDecisions",
+      "name": "LeftHandCyberwareChargeDecisions",
+      "val": 50
+    },
+    {
+      "id": "LeftHandCyberwareLoopDecisions",
+      "name": "LeftHandCyberwareLoopDecisions",
+      "val": 50
+    },
+    {
+      "id": "LeftHandCyberwareActionAbstractDecisions",
+      "name": "LeftHandCyberwareActionAbstractDecisions",
+      "val": 50
+    },
+    {
+      "id": "LeftHandCyberwareCatchDecisions",
+      "name": "LeftHandCyberwareCatchDecisions",
+      "val": 50
+    },
+    {
+      "id": "LeftHandCyberwareWaitForUnequipDecisions",
+      "name": "LeftHandCyberwareWaitForUnequipDecisions",
+      "val": 50
+    },
+    {
+      "id": "CoverActionTransition",
+      "name": "CoverActionTransition",
+      "val": 50
+    },
+    {
+      "id": "LocomotionBraindance",
+      "name": "LocomotionBraindance",
+      "val": 50
+    },
+    {
+      "id": "LocomotionSwimming",
+      "name": "LocomotionSwimming",
+      "val": 50
+    },
+    {
+      "id": "LocomotionTakedownDecisions",
+      "name": "LocomotionTakedownDecisions",
+      "val": 50
+    },
+    {
+      "id": "LocomotionEventsTransition",
+      "name": "LocomotionEventsTransition",
+      "val": 50
+    },
+    {
+      "id": "LocomotionGroundDecisions",
+      "name": "LocomotionGroundDecisions",
+      "val": 50
+    },
+    {
+      "id": "LocomotionAirDecisions",
+      "name": "LocomotionAirDecisions",
+      "val": 50
+    },
+    {
+      "id": "MeleeEventsTransition",
+      "name": "MeleeEventsTransition",
+      "val": 50
+    },
+    {
+      "id": "MeleeNotReadyDecisions",
+      "name": "MeleeNotReadyDecisions",
+      "val": 50
+    },
+    {
+      "id": "MeleeParriedDecisions",
+      "name": "MeleeParriedDecisions",
+      "val": 50
+    },
+    {
+      "id": "MeleeRecoveryDecisions",
+      "name": "MeleeRecoveryDecisions",
+      "val": 50
+    },
+    {
+      "id": "MeleeIdleDecisions",
+      "name": "MeleeIdleDecisions",
+      "val": 50
+    },
+    {
+      "id": "MeleePublicSafeDecisions",
+      "name": "MeleePublicSafeDecisions",
+      "val": 50
+    },
+    {
+      "id": "MeleeSafeDecisions",
+      "name": "MeleeSafeDecisions",
+      "val": 50
+    },
+    {
+      "id": "MeleeHoldDecisions",
+      "name": "MeleeHoldDecisions",
+      "val": 50
+    },
+    {
+      "id": "MeleeChargedHoldDecisions",
+      "name": "MeleeChargedHoldDecisions",
+      "val": 50
+    },
+    {
+      "id": "MeleeAttackGenericDecisions",
+      "name": "MeleeAttackGenericDecisions",
+      "val": 50
+    },
+    {
+      "id": "MeleeDeflectDecisions",
+      "name": "MeleeDeflectDecisions",
+      "val": 50
+    },
+    {
+      "id": "MeleeBlockDecisions",
+      "name": "MeleeBlockDecisions",
+      "val": 50
+    },
+    {
+      "id": "MeleeTargetingDecisions",
+      "name": "MeleeTargetingDecisions",
+      "val": 50
+    },
+    {
+      "id": "MeleeThrowReloadDecisions",
+      "name": "MeleeThrowReloadDecisions",
+      "val": 50
+    },
+    {
+      "id": "MeleeLeapDecisions",
+      "name": "MeleeLeapDecisions",
+      "val": 50
+    },
+    {
+      "id": "MeleeDashDecisions",
+      "name": "MeleeDashDecisions",
+      "val": 50
+    },
+    {
+      "id": "QuickSlotsDecisions",
+      "name": "QuickSlotsDecisions",
+      "val": 50
+    },
+    {
+      "id": "QuickSlotsEvents",
+      "name": "QuickSlotsEvents",
+      "val": 50
+    },
+    {
+      "id": "StaggerDecisions",
+      "name": "StaggerDecisions",
+      "val": 50
+    },
+    {
+      "id": "Stagger",
+      "name": "Stagger",
+      "val": 50
+    },
+    {
+      "id": "FastForwardUnavailableDecisions",
+      "name": "FastForwardUnavailableDecisions",
+      "val": 50
+    },
+    {
+      "id": "FastForwardUnavailableEvents",
+      "name": "FastForwardUnavailableEvents",
+      "val": 50
+    },
+    {
+      "id": "FastForwardAvailableDecisions",
+      "name": "FastForwardAvailableDecisions",
+      "val": 50
+    },
+    {
+      "id": "FastForwardAvailableEvents",
+      "name": "FastForwardAvailableEvents",
+      "val": 50
+    },
+    {
+      "id": "FastForwardActiveDecisions",
+      "name": "FastForwardActiveDecisions",
+      "val": 50
+    },
+    {
+      "id": "FastForwardActiveEvents",
+      "name": "FastForwardActiveEvents",
+      "val": 50
+    },
+    {
+      "id": "FastForwardSelfRemovalDecisions",
+      "name": "FastForwardSelfRemovalDecisions",
+      "val": 50
+    },
+    {
+      "id": "FastForwardSelfRemovalEvents",
+      "name": "FastForwardSelfRemovalEvents",
+      "val": 50
+    },
+    {
+      "id": "ExhaustedDecisions",
+      "name": "ExhaustedDecisions",
+      "val": 50
+    },
+    {
+      "id": "StaminaEventsTransition",
+      "name": "StaminaEventsTransition",
+      "val": 50
+    },
+    {
+      "id": "TimeDilationEventsTransitions",
+      "name": "TimeDilationEventsTransitions",
+      "val": 50
+    },
+    {
+      "id": "SandevistanDecisions",
+      "name": "SandevistanDecisions",
+      "val": 50
+    },
+    {
+      "id": "KerenzikovDecisions",
+      "name": "KerenzikovDecisions",
+      "val": 50
+    },
+    {
+      "id": "TimeDilationFocusModeDecisions",
+      "name": "TimeDilationFocusModeDecisions",
+      "val": 50
+    },
+    {
+      "id": "TurretBeginEvents",
+      "name": "TurretBeginEvents",
+      "val": 50
+    },
+    {
+      "id": "TurretBeginDecisions",
+      "name": "TurretBeginDecisions",
+      "val": 50
+    },
+    {
+      "id": "TurretRipOffEvents",
+      "name": "TurretRipOffEvents",
+      "val": 50
+    },
+    {
+      "id": "TurretEndEvents",
+      "name": "TurretEndEvents",
+      "val": 50
+    },
+    {
+      "id": "TurretRipOffDecisions",
+      "name": "TurretRipOffDecisions",
+      "val": 50
+    },
+    {
+      "id": "TurretEndDecisions",
+      "name": "TurretEndDecisions",
+      "val": 50
+    },
+    {
+      "id": "UpperBodyEventsTransition",
+      "name": "UpperBodyEventsTransition",
+      "val": 50
+    },
+    {
+      "id": "ForceEmptyHandsDecisions",
+      "name": "ForceEmptyHandsDecisions",
+      "val": 50
+    },
+    {
+      "id": "ForceSafeDecisions",
+      "name": "ForceSafeDecisions",
+      "val": 50
+    },
+    {
+      "id": "EmptyHandsDecisions",
+      "name": "EmptyHandsDecisions",
+      "val": 50
+    },
+    {
+      "id": "SingleWieldDecisions",
+      "name": "SingleWieldDecisions",
+      "val": 50
+    },
+    {
+      "id": "AimingStateDecisions",
+      "name": "AimingStateDecisions",
+      "val": 50
+    },
+    {
+      "id": "TemporaryUnequipDecisions",
+      "name": "TemporaryUnequipDecisions",
+      "val": 50
+    },
+    {
+      "id": "WaitForEquipDecisions",
+      "name": "WaitForEquipDecisions",
+      "val": 50
+    },
+    {
+      "id": "VehicleEventsTransition",
+      "name": "VehicleEventsTransition",
+      "val": 50
+    },
+    {
+      "id": "IdleDecisions",
+      "name": "IdleDecisions",
+      "val": 50
+    },
+    {
+      "id": "EnteringDecisions",
+      "name": "EnteringDecisions",
+      "val": 50
+    },
+    {
+      "id": "PassengerDecisions",
+      "name": "PassengerDecisions",
+      "val": 50
+    },
+    {
+      "id": "GunnerDecisions",
+      "name": "GunnerDecisions",
+      "val": 50
+    },
+    {
+      "id": "DriveDecisions",
+      "name": "DriveDecisions",
+      "val": 50
+    },
+    {
+      "id": "SwitchSeatsDecisions",
+      "name": "SwitchSeatsDecisions",
+      "val": 50
+    },
+    {
+      "id": "EnteringCombatDecisions",
+      "name": "EnteringCombatDecisions",
+      "val": 50
+    },
+    {
+      "id": "ExitingCombatDecisions",
+      "name": "ExitingCombatDecisions",
+      "val": 50
+    },
+    {
+      "id": "SceneExitingCombatDecisions",
+      "name": "SceneExitingCombatDecisions",
+      "val": 50
+    },
+    {
+      "id": "CombatDecisions",
+      "name": "CombatDecisions",
+      "val": 50
+    },
+    {
+      "id": "DriverCombatDecisions",
+      "name": "DriverCombatDecisions",
+      "val": 50
+    },
+    {
+      "id": "ExitingDecisions",
+      "name": "ExitingDecisions",
+      "val": 50
+    },
+    {
+      "id": "WaitingForSceneDecisions",
+      "name": "WaitingForSceneDecisions",
+      "val": 50
+    },
+    {
+      "id": "SceneDecisions",
+      "name": "SceneDecisions",
+      "val": 50
+    },
+    {
+      "id": "SceneExitingDecisions",
+      "name": "SceneExitingDecisions",
+      "val": 50
+    },
+    {
+      "id": "WaitingForSceneEvents",
+      "name": "WaitingForSceneEvents",
+      "val": 50
+    },
+    {
+      "id": "WeaponEventsTransition",
+      "name": "WeaponEventsTransition",
+      "val": 50
+    },
+    {
+      "id": "WeaponReadyListenerTransition",
+      "name": "WeaponReadyListenerTransition",
+      "val": 50
+    },
+    {
+      "id": "SafeDecisions",
+      "name": "SafeDecisions",
+      "val": 50
+    },
+    {
+      "id": "PublicSafeToReadyDecisions",
+      "name": "PublicSafeToReadyDecisions",
+      "val": 50
+    },
+    {
+      "id": "QuickMeleeDecisions",
+      "name": "QuickMeleeDecisions",
+      "val": 50
+    },
+    {
+      "id": "NoAmmoDecisions",
+      "name": "NoAmmoDecisions",
+      "val": 50
+    },
+    {
+      "id": "ReloadDecisions",
+      "name": "ReloadDecisions",
+      "val": 50
+    },
+    {
+      "id": "ShootDecisions",
+      "name": "ShootDecisions",
+      "val": 50
+    },
+    {
+      "id": "CycleRoundDecisions",
+      "name": "CycleRoundDecisions",
+      "val": 50
+    },
+    {
+      "id": "CycleTriggerModeDecisions",
+      "name": "CycleTriggerModeDecisions",
+      "val": 50
+    },
+    {
+      "id": "SemiAutoDecisions",
+      "name": "SemiAutoDecisions",
+      "val": 50
+    },
+    {
+      "id": "FullAutoDecisions",
+      "name": "FullAutoDecisions",
+      "val": 50
+    },
+    {
+      "id": "BurstDecisions",
+      "name": "BurstDecisions",
+      "val": 50
+    },
+    {
+      "id": "ChargeDecisions",
+      "name": "ChargeDecisions",
+      "val": 50
+    },
+    {
+      "id": "ChargeReadyDecisions",
+      "name": "ChargeReadyDecisions",
+      "val": 50
+    },
+    {
+      "id": "ChargeMaxDecisions",
+      "name": "ChargeMaxDecisions",
+      "val": 50
+    },
+    {
+      "id": "DischargeDecisions",
+      "name": "DischargeDecisions",
+      "val": 50
+    },
+    {
+      "id": "OverheatDecisions",
+      "name": "OverheatDecisions",
+      "val": 50
+    },
+    {
+      "id": "ZoomDecisionsTransition",
+      "name": "ZoomDecisionsTransition",
+      "val": 50
+    },
+    {
+      "id": "ZoomEventsTransition",
+      "name": "ZoomEventsTransition",
+      "val": 50
+    },
+    {
+      "id": "FinisherLeapToTargetDecisions",
+      "name": "FinisherLeapToTargetDecisions",
+      "val": 50
+    },
+    {
+      "id": "FinisherLeapToTargetEvents",
+      "name": "FinisherLeapToTargetEvents",
+      "val": 50
+    },
+    {
+      "id": "FinisherAttackEvents",
+      "name": "FinisherAttackEvents",
+      "val": 50
+    },
+    {
+      "id": "FinisherEndEvents",
+      "name": "FinisherEndEvents",
+      "val": 50
+    },
+    {
+      "id": "FinisherAttackDecisions",
+      "name": "FinisherAttackDecisions",
+      "val": 50
+    },
+    {
+      "id": "FinisherEndDecisions",
+      "name": "FinisherEndDecisions",
+      "val": 50
+    },
+    {
+      "id": "MineDispenserEventsTransition",
+      "name": "MineDispenserEventsTransition",
+      "val": 50
+    },
+    {
+      "id": "MineDispenserIdleDecisions",
+      "name": "MineDispenserIdleDecisions",
+      "val": 50
+    },
+    {
+      "id": "MineDispenserCycleItemDecisions",
+      "name": "MineDispenserCycleItemDecisions",
+      "val": 50
+    },
+    {
+      "id": "MineDispenserPlaceDecisions",
+      "name": "MineDispenserPlaceDecisions",
+      "val": 50
+    },
+    {
+      "id": "PhoneOffDecisions",
+      "name": "PhoneOffDecisions",
+      "val": 50
+    },
+    {
+      "id": "PhoneOffEvents",
+      "name": "PhoneOffEvents",
+      "val": 50
+    },
+    {
+      "id": "PhoneOnDecisions",
+      "name": "PhoneOnDecisions",
+      "val": 50
+    },
+    {
+      "id": "PhoneOnEvents",
+      "name": "PhoneOnEvents",
+      "val": 50
+    },
+    {
+      "id": "CanTransitionToThrowDecisions",
+      "name": "CanTransitionToThrowDecisions",
+      "val": 50
+    },
+    {
+      "id": "DropDecisions",
+      "name": "DropDecisions",
+      "val": 50
+    },
+    {
+      "id": "DisposeDecisions",
+      "name": "DisposeDecisions",
+      "val": 50
+    },
+    {
+      "id": "ThrowDecisions",
+      "name": "ThrowDecisions",
+      "val": 50
+    },
+    {
+      "id": "PickUpEvents",
+      "name": "PickUpEvents",
+      "val": 50
+    },
+    {
+      "id": "CarryEvents",
+      "name": "CarryEvents",
+      "val": 50
+    },
+    {
+      "id": "DropEvents",
+      "name": "DropEvents",
+      "val": 50
+    },
+    {
+      "id": "DisposeEvents",
+      "name": "DisposeEvents",
+      "val": 50
+    },
+    {
+      "id": "ForceDropBodyEvents",
+      "name": "ForceDropBodyEvents",
+      "val": 50
+    },
+    {
+      "id": "AimEvents",
+      "name": "AimEvents",
+      "val": 50
+    },
+    {
+      "id": "ThrowEvents",
+      "name": "ThrowEvents",
+      "val": 50
+    },
+    {
+      "id": "ReleaseEvents",
+      "name": "ReleaseEvents",
+      "val": 50
+    },
+    {
+      "id": "AssualtRifleLookAtDecisions",
+      "name": "AssualtRifleLookAtDecisions",
+      "val": 50
+    },
+    {
+      "id": "HandgunLookAtDecisions",
+      "name": "HandgunLookAtDecisions",
+      "val": 50
+    },
+    {
+      "id": "HmgLookAtDecisions",
+      "name": "HmgLookAtDecisions",
+      "val": 50
+    },
+    {
+      "id": "LmgLookAtDecisions",
+      "name": "LmgLookAtDecisions",
+      "val": 50
+    },
+    {
+      "id": "PrecisionRifleLookAtDecisions",
+      "name": "PrecisionRifleLookAtDecisions",
+      "val": 50
+    },
+    {
+      "id": "RevolverLookAtDecisions",
+      "name": "RevolverLookAtDecisions",
+      "val": 50
+    },
+    {
+      "id": "RifleLookAtDecisions",
+      "name": "RifleLookAtDecisions",
+      "val": 50
+    },
+    {
+      "id": "ShotgunLookAtDecisions",
+      "name": "ShotgunLookAtDecisions",
+      "val": 50
+    },
+    {
+      "id": "ShotgunDualLookAtDecisions",
+      "name": "ShotgunDualLookAtDecisions",
+      "val": 50
+    },
+    {
+      "id": "SniperRifleLookAtDecisions",
+      "name": "SniperRifleLookAtDecisions",
+      "val": 50
+    },
+    {
+      "id": "SmgLookAtDecisions",
+      "name": "SmgLookAtDecisions",
+      "val": 50
+    },
+    {
+      "id": "FistsLookAtDecisions",
+      "name": "FistsLookAtDecisions",
+      "val": 50
+    },
+    {
+      "id": "HammerLookAtDecisions",
+      "name": "HammerLookAtDecisions",
+      "val": 50
+    },
+    {
+      "id": "KatanaLookAtDecisions",
+      "name": "KatanaLookAtDecisions",
+      "val": 50
+    },
+    {
+      "id": "KnifeLookAtDecisions",
+      "name": "KnifeLookAtDecisions",
+      "val": 50
+    },
+    {
+      "id": "LongBladeLookAtDecisions",
+      "name": "LongBladeLookAtDecisions",
+      "val": 50
+    },
+    {
+      "id": "MeleeLookAtDecisions",
+      "name": "MeleeLookAtDecisions",
+      "val": 50
+    },
+    {
+      "id": "OneHandedClubLookAtDecisions",
+      "name": "OneHandedClubLookAtDecisions",
+      "val": 50
+    },
+    {
+      "id": "ShortBladeLookAtDecisions",
+      "name": "ShortBladeLookAtDecisions",
+      "val": 50
+    },
+    {
+      "id": "TwoHandedClubLookAtDecisions",
+      "name": "TwoHandedClubLookAtDecisions",
+      "val": 50
+    },
+    {
+      "id": "GrenadeLookAtDecisions",
+      "name": "GrenadeLookAtDecisions",
+      "val": 50
+    },
+    {
+      "id": "AssualtRifleLookAtEvents",
+      "name": "AssualtRifleLookAtEvents",
+      "val": 50
+    },
+    {
+      "id": "HandgunLookAtEvents",
+      "name": "HandgunLookAtEvents",
+      "val": 50
+    },
+    {
+      "id": "HmgLookAtEvents",
+      "name": "HmgLookAtEvents",
+      "val": 50
+    },
+    {
+      "id": "LmgLookAtEvents",
+      "name": "LmgLookAtEvents",
+      "val": 50
+    },
+    {
+      "id": "PrecisionRifleLookAtEvents",
+      "name": "PrecisionRifleLookAtEvents",
+      "val": 50
+    },
+    {
+      "id": "RevolverLookAtEvents",
+      "name": "RevolverLookAtEvents",
+      "val": 50
+    },
+    {
+      "id": "RifleLookAtEvents",
+      "name": "RifleLookAtEvents",
+      "val": 50
+    },
+    {
+      "id": "ShotgunLookAtEvents",
+      "name": "ShotgunLookAtEvents",
+      "val": 50
+    },
+    {
+      "id": "ShotgunDualLookAtEvents",
+      "name": "ShotgunDualLookAtEvents",
+      "val": 50
+    },
+    {
+      "id": "SniperRifleLookAtEvents",
+      "name": "SniperRifleLookAtEvents",
+      "val": 50
+    },
+    {
+      "id": "SmgLookAtEvents",
+      "name": "SmgLookAtEvents",
+      "val": 50
+    },
+    {
+      "id": "FistsLookAtEvents",
+      "name": "FistsLookAtEvents",
+      "val": 50
+    },
+    {
+      "id": "HammerLookAtEvents",
+      "name": "HammerLookAtEvents",
+      "val": 50
+    },
+    {
+      "id": "KatanaLookAtEvents",
+      "name": "KatanaLookAtEvents",
+      "val": 50
+    },
+    {
+      "id": "KnifeLookAtEvents",
+      "name": "KnifeLookAtEvents",
+      "val": 50
+    },
+    {
+      "id": "LongBladeLookAtEvents",
+      "name": "LongBladeLookAtEvents",
+      "val": 50
+    },
+    {
+      "id": "MeleeLookAtEvents",
+      "name": "MeleeLookAtEvents",
+      "val": 50
+    },
+    {
+      "id": "OneHandedClubLookAtEvents",
+      "name": "OneHandedClubLookAtEvents",
+      "val": 50
+    },
+    {
+      "id": "ShortBladeLookAtEvents",
+      "name": "ShortBladeLookAtEvents",
+      "val": 50
+    },
+    {
+      "id": "TwoHandedClubLookAtEvents",
+      "name": "TwoHandedClubLookAtEvents",
+      "val": 50
+    },
+    {
+      "id": "GrenadeLookAtEvents",
+      "name": "GrenadeLookAtEvents",
+      "val": 50
+    },
+    {
+      "id": "SafeCrosshairStateEvents",
+      "name": "SafeCrosshairStateEvents",
+      "val": 50
+    },
+    {
+      "id": "DriverCombatMountedWeaponsReloadCrosshairStateEvents",
+      "name": "DriverCombatMountedWeaponsReloadCrosshairStateEvents",
+      "val": 50
+    },
+    {
+      "id": "QuickHackCrosshairStateEvents",
+      "name": "QuickHackCrosshairStateEvents",
+      "val": 50
+    },
+    {
+      "id": "UnequippedDecisions",
+      "name": "UnequippedDecisions",
+      "val": 50
+    },
+    {
+      "id": "UnequippedWaitingForExternalFactorsDecisions",
+      "name": "UnequippedWaitingForExternalFactorsDecisions",
+      "val": 50
+    },
+    {
+      "id": "EquippedDecisions",
+      "name": "EquippedDecisions",
+      "val": 50
+    },
+    {
+      "id": "EquipCycleInitDecisions",
+      "name": "EquipCycleInitDecisions",
+      "val": 50
+    },
+    {
+      "id": "EquipCycleDecisions",
+      "name": "EquipCycleDecisions",
+      "val": 50
+    },
+    {
+      "id": "FirstEquipDecisions",
+      "name": "FirstEquipDecisions",
+      "val": 50
+    },
+    {
+      "id": "UnequipCycleDecisions",
+      "name": "UnequipCycleDecisions",
+      "val": 50
+    },
+    {
+      "id": "UnequippedEvents",
+      "name": "UnequippedEvents",
+      "val": 50
+    },
+    {
+      "id": "EquippedEvents",
+      "name": "EquippedEvents",
+      "val": 50
+    },
+    {
+      "id": "EquipCycleInitEvents",
+      "name": "EquipCycleInitEvents",
+      "val": 50
+    },
+    {
+      "id": "EquipCycleEvents",
+      "name": "EquipCycleEvents",
+      "val": 50
+    },
+    {
+      "id": "FirstEquipEvents",
+      "name": "FirstEquipEvents",
+      "val": 50
+    },
+    {
+      "id": "UnequipCycleEvents",
+      "name": "UnequipCycleEvents",
+      "val": 50
+    },
+    {
+      "id": "UnequippedWaitingForExternalFactorsEvents",
+      "name": "UnequippedWaitingForExternalFactorsEvents",
+      "val": 50
+    },
+    {
+      "id": "GroundDeathEvents",
+      "name": "GroundDeathEvents",
+      "val": 50
+    },
+    {
+      "id": "SwimmingDeathEvents",
+      "name": "SwimmingDeathEvents",
+      "val": 50
+    },
+    {
+      "id": "AirDeathEvents",
+      "name": "AirDeathEvents",
+      "val": 50
+    },
+    {
+      "id": "GroundDeathDecisions",
+      "name": "GroundDeathDecisions",
+      "val": 50
+    },
+    {
+      "id": "AirDeathDecisions",
+      "name": "AirDeathDecisions",
+      "val": 50
+    },
+    {
+      "id": "SwimmingDeathDecisions",
+      "name": "SwimmingDeathDecisions",
+      "val": 50
+    },
+    {
+      "id": "SceneTierInitialDecisions",
+      "name": "SceneTierInitialDecisions",
+      "val": 50
+    },
+    {
+      "id": "SceneTierAbstractDecisions",
+      "name": "SceneTierAbstractDecisions",
+      "val": 50
+    },
+    {
+      "id": "SceneTierAbstractEvents",
+      "name": "SceneTierAbstractEvents",
+      "val": 50
+    },
+    {
+      "id": "SceneTierInitialEvents",
+      "name": "SceneTierInitialEvents",
+      "val": 50
+    },
+    {
+      "id": "InitialStateDecisions",
+      "name": "InitialStateDecisions",
+      "val": 50
+    },
+    {
+      "id": "DeviceControlContextDecisions",
+      "name": "DeviceControlContextDecisions",
+      "val": 50
+    },
+    {
+      "id": "BraindanceContextDecisions",
+      "name": "BraindanceContextDecisions",
+      "val": 50
+    },
+    {
+      "id": "DeadContextDecisions",
+      "name": "DeadContextDecisions",
+      "val": 50
+    },
+    {
+      "id": "BaseContextDecisions",
+      "name": "BaseContextDecisions",
+      "val": 50
+    },
+    {
+      "id": "AimingContextDecisions",
+      "name": "AimingContextDecisions",
+      "val": 50
+    },
+    {
+      "id": "VisionContextDecisions",
+      "name": "VisionContextDecisions",
+      "val": 50
+    },
+    {
+      "id": "UiContextDecisions",
+      "name": "UiContextDecisions",
+      "val": 50
+    },
+    {
+      "id": "UiRadialContextDecisions",
+      "name": "UiRadialContextDecisions",
+      "val": 50
+    },
+    {
+      "id": "UiQuickHackPanelContextDecisions",
+      "name": "UiQuickHackPanelContextDecisions",
+      "val": 50
+    },
+    {
+      "id": "UiVendorContextDecisions",
+      "name": "UiVendorContextDecisions",
+      "val": 50
+    },
+    {
+      "id": "UiPhoneContextDecisions",
+      "name": "UiPhoneContextDecisions",
+      "val": 50
+    },
+    {
+      "id": "LadderEnterContextDecisions",
+      "name": "LadderEnterContextDecisions",
+      "val": 50
+    },
+    {
+      "id": "VehicleBlockInputContextDecisions",
+      "name": "VehicleBlockInputContextDecisions",
+      "val": 50
+    },
+    {
+      "id": "VehicleGameplayContextDecisions",
+      "name": "VehicleGameplayContextDecisions",
+      "val": 50
+    },
+    {
+      "id": "VehicleNoDriveContextDecisions",
+      "name": "VehicleNoDriveContextDecisions",
+      "val": 50
+    },
+    {
+      "id": "VehicleQuestRestrictedContextDecisions",
+      "name": "VehicleQuestRestrictedContextDecisions",
+      "val": 50
+    },
+    {
+      "id": "VehicleTankDriverContextDecisions",
+      "name": "VehicleTankDriverContextDecisions",
+      "val": 50
+    },
+    {
+      "id": "VehicleDriverContextDecisions",
+      "name": "VehicleDriverContextDecisions",
+      "val": 50
+    },
+    {
+      "id": "VehicleDriverCombatContextDecisions",
+      "name": "VehicleDriverCombatContextDecisions",
+      "val": 50
+    },
+    {
+      "id": "VehicleNoDriveCombatContextDecisions",
+      "name": "VehicleNoDriveCombatContextDecisions",
+      "val": 50
+    },
+    {
+      "id": "VehicleCombatContextDecisions",
+      "name": "VehicleCombatContextDecisions",
+      "val": 50
+    },
+    {
+      "id": "DeviceControlContextEvents",
+      "name": "DeviceControlContextEvents",
+      "val": 50
+    },
+    {
+      "id": "BaseContextEvents",
+      "name": "BaseContextEvents",
+      "val": 50
+    },
+    {
+      "id": "AimingContextEvents",
+      "name": "AimingContextEvents",
+      "val": 50
+    },
+    {
+      "id": "UiRadialContextEvents",
+      "name": "UiRadialContextEvents",
+      "val": 50
+    },
+    {
+      "id": "UiQuickHackPanelContextEvents",
+      "name": "UiQuickHackPanelContextEvents",
+      "val": 50
+    },
+    {
+      "id": "VehicleBlockInputContextEvents",
+      "name": "VehicleBlockInputContextEvents",
+      "val": 50
+    },
+    {
+      "id": "VehiclePassengerContextEvents",
+      "name": "VehiclePassengerContextEvents",
+      "val": 50
+    },
+    {
+      "id": "VehicleRemoteControlDriverContextEvents",
+      "name": "VehicleRemoteControlDriverContextEvents",
+      "val": 50
+    },
+    {
+      "id": "VehicleNoDriveContextEvents",
+      "name": "VehicleNoDriveContextEvents",
+      "val": 50
+    },
+    {
+      "id": "VehicleDriverContextEvents",
+      "name": "VehicleDriverContextEvents",
+      "val": 50
+    },
+    {
+      "id": "VehicleDriverCombatContextEvents",
+      "name": "VehicleDriverCombatContextEvents",
+      "val": 50
+    },
+    {
+      "id": "VehicleCombatContextEvents",
+      "name": "VehicleCombatContextEvents",
+      "val": 50
+    },
+    {
+      "id": "LadderEnterContextEvents",
+      "name": "LadderEnterContextEvents",
+      "val": 50
+    },
+    {
+      "id": "LeftHandCyberwareSafeEvents",
+      "name": "LeftHandCyberwareSafeEvents",
+      "val": 50
+    },
+    {
+      "id": "LeftHandCyberwareEquipEvents",
+      "name": "LeftHandCyberwareEquipEvents",
+      "val": 50
+    },
+    {
+      "id": "LeftHandCyberwareChargeEvents",
+      "name": "LeftHandCyberwareChargeEvents",
+      "val": 50
+    },
+    {
+      "id": "LeftHandCyberwareLoopEvents",
+      "name": "LeftHandCyberwareLoopEvents",
+      "val": 50
+    },
+    {
+      "id": "LeftHandCyberwareActionAbstractEvents",
+      "name": "LeftHandCyberwareActionAbstractEvents",
+      "val": 50
+    },
+    {
+      "id": "LeftHandCyberwareCatchEvents",
+      "name": "LeftHandCyberwareCatchEvents",
+      "val": 50
+    },
+    {
+      "id": "LeftHandCyberwareWaitForUnequipEvents",
+      "name": "LeftHandCyberwareWaitForUnequipEvents",
+      "val": 50
+    },
+    {
+      "id": "LeftHandCyberwareUnequipEvents",
+      "name": "LeftHandCyberwareUnequipEvents",
+      "val": 50
+    },
+    {
+      "id": "LeftHandCyberwareQuickActionDecisions",
+      "name": "LeftHandCyberwareQuickActionDecisions",
+      "val": 50
+    },
+    {
+      "id": "LeftHandCyberwareChargeActionDecisions",
+      "name": "LeftHandCyberwareChargeActionDecisions",
+      "val": 50
+    },
+    {
+      "id": "LeftHandCyberwareChargeRepeatActionDecisions",
+      "name": "LeftHandCyberwareChargeRepeatActionDecisions",
+      "val": 50
+    },
+    {
+      "id": "LeftHandCyberwareCatchActionDecisions",
+      "name": "LeftHandCyberwareCatchActionDecisions",
+      "val": 50
+    },
+    {
+      "id": "CoverActionEventsTransition",
+      "name": "CoverActionEventsTransition",
+      "val": 50
+    },
+    {
+      "id": "InactiveCoverDecisions",
+      "name": "InactiveCoverDecisions",
+      "val": 50
+    },
+    {
+      "id": "ActivateCoverDecisions",
+      "name": "ActivateCoverDecisions",
+      "val": 50
+    },
+    {
+      "id": "BraindanceFlyDecisions",
+      "name": "BraindanceFlyDecisions",
+      "val": 50
+    },
+    {
+      "id": "BraindanceFastFlyDecisions",
+      "name": "BraindanceFastFlyDecisions",
+      "val": 50
+    },
+    {
+      "id": "SwimmingInitialDecisions",
+      "name": "SwimmingInitialDecisions",
+      "val": 50
+    },
+    {
+      "id": "SwimmingSurfaceDecisions",
+      "name": "SwimmingSurfaceDecisions",
+      "val": 50
+    },
+    {
+      "id": "SwimmingSurfaceFastDecisions",
+      "name": "SwimmingSurfaceFastDecisions",
+      "val": 50
+    },
+    {
+      "id": "SwimmingTransitionDecisions",
+      "name": "SwimmingTransitionDecisions",
+      "val": 50
+    },
+    {
+      "id": "SwimmingDivingDecisions",
+      "name": "SwimmingDivingDecisions",
+      "val": 50
+    },
+    {
+      "id": "SwimmingFastDivingDecisions",
+      "name": "SwimmingFastDivingDecisions",
+      "val": 50
+    },
+    {
+      "id": "SwimmingForceFreezeDecisions",
+      "name": "SwimmingForceFreezeDecisions",
+      "val": 50
+    },
+    {
+      "id": "TakedownBeginDecisions",
+      "name": "TakedownBeginDecisions",
+      "val": 50
+    },
+    {
+      "id": "TakedownLeapToPreyDecisions",
+      "name": "TakedownLeapToPreyDecisions",
+      "val": 50
+    },
+    {
+      "id": "TakedownSlideToPreyDecisions",
+      "name": "TakedownSlideToPreyDecisions",
+      "val": 50
+    },
+    {
+      "id": "TakedownGrapplePreyDecisions",
+      "name": "TakedownGrapplePreyDecisions",
+      "val": 50
+    },
+    {
+      "id": "TakedownGrappleFailedDecisions",
+      "name": "TakedownGrappleFailedDecisions",
+      "val": 50
+    },
+    {
+      "id": "GrappleMountDecisions",
+      "name": "GrappleMountDecisions",
+      "val": 50
+    },
+    {
+      "id": "GrappleStandDecisions",
+      "name": "GrappleStandDecisions",
+      "val": 50
+    },
+    {
+      "id": "GrappleStruggleDecisions",
+      "name": "GrappleStruggleDecisions",
+      "val": 50
+    },
+    {
+      "id": "TakedownExecuteTakedownAndDisposeDecisions",
+      "name": "TakedownExecuteTakedownAndDisposeDecisions",
+      "val": 50
+    },
+    {
+      "id": "TakedownReleasePreyDecisions",
+      "name": "TakedownReleasePreyDecisions",
+      "val": 50
+    },
+    {
+      "id": "TakedownUnmountPreyDecisions",
+      "name": "TakedownUnmountPreyDecisions",
+      "val": 50
+    },
+    {
+      "id": "PickUpBodyAfterTakedownDecisions",
+      "name": "PickUpBodyAfterTakedownDecisions",
+      "val": 50
+    },
+    {
+      "id": "TakedownEndDecisions",
+      "name": "TakedownEndDecisions",
+      "val": 50
+    },
+    {
+      "id": "TakedownExecuteTakedownDecisions",
+      "name": "TakedownExecuteTakedownDecisions",
+      "val": 50
+    },
+    {
+      "id": "LocomotionBraindanceEvents",
+      "name": "LocomotionBraindanceEvents",
+      "val": 50
+    },
+    {
+      "id": "LocomotionSwimmingEvents",
+      "name": "LocomotionSwimmingEvents",
+      "val": 50
+    },
+    {
+      "id": "LocomotionTakedownEvents",
+      "name": "LocomotionTakedownEvents",
+      "val": 50
+    },
+    {
+      "id": "LocomotionGroundEvents",
+      "name": "LocomotionGroundEvents",
+      "val": 50
+    },
+    {
+      "id": "LocomotionAirEvents",
+      "name": "LocomotionAirEvents",
+      "val": 50
+    },
+    {
+      "id": "SwimmingClimbDecisions",
+      "name": "SwimmingClimbDecisions",
+      "val": 50
+    },
+    {
+      "id": "SwimmingLadderDecisions",
+      "name": "SwimmingLadderDecisions",
+      "val": 50
+    },
+    {
+      "id": "ForceIdleDecisions",
+      "name": "ForceIdleDecisions",
+      "val": 50
+    },
+    {
+      "id": "WorkspotDecisions",
+      "name": "WorkspotDecisions",
+      "val": 50
+    },
+    {
+      "id": "ForceWalkDecisions",
+      "name": "ForceWalkDecisions",
+      "val": 50
+    },
+    {
+      "id": "ForceFreezeDecisions",
+      "name": "ForceFreezeDecisions",
+      "val": 50
+    },
+    {
+      "id": "InitialDecisions",
+      "name": "InitialDecisions",
+      "val": 50
+    },
+    {
+      "id": "StandDecisions",
+      "name": "StandDecisions",
+      "val": 50
+    },
+    {
+      "id": "AimWalkDecisions",
+      "name": "AimWalkDecisions",
+      "val": 50
+    },
+    {
+      "id": "CrouchDecisions",
+      "name": "CrouchDecisions",
+      "val": 50
+    },
+    {
+      "id": "SprintDecisions",
+      "name": "SprintDecisions",
+      "val": 50
+    },
+    {
+      "id": "DodgeDecisions",
+      "name": "DodgeDecisions",
+      "val": 50
+    },
+    {
+      "id": "ClimbDecisions",
+      "name": "ClimbDecisions",
+      "val": 50
+    },
+    {
+      "id": "VaultDecisions",
+      "name": "VaultDecisions",
+      "val": 50
+    },
+    {
+      "id": "LadderDecisions",
+      "name": "LadderDecisions",
+      "val": 50
+    },
+    {
+      "id": "StatusEffectDecisions",
+      "name": "StatusEffectDecisions",
+      "val": 50
+    },
+    {
+      "id": "FelledDecisions",
+      "name": "FelledDecisions",
+      "val": 50
+    },
+    {
+      "id": "PreCrouchLowGravityDecisions",
+      "name": "PreCrouchLowGravityDecisions",
+      "val": 50
+    },
+    {
+      "id": "CrouchLowGravityDecisions",
+      "name": "CrouchLowGravityDecisions",
+      "val": 50
+    },
+    {
+      "id": "DodgeLowGravityDecisions",
+      "name": "DodgeLowGravityDecisions",
+      "val": 50
+    },
+    {
+      "id": "DodgeCrouchLowGravityDecisions",
+      "name": "DodgeCrouchLowGravityDecisions",
+      "val": 50
+    },
+    {
+      "id": "SprintLowGravityDecisions",
+      "name": "SprintLowGravityDecisions",
+      "val": 50
+    },
+    {
+      "id": "ClimbLowGravityDecisions",
+      "name": "ClimbLowGravityDecisions",
+      "val": 50
+    },
+    {
+      "id": "IdleTier4Decisions",
+      "name": "IdleTier4Decisions",
+      "val": 50
+    },
+    {
+      "id": "IdleTier5Decisions",
+      "name": "IdleTier5Decisions",
+      "val": 50
+    },
+    {
+      "id": "StandLowGravityDecisions",
+      "name": "StandLowGravityDecisions",
+      "val": 50
+    },
+    {
+      "id": "AbstractLandDecisions",
+      "name": "AbstractLandDecisions",
+      "val": 50
+    },
+    {
+      "id": "CoolExitJumpDecisions",
+      "name": "CoolExitJumpDecisions",
+      "val": 50
+    },
+    {
+      "id": "SlideFallDecisions",
+      "name": "SlideFallDecisions",
+      "val": 50
+    },
+    {
+      "id": "FallDecisions",
+      "name": "FallDecisions",
+      "val": 50
+    },
+    {
+      "id": "AirThrustersDecisions",
+      "name": "AirThrustersDecisions",
+      "val": 50
+    },
+    {
+      "id": "AirHoverDecisions",
+      "name": "AirHoverDecisions",
+      "val": 50
+    },
+    {
+      "id": "SuperheroFallDecisions",
+      "name": "SuperheroFallDecisions",
+      "val": 50
+    },
+    {
+      "id": "JumpDecisions",
+      "name": "JumpDecisions",
+      "val": 50
+    },
+    {
+      "id": "ChargeJumpDecisions",
+      "name": "ChargeJumpDecisions",
+      "val": 50
+    },
+    {
+      "id": "HoverJumpDecisions",
+      "name": "HoverJumpDecisions",
+      "val": 50
+    },
+    {
+      "id": "DodgeAirDecisions",
+      "name": "DodgeAirDecisions",
+      "val": 50
+    },
+    {
+      "id": "LocomotionAirLowGravityDecisions",
+      "name": "LocomotionAirLowGravityDecisions",
+      "val": 50
+    },
+    {
+      "id": "MeleeNotReadyEvents",
+      "name": "MeleeNotReadyEvents",
+      "val": 50
+    },
+    {
+      "id": "MeleeParriedEvents",
+      "name": "MeleeParriedEvents",
+      "val": 50
+    },
+    {
+      "id": "MeleeRumblingEvents",
+      "name": "MeleeRumblingEvents",
+      "val": 50
+    },
+    {
+      "id": "MeleeHoldEvents",
+      "name": "MeleeHoldEvents",
+      "val": 50
+    },
+    {
+      "id": "MeleeAttackGenericEvents",
+      "name": "MeleeAttackGenericEvents",
+      "val": 50
+    },
+    {
+      "id": "MeleeDeflectEvents",
+      "name": "MeleeDeflectEvents",
+      "val": 50
+    },
+    {
+      "id": "MeleeTargetingEvents",
+      "name": "MeleeTargetingEvents",
+      "val": 50
+    },
+    {
+      "id": "MeleeThrowReloadEvents",
+      "name": "MeleeThrowReloadEvents",
+      "val": 50
+    },
+    {
+      "id": "MeleeLeapEvents",
+      "name": "MeleeLeapEvents",
+      "val": 50
+    },
+    {
+      "id": "MeleeDashEvents",
+      "name": "MeleeDashEvents",
+      "val": 50
+    },
+    {
+      "id": "MeleeBodySlamAttackEvents",
+      "name": "MeleeBodySlamAttackEvents",
+      "val": 50
+    },
+    {
+      "id": "MeleeEquippingDecisions",
+      "name": "MeleeEquippingDecisions",
+      "val": 50
+    },
+    {
+      "id": "MeleeComboAttackDecisions",
+      "name": "MeleeComboAttackDecisions",
+      "val": 50
+    },
+    {
+      "id": "MeleeFinalAttackDecisions",
+      "name": "MeleeFinalAttackDecisions",
+      "val": 50
+    },
+    {
+      "id": "MeleeSafeAttackDecisions",
+      "name": "MeleeSafeAttackDecisions",
+      "val": 50
+    },
+    {
+      "id": "MeleeStrongAttackDecisions",
+      "name": "MeleeStrongAttackDecisions",
+      "val": 50
+    },
+    {
+      "id": "MeleeDeflectAttackDecisions",
+      "name": "MeleeDeflectAttackDecisions",
+      "val": 50
+    },
+    {
+      "id": "MeleeThrowAttackDecisions",
+      "name": "MeleeThrowAttackDecisions",
+      "val": 50
+    },
+    {
+      "id": "MeleeBlockAttackDecisions",
+      "name": "MeleeBlockAttackDecisions",
+      "val": 50
+    },
+    {
+      "id": "MeleeBodySlamAttackDecisions",
+      "name": "MeleeBodySlamAttackDecisions",
+      "val": 50
+    },
+    {
+      "id": "MeleeCrouchAttackDecisions",
+      "name": "MeleeCrouchAttackDecisions",
+      "val": 50
+    },
+    {
+      "id": "MeleeJumpAttackDecisions",
+      "name": "MeleeJumpAttackDecisions",
+      "val": 50
+    },
+    {
+      "id": "MeleeSprintAttackDecisions",
+      "name": "MeleeSprintAttackDecisions",
+      "val": 50
+    },
+    {
+      "id": "MeleeGroundSlamAttackDecisions",
+      "name": "MeleeGroundSlamAttackDecisions",
+      "val": 50
+    },
+    {
+      "id": "MeleeEquipAttackDecisions",
+      "name": "MeleeEquipAttackDecisions",
+      "val": 50
+    },
+    {
+      "id": "QuickSlotsHoldDecisions",
+      "name": "QuickSlotsHoldDecisions",
+      "val": 50
+    },
+    {
+      "id": "QuickSlotsTapDecisions",
+      "name": "QuickSlotsTapDecisions",
+      "val": 50
+    },
+    {
+      "id": "QuickSlotsBusyDecisions",
+      "name": "QuickSlotsBusyDecisions",
+      "val": 50
+    },
+    {
+      "id": "QuickSlotsDisabledDecisions",
+      "name": "QuickSlotsDisabledDecisions",
+      "val": 50
+    },
+    {
+      "id": "QuickSlotsReadyDecisions",
+      "name": "QuickSlotsReadyDecisions",
+      "val": 50
+    },
+    {
+      "id": "QuickSlotsHoldEvents",
+      "name": "QuickSlotsHoldEvents",
+      "val": 50
+    },
+    {
+      "id": "QuickSlotsTapEvents",
+      "name": "QuickSlotsTapEvents",
+      "val": 50
+    },
+    {
+      "id": "QuickSlotsReadyEvents",
+      "name": "QuickSlotsReadyEvents",
+      "val": 50
+    },
+    {
+      "id": "QuickSlotsBusyEvents",
+      "name": "QuickSlotsBusyEvents",
+      "val": 50
+    },
+    {
+      "id": "QuickSlotsDisabledEvents",
+      "name": "QuickSlotsDisabledEvents",
+      "val": 50
+    },
+    {
+      "id": "RestedEvents",
+      "name": "RestedEvents",
+      "val": 50
+    },
+    {
+      "id": "ExhaustedEvents",
+      "name": "ExhaustedEvents",
+      "val": 50
+    },
+    {
+      "id": "SandevistanEvents",
+      "name": "SandevistanEvents",
+      "val": 50
+    },
+    {
+      "id": "KerenzikovEvents",
+      "name": "KerenzikovEvents",
+      "val": 50
+    },
+    {
+      "id": "TimeDilationFocusModeEvents",
+      "name": "TimeDilationFocusModeEvents",
+      "val": 50
+    },
+    {
+      "id": "ForceEmptyHandsEvents",
+      "name": "ForceEmptyHandsEvents",
+      "val": 50
+    },
+    {
+      "id": "ForceSafeEvents",
+      "name": "ForceSafeEvents",
+      "val": 50
+    },
+    {
+      "id": "EmptyHandsEvents",
+      "name": "EmptyHandsEvents",
+      "val": 50
+    },
+    {
+      "id": "SingleWieldEvents",
+      "name": "SingleWieldEvents",
+      "val": 50
+    },
+    {
+      "id": "AimingStateEvents",
+      "name": "AimingStateEvents",
+      "val": 50
+    },
+    {
+      "id": "TemporaryUnequipEvents",
+      "name": "TemporaryUnequipEvents",
+      "val": 50
+    },
+    {
+      "id": "WaitForEquipEvents",
+      "name": "WaitForEquipEvents",
+      "val": 50
+    },
+    {
+      "id": "AdHocAnimationDecisions",
+      "name": "AdHocAnimationDecisions",
+      "val": 50
+    },
+    {
+      "id": "IdleEvents",
+      "name": "IdleEvents",
+      "val": 50
+    },
+    {
+      "id": "EnteringEvents",
+      "name": "EnteringEvents",
+      "val": 50
+    },
+    {
+      "id": "PassengerEvents",
+      "name": "PassengerEvents",
+      "val": 50
+    },
+    {
+      "id": "GunnerEvents",
+      "name": "GunnerEvents",
+      "val": 50
+    },
+    {
+      "id": "DriveEvents",
+      "name": "DriveEvents",
+      "val": 50
+    },
+    {
+      "id": "SwitchSeatsEvents",
+      "name": "SwitchSeatsEvents",
+      "val": 50
+    },
+    {
+      "id": "EnteringCombatEvents",
+      "name": "EnteringCombatEvents",
+      "val": 50
+    },
+    {
+      "id": "ExitingCombatEvents",
+      "name": "ExitingCombatEvents",
+      "val": 50
+    },
+    {
+      "id": "SceneExitingCombatEvents",
+      "name": "SceneExitingCombatEvents",
+      "val": 50
+    },
+    {
+      "id": "CombatEvents",
+      "name": "CombatEvents",
+      "val": 50
+    },
+    {
+      "id": "DriverCombatEvents",
+      "name": "DriverCombatEvents",
+      "val": 50
+    },
+    {
+      "id": "ExitingEventsBase",
+      "name": "ExitingEventsBase",
+      "val": 50
+    },
+    {
+      "id": "ExitEvents",
+      "name": "ExitEvents",
+      "val": 50
+    },
+    {
+      "id": "SceneEvents",
+      "name": "SceneEvents",
+      "val": 50
+    },
+    {
+      "id": "SceneExitingEvents",
+      "name": "SceneExitingEvents",
+      "val": 50
+    },
+    {
+      "id": "DriverCombatFirearmsDecisions",
+      "name": "DriverCombatFirearmsDecisions",
+      "val": 50
+    },
+    {
+      "id": "DriverCombatMountedWeaponsDecisions",
+      "name": "DriverCombatMountedWeaponsDecisions",
+      "val": 50
+    },
+    {
+      "id": "CollisionExitingDecisions",
+      "name": "CollisionExitingDecisions",
+      "val": 50
+    },
+    {
+      "id": "DeathExitingDecisions",
+      "name": "DeathExitingDecisions",
+      "val": 50
+    },
+    {
+      "id": "CombatExitingDecisions",
+      "name": "CombatExitingDecisions",
+      "val": 50
+    },
+    {
+      "id": "SpeedExitingDecisions",
+      "name": "SpeedExitingDecisions",
+      "val": 50
+    },
+    {
+      "id": "SlideExitingDecisions",
+      "name": "SlideExitingDecisions",
+      "val": 50
+    },
+    {
+      "id": "CoolExitingDecisions",
+      "name": "CoolExitingDecisions",
+      "val": 50
+    },
+    {
+      "id": "ReadyEvents",
+      "name": "ReadyEvents",
+      "val": 50
+    },
+    {
+      "id": "NotReadyEvents",
+      "name": "NotReadyEvents",
+      "val": 50
+    },
+    {
+      "id": "SafeEvents",
+      "name": "SafeEvents",
+      "val": 50
+    },
+    {
+      "id": "PublicSafeEvents",
+      "name": "PublicSafeEvents",
+      "val": 50
+    },
+    {
+      "id": "PublicSafeToReadyEvents",
+      "name": "PublicSafeToReadyEvents",
+      "val": 50
+    },
+    {
+      "id": "QuickMeleeEvents",
+      "name": "QuickMeleeEvents",
+      "val": 50
+    },
+    {
+      "id": "NoAmmoEvents",
+      "name": "NoAmmoEvents",
+      "val": 50
+    },
+    {
+      "id": "ReloadEvents",
+      "name": "ReloadEvents",
+      "val": 50
+    },
+    {
+      "id": "ShootEvents",
+      "name": "ShootEvents",
+      "val": 50
+    },
+    {
+      "id": "CycleRoundEvents",
+      "name": "CycleRoundEvents",
+      "val": 50
+    },
+    {
+      "id": "CycleTriggerModeEvents",
+      "name": "CycleTriggerModeEvents",
+      "val": 50
+    },
+    {
+      "id": "SemiAutoEvents",
+      "name": "SemiAutoEvents",
+      "val": 50
+    },
+    {
+      "id": "FullAutoEvents",
+      "name": "FullAutoEvents",
+      "val": 50
+    },
+    {
+      "id": "BurstEvents",
+      "name": "BurstEvents",
+      "val": 50
+    },
+    {
+      "id": "ChargeEventsAbstract",
+      "name": "ChargeEventsAbstract",
+      "val": 50
+    },
+    {
+      "id": "DischargeEvents",
+      "name": "DischargeEvents",
+      "val": 50
+    },
+    {
+      "id": "OverheatEvents",
+      "name": "OverheatEvents",
+      "val": 50
+    },
+    {
+      "id": "ReadyDecisions",
+      "name": "ReadyDecisions",
+      "val": 50
+    },
+    {
+      "id": "NotReadyDecisions",
+      "name": "NotReadyDecisions",
+      "val": 50
+    },
+    {
+      "id": "PublicSafeDecisions",
+      "name": "PublicSafeDecisions",
+      "val": 50
+    },
+    {
+      "id": "ZoomBlockedDecisions",
+      "name": "ZoomBlockedDecisions",
+      "val": 50
+    },
+    {
+      "id": "ZoomLevelBaseDecisions",
+      "name": "ZoomLevelBaseDecisions",
+      "val": 50
+    },
+    {
+      "id": "ZoomLevelAimDecisions",
+      "name": "ZoomLevelAimDecisions",
+      "val": 50
+    },
+    {
+      "id": "ZoomLevelScanDecisions",
+      "name": "ZoomLevelScanDecisions",
+      "val": 50
+    },
+    {
+      "id": "ZoomLevel3Decisions",
+      "name": "ZoomLevel3Decisions",
+      "val": 50
+    },
+    {
+      "id": "ZoomLevel4Decisions",
+      "name": "ZoomLevel4Decisions",
+      "val": 50
+    },
+    {
+      "id": "ZoomLevel5Decisions",
+      "name": "ZoomLevel5Decisions",
+      "val": 50
+    },
+    {
+      "id": "ZoomLevel6Decisions",
+      "name": "ZoomLevel6Decisions",
+      "val": 50
+    },
+    {
+      "id": "ZoomBlockedEvents",
+      "name": "ZoomBlockedEvents",
+      "val": 50
+    },
+    {
+      "id": "ZoomLevelBaseEvents",
+      "name": "ZoomLevelBaseEvents",
+      "val": 50
+    },
+    {
+      "id": "ZoomLevelAimEvents",
+      "name": "ZoomLevelAimEvents",
+      "val": 50
+    },
+    {
+      "id": "ZoomLevelScanEvents",
+      "name": "ZoomLevelScanEvents",
+      "val": 50
+    },
+    {
+      "id": "ZoomLevel3Events",
+      "name": "ZoomLevel3Events",
+      "val": 50
+    },
+    {
+      "id": "ZoomLevel4Events",
+      "name": "ZoomLevel4Events",
+      "val": 50
+    },
+    {
+      "id": "ZoomLevel5Events",
+      "name": "ZoomLevel5Events",
+      "val": 50
+    },
+    {
+      "id": "ZoomLevel6Events",
+      "name": "ZoomLevel6Events",
+      "val": 50
+    },
+    {
+      "id": "MineDispenserIdleEvents",
+      "name": "MineDispenserIdleEvents",
+      "val": 50
+    },
+    {
+      "id": "MineDispenserCycleItemEvents",
+      "name": "MineDispenserCycleItemEvents",
+      "val": 50
+    },
+    {
+      "id": "MineDispenserPlaceEvents",
+      "name": "MineDispenserPlaceEvents",
+      "val": 50
+    },
+    {
+      "id": "MineDispenserUnequipEvents",
+      "name": "MineDispenserUnequipEvents",
+      "val": 50
+    },
+    {
+      "id": "PickUpDecisions",
+      "name": "PickUpDecisions",
+      "val": 50
+    },
+    {
+      "id": "CarryDecisions",
+      "name": "CarryDecisions",
+      "val": 50
+    },
+    {
+      "id": "AimDecisions",
+      "name": "AimDecisions",
+      "val": 50
+    },
+    {
+      "id": "SceneTierIIDecisions",
+      "name": "SceneTierIIDecisions",
+      "val": 50
+    },
+    {
+      "id": "SceneTierIIIDecisions",
+      "name": "SceneTierIIIDecisions",
+      "val": 50
+    },
+    {
+      "id": "SceneTierIVDecisions",
+      "name": "SceneTierIVDecisions",
+      "val": 50
+    },
+    {
+      "id": "SceneTierVDecisions",
+      "name": "SceneTierVDecisions",
+      "val": 50
+    },
+    {
+      "id": "SceneTierIIEvents",
+      "name": "SceneTierIIEvents",
+      "val": 50
+    },
+    {
+      "id": "SceneTierIIIEvents",
+      "name": "SceneTierIIIEvents",
+      "val": 50
+    },
+    {
+      "id": "SceneTierIVEvents",
+      "name": "SceneTierIVEvents",
+      "val": 50
+    },
+    {
+      "id": "SceneTierVEvents",
+      "name": "SceneTierVEvents",
+      "val": 50
+    },
+    {
+      "id": "UiQuickHackPanelContextDrivingDecisions",
+      "name": "UiQuickHackPanelContextDrivingDecisions",
+      "val": 50
+    },
+    {
+      "id": "UiQuickHackPanelContextDriverCombatDecisions",
+      "name": "UiQuickHackPanelContextDriverCombatDecisions",
+      "val": 50
+    },
+    {
+      "id": "UiQuickHackPanelContextRemoteControlDecisions",
+      "name": "UiQuickHackPanelContextRemoteControlDecisions",
+      "val": 50
+    },
+    {
+      "id": "VehiclePassengerContextDecisions",
+      "name": "VehiclePassengerContextDecisions",
+      "val": 50
+    },
+    {
+      "id": "VehiclePassengerRemoteControlDriverContextDecisions",
+      "name": "VehiclePassengerRemoteControlDriverContextDecisions",
+      "val": 50
+    },
+    {
+      "id": "VehicleRemoteControlDriverContextDecisions",
+      "name": "VehicleRemoteControlDriverContextDecisions",
+      "val": 50
+    },
+    {
+      "id": "VehicleDriverMountedWeaponsContextDecisions",
+      "name": "VehicleDriverMountedWeaponsContextDecisions",
+      "val": 50
+    },
+    {
+      "id": "VehicleDriverCombatTPPContextDecisions",
+      "name": "VehicleDriverCombatTPPContextDecisions",
+      "val": 50
+    },
+    {
+      "id": "VehicleDriverCombatAimContextDecisions",
+      "name": "VehicleDriverCombatAimContextDecisions",
+      "val": 50
+    },
+    {
+      "id": "VehicleDriverCombatMountedWeaponsContextDecisions",
+      "name": "VehicleDriverCombatMountedWeaponsContextDecisions",
+      "val": 50
+    },
+    {
+      "id": "UiQuickHackPanelContextDrivingEvents",
+      "name": "UiQuickHackPanelContextDrivingEvents",
+      "val": 50
+    },
+    {
+      "id": "UiQuickHackPanelContextDriverCombatEvents",
+      "name": "UiQuickHackPanelContextDriverCombatEvents",
+      "val": 50
+    },
+    {
+      "id": "UiQuickHackPanelContextRemoteControlEvents",
+      "name": "UiQuickHackPanelContextRemoteControlEvents",
+      "val": 50
+    },
+    {
+      "id": "VehiclePassengerRemoteControlDriverContextEvents",
+      "name": "VehiclePassengerRemoteControlDriverContextEvents",
+      "val": 50
+    },
+    {
+      "id": "VehicleQuestRestrictedContextEvents",
+      "name": "VehicleQuestRestrictedContextEvents",
+      "val": 50
+    },
+    {
+      "id": "VehicleDriverMountedWeaponsContextEvents",
+      "name": "VehicleDriverMountedWeaponsContextEvents",
+      "val": 50
+    },
+    {
+      "id": "VehicleDriverCombatTPPContextEvents",
+      "name": "VehicleDriverCombatTPPContextEvents",
+      "val": 50
+    },
+    {
+      "id": "VehicleDriverCombatAimContextEvents",
+      "name": "VehicleDriverCombatAimContextEvents",
+      "val": 50
+    },
+    {
+      "id": "VehicleDriverCombatMountedWeaponsContextEvents",
+      "name": "VehicleDriverCombatMountedWeaponsContextEvents",
+      "val": 50
+    },
+    {
+      "id": "LeftHandCyberwareQuickActionEvents",
+      "name": "LeftHandCyberwareQuickActionEvents",
+      "val": 50
+    },
+    {
+      "id": "LeftHandCyberwareChargeActionEvents",
+      "name": "LeftHandCyberwareChargeActionEvents",
+      "val": 50
+    },
+    {
+      "id": "LeftHandCyberwareChargeRepeatActionEvents",
+      "name": "LeftHandCyberwareChargeRepeatActionEvents",
+      "val": 50
+    },
+    {
+      "id": "LeftHandCyberwareCatchActionEvents",
+      "name": "LeftHandCyberwareCatchActionEvents",
+      "val": 50
+    },
+    {
+      "id": "InactiveCoverEvents",
+      "name": "InactiveCoverEvents",
+      "val": 50
+    },
+    {
+      "id": "ActivateCoverEvents",
+      "name": "ActivateCoverEvents",
+      "val": 50
+    },
+    {
+      "id": "GrappleForceShovePreyDecisions",
+      "name": "GrappleForceShovePreyDecisions",
+      "val": 50
+    },
+    {
+      "id": "BraindanceFlyEvents",
+      "name": "BraindanceFlyEvents",
+      "val": 50
+    },
+    {
+      "id": "BraindanceFastFlyEvents",
+      "name": "BraindanceFastFlyEvents",
+      "val": 50
+    },
+    {
+      "id": "SwimmingSurfaceEvents",
+      "name": "SwimmingSurfaceEvents",
+      "val": 50
+    },
+    {
+      "id": "SwimmingSurfaceFastEvents",
+      "name": "SwimmingSurfaceFastEvents",
+      "val": 50
+    },
+    {
+      "id": "SwimmingTransitionEvents",
+      "name": "SwimmingTransitionEvents",
+      "val": 50
+    },
+    {
+      "id": "SwimmingDivingEvents",
+      "name": "SwimmingDivingEvents",
+      "val": 50
+    },
+    {
+      "id": "SwimmingFastDivingEvents",
+      "name": "SwimmingFastDivingEvents",
+      "val": 50
+    },
+    {
+      "id": "SwimmingForceFreezeEvents",
+      "name": "SwimmingForceFreezeEvents",
+      "val": 50
+    },
+    {
+      "id": "TakedownBeginEvents",
+      "name": "TakedownBeginEvents",
+      "val": 50
+    },
+    {
+      "id": "TakedownLeapToPreyEvents",
+      "name": "TakedownLeapToPreyEvents",
+      "val": 50
+    },
+    {
+      "id": "TakedownSlideToPreyEvents",
+      "name": "TakedownSlideToPreyEvents",
+      "val": 50
+    },
+    {
+      "id": "TakedownGrapplePreyEvents",
+      "name": "TakedownGrapplePreyEvents",
+      "val": 50
+    },
+    {
+      "id": "TakedownGrappleFailedEvents",
+      "name": "TakedownGrappleFailedEvents",
+      "val": 50
+    },
+    {
+      "id": "GrappleMountEvents",
+      "name": "GrappleMountEvents",
+      "val": 50
+    },
+    {
+      "id": "GrappleStandEvents",
+      "name": "GrappleStandEvents",
+      "val": 50
+    },
+    {
+      "id": "GrapplePreyDeadEvents",
+      "name": "GrapplePreyDeadEvents",
+      "val": 50
+    },
+    {
+      "id": "GrappleForceShovePreyEvents",
+      "name": "GrappleForceShovePreyEvents",
+      "val": 50
+    },
+    {
+      "id": "TakedownExecuteTakedownEvents",
+      "name": "TakedownExecuteTakedownEvents",
+      "val": 50
+    },
+    {
+      "id": "TakedownExecuteTakedownAndDisposeEvents",
+      "name": "TakedownExecuteTakedownAndDisposeEvents",
+      "val": 50
+    },
+    {
+      "id": "TakedownReleasePreyEvents",
+      "name": "TakedownReleasePreyEvents",
+      "val": 50
+    },
+    {
+      "id": "TakedownUnmountPreyEvents",
+      "name": "TakedownUnmountPreyEvents",
+      "val": 50
+    },
+    {
+      "id": "PickUpBodyAfterTakedownEvents",
+      "name": "PickUpBodyAfterTakedownEvents",
+      "val": 50
+    },
+    {
+      "id": "TakedownEndEvents",
+      "name": "TakedownEndEvents",
+      "val": 50
+    },
+    {
+      "id": "ForceIdleEvents",
+      "name": "ForceIdleEvents",
+      "val": 50
+    },
+    {
+      "id": "WorkspotEvents",
+      "name": "WorkspotEvents",
+      "val": 50
+    },
+    {
+      "id": "ForceWalkEvents",
+      "name": "ForceWalkEvents",
+      "val": 50
+    },
+    {
+      "id": "ForceFreezeEvents",
+      "name": "ForceFreezeEvents",
+      "val": 50
+    },
+    {
+      "id": "StandEvents",
+      "name": "StandEvents",
+      "val": 50
+    },
+    {
+      "id": "AimWalkEvents",
+      "name": "AimWalkEvents",
+      "val": 50
+    },
+    {
+      "id": "CrouchEvents",
+      "name": "CrouchEvents",
+      "val": 50
+    },
+    {
+      "id": "SprintEvents",
+      "name": "SprintEvents",
+      "val": 50
+    },
+    {
+      "id": "DodgeEvents",
+      "name": "DodgeEvents",
+      "val": 50
+    },
+    {
+      "id": "ClimbEvents",
+      "name": "ClimbEvents",
+      "val": 50
+    },
+    {
+      "id": "VaultEvents",
+      "name": "VaultEvents",
+      "val": 50
+    },
+    {
+      "id": "LadderEvents",
+      "name": "LadderEvents",
+      "val": 50
+    },
+    {
+      "id": "AbstractLandEvents",
+      "name": "AbstractLandEvents",
+      "val": 50
+    },
+    {
+      "id": "StatusEffectEvents",
+      "name": "StatusEffectEvents",
+      "val": 50
+    },
+    {
+      "id": "FelledEvents",
+      "name": "FelledEvents",
+      "val": 50
+    },
+    {
+      "id": "StandLowGravityEvents",
+      "name": "StandLowGravityEvents",
+      "val": 50
+    },
+    {
+      "id": "PreCrouchLowGravityEvents",
+      "name": "PreCrouchLowGravityEvents",
+      "val": 50
+    },
+    {
+      "id": "CrouchLowGravityEvents",
+      "name": "CrouchLowGravityEvents",
+      "val": 50
+    },
+    {
+      "id": "DodgeLowGravityEvents",
+      "name": "DodgeLowGravityEvents",
+      "val": 50
+    },
+    {
+      "id": "DodgeCrouchLowGravityEvents",
+      "name": "DodgeCrouchLowGravityEvents",
+      "val": 50
+    },
+    {
+      "id": "SprintLowGravityEvents",
+      "name": "SprintLowGravityEvents",
+      "val": 50
+    },
+    {
+      "id": "ClimbLowGravityEvents",
+      "name": "ClimbLowGravityEvents",
+      "val": 50
+    },
+    {
+      "id": "IdleTier3Events",
+      "name": "IdleTier3Events",
+      "val": 50
+    },
+    {
+      "id": "IdleTier4Events",
+      "name": "IdleTier4Events",
+      "val": 50
+    },
+    {
+      "id": "IdleTier5Events",
+      "name": "IdleTier5Events",
+      "val": 50
+    },
+    {
+      "id": "CoolExitJumpEvents",
+      "name": "CoolExitJumpEvents",
+      "val": 50
+    },
+    {
+      "id": "SlideFallEvents",
+      "name": "SlideFallEvents",
+      "val": 50
+    },
+    {
+      "id": "LadderJumpEvents",
+      "name": "LadderJumpEvents",
+      "val": 50
+    },
+    {
+      "id": "FallEvents",
+      "name": "FallEvents",
+      "val": 50
+    },
+    {
+      "id": "AirThrustersEvents",
+      "name": "AirThrustersEvents",
+      "val": 50
+    },
+    {
+      "id": "AirHoverEvents",
+      "name": "AirHoverEvents",
+      "val": 50
+    },
+    {
+      "id": "SuperheroFallEvents",
+      "name": "SuperheroFallEvents",
+      "val": 50
+    },
+    {
+      "id": "JumpEvents",
+      "name": "JumpEvents",
+      "val": 50
+    },
+    {
+      "id": "DoubleJumpEvents",
+      "name": "DoubleJumpEvents",
+      "val": 50
+    },
+    {
+      "id": "ChargeJumpEvents",
+      "name": "ChargeJumpEvents",
+      "val": 50
+    },
+    {
+      "id": "HoverJumpEvents",
+      "name": "HoverJumpEvents",
+      "val": 50
+    },
+    {
+      "id": "BodySlamJumpEvents",
+      "name": "BodySlamJumpEvents",
+      "val": 50
+    },
+    {
+      "id": "DodgeAirEvents",
+      "name": "DodgeAirEvents",
+      "val": 50
+    },
+    {
+      "id": "LocomotionAirLowGravityEvents",
+      "name": "LocomotionAirLowGravityEvents",
+      "val": 50
+    },
+    {
+      "id": "CrouchSprintDecisions",
+      "name": "CrouchSprintDecisions",
+      "val": 50
+    },
+    {
+      "id": "SlideDecisions",
+      "name": "SlideDecisions",
+      "val": 50
+    },
+    {
+      "id": "LadderSprintDecisions",
+      "name": "LadderSprintDecisions",
+      "val": 50
+    },
+    {
+      "id": "LadderSlideDecisions",
+      "name": "LadderSlideDecisions",
+      "val": 50
+    },
+    {
+      "id": "KnockdownDecisions",
+      "name": "KnockdownDecisions",
+      "val": 50
+    },
+    {
+      "id": "SlideLowGravityDecisions",
+      "name": "SlideLowGravityDecisions",
+      "val": 50
+    },
+    {
+      "id": "SprintWindupLowGravityDecisions",
+      "name": "SprintWindupLowGravityDecisions",
+      "val": 50
+    },
+    {
+      "id": "FailedLandingAbstractDecisions",
+      "name": "FailedLandingAbstractDecisions",
+      "val": 50
+    },
+    {
+      "id": "SuperheroLandDecisions",
+      "name": "SuperheroLandDecisions",
+      "val": 50
+    },
+    {
+      "id": "SuperheroLandRecoveryDecisions",
+      "name": "SuperheroLandRecoveryDecisions",
+      "val": 50
+    },
+    {
+      "id": "RegularLandLowGravityDecisions",
+      "name": "RegularLandLowGravityDecisions",
+      "val": 50
+    },
+    {
+      "id": "RegularLandDecisions",
+      "name": "RegularLandDecisions",
+      "val": 50
+    },
+    {
+      "id": "GrappleFallDecisions",
+      "name": "GrappleFallDecisions",
+      "val": 50
+    },
+    {
+      "id": "UnsecureFootingFallDecisions",
+      "name": "UnsecureFootingFallDecisions",
+      "val": 50
+    },
+    {
+      "id": "DoubleJumpDecisions",
+      "name": "DoubleJumpDecisions",
+      "val": 50
+    },
+    {
+      "id": "BodySlamJumpDecisions",
+      "name": "BodySlamJumpDecisions",
+      "val": 50
+    },
+    {
+      "id": "SprintJumpLowGravityDecisions",
+      "name": "SprintJumpLowGravityDecisions",
+      "val": 50
+    },
+    {
+      "id": "JumpLowGravityDecisions",
+      "name": "JumpLowGravityDecisions",
+      "val": 50
+    },
+    {
+      "id": "FallLowGravityDecisions",
+      "name": "FallLowGravityDecisions",
+      "val": 50
+    },
+    {
+      "id": "DodgeAirLowGravityDecisions",
+      "name": "DodgeAirLowGravityDecisions",
+      "val": 50
+    },
+    {
+      "id": "MeleeRecoveryEvents",
+      "name": "MeleeRecoveryEvents",
+      "val": 50
+    },
+    {
+      "id": "MeleeEquippingEvents",
+      "name": "MeleeEquippingEvents",
+      "val": 50
+    },
+    {
+      "id": "MeleeIdleEvents",
+      "name": "MeleeIdleEvents",
+      "val": 50
+    },
+    {
+      "id": "MeleePublicSafeEvents",
+      "name": "MeleePublicSafeEvents",
+      "val": 50
+    },
+    {
+      "id": "MeleeChargedHoldEvents",
+      "name": "MeleeChargedHoldEvents",
+      "val": 50
+    },
+    {
+      "id": "MeleeBlockEvents",
+      "name": "MeleeBlockEvents",
+      "val": 50
+    },
+    {
+      "id": "MeleeComboAttackEvents",
+      "name": "MeleeComboAttackEvents",
+      "val": 50
+    },
+    {
+      "id": "MeleeFinalAttackEvents",
+      "name": "MeleeFinalAttackEvents",
+      "val": 50
+    },
+    {
+      "id": "MeleeSafeAttackEvents",
+      "name": "MeleeSafeAttackEvents",
+      "val": 50
+    },
+    {
+      "id": "MeleeStrongAttackEvents",
+      "name": "MeleeStrongAttackEvents",
+      "val": 50
+    },
+    {
+      "id": "MeleeMountedStrongAttackEvents",
+      "name": "MeleeMountedStrongAttackEvents",
+      "val": 50
+    },
+    {
+      "id": "MeleeDeflectAttackEvents",
+      "name": "MeleeDeflectAttackEvents",
+      "val": 50
+    },
+    {
+      "id": "MeleeThrowAttackEvents",
+      "name": "MeleeThrowAttackEvents",
+      "val": 50
+    },
+    {
+      "id": "MeleeBlockAttackEvents",
+      "name": "MeleeBlockAttackEvents",
+      "val": 50
+    },
+    {
+      "id": "MeleeCrouchAttackEvents",
+      "name": "MeleeCrouchAttackEvents",
+      "val": 50
+    },
+    {
+      "id": "MeleeJumpAttackEvents",
+      "name": "MeleeJumpAttackEvents",
+      "val": 50
+    },
+    {
+      "id": "MeleeSprintAttackEvents",
+      "name": "MeleeSprintAttackEvents",
+      "val": 50
+    },
+    {
+      "id": "MeleeEquipAttackEvents",
+      "name": "MeleeEquipAttackEvents",
+      "val": 50
+    },
+    {
+      "id": "MeleeGroundSlamAttackEvents",
+      "name": "MeleeGroundSlamAttackEvents",
+      "val": 50
+    },
+    {
+      "id": "MeleeMountedComboAttackDecisions",
+      "name": "MeleeMountedComboAttackDecisions",
+      "val": 50
+    },
+    {
+      "id": "MeleeMountedFinalAttackDecisions",
+      "name": "MeleeMountedFinalAttackDecisions",
+      "val": 50
+    },
+    {
+      "id": "MeleeMountedStrongAttackDecisions",
+      "name": "MeleeMountedStrongAttackDecisions",
+      "val": 50
+    },
+    {
+      "id": "WeaponWheelDecisions",
+      "name": "WeaponWheelDecisions",
+      "val": 50
+    },
+    {
+      "id": "VehicleWheelDecisions",
+      "name": "VehicleWheelDecisions",
+      "val": 50
+    },
+    {
+      "id": "VehicleInsideWheelDecisions",
+      "name": "VehicleInsideWheelDecisions",
+      "val": 50
+    },
+    {
+      "id": "PocketRadioWheelDecisions",
+      "name": "PocketRadioWheelDecisions",
+      "val": 50
+    },
+    {
+      "id": "VehicleVisualCustomizationDecisions",
+      "name": "VehicleVisualCustomizationDecisions",
+      "val": 50
+    },
+    {
+      "id": "CycleObjectiveDecisions",
+      "name": "CycleObjectiveDecisions",
+      "val": 50
+    },
+    {
+      "id": "OnlyVehicleDecisions",
+      "name": "OnlyVehicleDecisions",
+      "val": 50
+    },
+    {
+      "id": "VehicleWheelEvents",
+      "name": "VehicleWheelEvents",
+      "val": 50
+    },
+    {
+      "id": "VehicleInsideWheelEvents",
+      "name": "VehicleInsideWheelEvents",
+      "val": 50
+    },
+    {
+      "id": "WeaponWheelEvents",
+      "name": "WeaponWheelEvents",
+      "val": 50
+    },
+    {
+      "id": "PocketRadioWheelEvents",
+      "name": "PocketRadioWheelEvents",
+      "val": 50
+    },
+    {
+      "id": "VehicleVisualCustomizationEvents",
+      "name": "VehicleVisualCustomizationEvents",
+      "val": 50
+    },
+    {
+      "id": "CycleObjectiveEvents",
+      "name": "CycleObjectiveEvents",
+      "val": 50
+    },
+    {
+      "id": "OnlyVehicleEvents",
+      "name": "OnlyVehicleEvents",
+      "val": 50
+    },
+    {
+      "id": "AdHocAnimationEvents",
+      "name": "AdHocAnimationEvents",
+      "val": 50
+    },
+    {
+      "id": "DriverCombatFirearmsEvents",
+      "name": "DriverCombatFirearmsEvents",
+      "val": 50
+    },
+    {
+      "id": "DriverCombatMountedWeaponsEvents",
+      "name": "DriverCombatMountedWeaponsEvents",
+      "val": 50
+    },
+    {
+      "id": "ExitingEvents",
+      "name": "ExitingEvents",
+      "val": 50
+    },
+    {
+      "id": "ImmediateExitWithForceEvents",
+      "name": "ImmediateExitWithForceEvents",
+      "val": 50
+    },
+    {
+      "id": "ChargeEvents",
+      "name": "ChargeEvents",
+      "val": 50
+    },
+    {
+      "id": "ChargeReadyEvents",
+      "name": "ChargeReadyEvents",
+      "val": 50
+    },
+    {
+      "id": "ChargeMaxEvents",
+      "name": "ChargeMaxEvents",
+      "val": 50
+    },
+    {
+      "id": "GrappleStruggleEvents",
+      "name": "GrappleStruggleEvents",
+      "val": 50
+    },
+    {
+      "id": "GrapplePreyDeadDecisions",
+      "name": "GrapplePreyDeadDecisions",
+      "val": 50
+    },
+    {
+      "id": "GrappleBreakFreeDecisions",
+      "name": "GrappleBreakFreeDecisions",
+      "val": 50
+    },
+    {
+      "id": "GrappleBreakFreeEvents",
+      "name": "GrappleBreakFreeEvents",
+      "val": 50
+    },
+    {
+      "id": "CrouchSprintEvents",
+      "name": "CrouchSprintEvents",
+      "val": 50
+    },
+    {
+      "id": "SlideEvents",
+      "name": "SlideEvents",
+      "val": 50
+    },
+    {
+      "id": "SwimmingClimbEvents",
+      "name": "SwimmingClimbEvents",
+      "val": 50
+    },
+    {
+      "id": "SwimmingLadderEvents",
+      "name": "SwimmingLadderEvents",
+      "val": 50
+    },
+    {
+      "id": "LadderSprintEvents",
+      "name": "LadderSprintEvents",
+      "val": 50
+    },
+    {
+      "id": "LadderSlideEvents",
+      "name": "LadderSlideEvents",
+      "val": 50
+    },
+    {
+      "id": "FailedLandingAbstractEvents",
+      "name": "FailedLandingAbstractEvents",
+      "val": 50
+    },
+    {
+      "id": "RegularLandEvents",
+      "name": "RegularLandEvents",
+      "val": 50
+    },
+    {
+      "id": "SuperheroLandEvents",
+      "name": "SuperheroLandEvents",
+      "val": 50
+    },
+    {
+      "id": "SuperheroLandRecoveryEvents",
+      "name": "SuperheroLandRecoveryEvents",
+      "val": 50
+    },
+    {
+      "id": "RegularLandLowGravityEvents",
+      "name": "RegularLandLowGravityEvents",
+      "val": 50
+    },
+    {
+      "id": "KnockdownEvents",
+      "name": "KnockdownEvents",
+      "val": 50
+    },
+    {
+      "id": "SlideLowGravityEvents",
+      "name": "SlideLowGravityEvents",
+      "val": 50
+    },
+    {
+      "id": "SprintWindupLowGravityEvents",
+      "name": "SprintWindupLowGravityEvents",
+      "val": 50
+    },
+    {
+      "id": "GrappleFallEvents",
+      "name": "GrappleFallEvents",
+      "val": 50
+    },
+    {
+      "id": "UnsecureFootingFallEvents",
+      "name": "UnsecureFootingFallEvents",
+      "val": 50
+    },
+    {
+      "id": "SprintJumpLowGravityEvents",
+      "name": "SprintJumpLowGravityEvents",
+      "val": 50
+    },
+    {
+      "id": "JumpLowGravityEvents",
+      "name": "JumpLowGravityEvents",
+      "val": 50
+    },
+    {
+      "id": "FallLowGravityEvents",
+      "name": "FallLowGravityEvents",
+      "val": 50
+    },
+    {
+      "id": "DodgeAirLowGravityEvents",
+      "name": "DodgeAirLowGravityEvents",
+      "val": 50
+    },
+    {
+      "id": "ForcedKnockdownDecisions",
+      "name": "ForcedKnockdownDecisions",
+      "val": 50
+    },
+    {
+      "id": "HardLandDecisions",
+      "name": "HardLandDecisions",
+      "val": 50
+    },
+    {
+      "id": "VeryHardLandDecisions",
+      "name": "VeryHardLandDecisions",
+      "val": 50
+    },
+    {
+      "id": "DeathLandDecisions",
+      "name": "DeathLandDecisions",
+      "val": 50
+    },
+    {
+      "id": "MeleeSafeEvents",
+      "name": "MeleeSafeEvents",
+      "val": 50
+    },
+    {
+      "id": "MeleeMountedComboAttackEvents",
+      "name": "MeleeMountedComboAttackEvents",
+      "val": 50
+    },
+    {
+      "id": "MeleeMountedFinalAttackEvents",
+      "name": "MeleeMountedFinalAttackEvents",
+      "val": 50
+    },
+    {
+      "id": "CombatExitingEvents",
+      "name": "CombatExitingEvents",
+      "val": 50
+    },
+    {
+      "id": "SpeedExitingEvents",
+      "name": "SpeedExitingEvents",
+      "val": 50
+    },
+    {
+      "id": "SlideExitingEvents",
+      "name": "SlideExitingEvents",
+      "val": 50
+    },
+    {
+      "id": "CoolExitingEvents",
+      "name": "CoolExitingEvents",
+      "val": 50
+    },
+    {
+      "id": "CollisionExitingEvents",
+      "name": "CollisionExitingEvents",
+      "val": 50
+    },
+    {
+      "id": "DeathExitingEvents",
+      "name": "DeathExitingEvents",
+      "val": 50
+    },
+    {
+      "id": "HardLandEvents",
+      "name": "HardLandEvents",
+      "val": 50
+    },
+    {
+      "id": "VeryHardLandEvents",
+      "name": "VeryHardLandEvents",
+      "val": 50
+    },
+    {
+      "id": "DeathLandEvents",
+      "name": "DeathLandEvents",
+      "val": 50
+    },
+    {
+      "id": "ForcedKnockdownEvents",
+      "name": "ForcedKnockdownEvents",
+      "val": 50
+    }
+  ],
+  "links": [
+    {
+      "source": "DefaultTransition",
+      "target": "BraindanceControlsTransition"
+    },
+    {
+      "source": "DefaultTransition",
+      "target": "CarriedObjectTransition"
+    },
+    {
+      "source": "DefaultTransition",
+      "target": "CombatGadgetTransitions"
+    },
+    {
+      "source": "DefaultTransition",
+      "target": "CombatGadgetStartDecisions"
+    },
+    {
+      "source": "DefaultTransition",
+      "target": "ConsumableTransitions"
+    },
+    {
+      "source": "DefaultTransition",
+      "target": "LookAtPresetBaseDecisions"
+    },
+    {
+      "source": "DefaultTransition",
+      "target": "LookAtPresetBaseEvents"
+    },
+    {
+      "source": "DefaultTransition",
+      "target": "BaseCrosshairState"
+    },
+    {
+      "source": "DefaultTransition",
+      "target": "EquipItemLeftDecisions"
+    },
+    {
+      "source": "DefaultTransition",
+      "target": "EquipItemRightDecisions"
+    },
+    {
+      "source": "DefaultTransition",
+      "target": "EquipmentBaseTransition"
+    },
+    {
+      "source": "DefaultTransition",
+      "target": "HighLevelTransition"
+    },
+    {
+      "source": "DefaultTransition",
+      "target": "InputContextTransition"
+    },
+    {
+      "source": "DefaultTransition",
+      "target": "LeftHandCyberwareTransition"
+    },
+    {
+      "source": "DefaultTransition",
+      "target": "LocomotionTransition"
+    },
+    {
+      "source": "DefaultTransition",
+      "target": "MeleeTransition"
+    },
+    {
+      "source": "DefaultTransition",
+      "target": "Ground"
+    },
+    {
+      "source": "DefaultTransition",
+      "target": "Air"
+    },
+    {
+      "source": "DefaultTransition",
+      "target": "QuickSlotsTransition"
+    },
+    {
+      "source": "DefaultTransition",
+      "target": "ReactionTransition"
+    },
+    {
+      "source": "DefaultTransition",
+      "target": "ScenesFastForwardTransition"
+    },
+    {
+      "source": "DefaultTransition",
+      "target": "StaminaTransition"
+    },
+    {
+      "source": "DefaultTransition",
+      "target": "TimeDilationTransitions"
+    },
+    {
+      "source": "DefaultTransition",
+      "target": "TurretTransition"
+    },
+    {
+      "source": "DefaultTransition",
+      "target": "UpperBodyTransition"
+    },
+    {
+      "source": "DefaultTransition",
+      "target": "VehicleTransition"
+    },
+    {
+      "source": "DefaultTransition",
+      "target": "WeaponTransition"
+    },
+    {
+      "source": "DefaultTransition",
+      "target": "ZoomTransition"
+    },
+    {
+      "source": "DefaultTransition",
+      "target": "FinisherTransition"
+    },
+    {
+      "source": "DefaultTransition",
+      "target": "MineDispenserTransition"
+    },
+    {
+      "source": "DefaultTransition",
+      "target": "ComDeviceTransition"
+    },
+    {
+      "source": "DefaultTransition",
+      "target": "CombatGadgetStartEvents"
+    },
+    {
+      "source": "BraindanceControlsTransition",
+      "target": "ControlsInactiveDecisions"
+    },
+    {
+      "source": "BraindanceControlsTransition",
+      "target": "ControlsInactiveEvents"
+    },
+    {
+      "source": "BraindanceControlsTransition",
+      "target": "ControlsActiveDecisions"
+    },
+    {
+      "source": "BraindanceControlsTransition",
+      "target": "ControlsActiveEvents"
+    },
+    {
+      "source": "CarriedObjectTransition",
+      "target": "CarriedObjectDecisions"
+    },
+    {
+      "source": "CarriedObjectTransition",
+      "target": "CarriedObjectEvents"
+    },
+    {
+      "source": "CombatGadgetTransitions",
+      "target": "CombatGadgetInactiveDecisions"
+    },
+    {
+      "source": "CombatGadgetTransitions",
+      "target": "CombatGadgetInactiveEvents"
+    },
+    {
+      "source": "CombatGadgetTransitions",
+      "target": "CombatGadgetEquipDecisions"
+    },
+    {
+      "source": "CombatGadgetTransitions",
+      "target": "CombatGadgetEquipEvents"
+    },
+    {
+      "source": "CombatGadgetTransitions",
+      "target": "CombatGadgetQuickThrowDecisions"
+    },
+    {
+      "source": "CombatGadgetTransitions",
+      "target": "CombatGadgetQuickThrowEvents"
+    },
+    {
+      "source": "CombatGadgetTransitions",
+      "target": "CombatGadgetChargedThrowDecisions"
+    },
+    {
+      "source": "CombatGadgetTransitions",
+      "target": "CombatGadgetChargedThrowEvents"
+    },
+    {
+      "source": "CombatGadgetTransitions",
+      "target": "CombatGadgetChargeDecisions"
+    },
+    {
+      "source": "CombatGadgetTransitions",
+      "target": "CombatGadgetChargeEvents"
+    },
+    {
+      "source": "CombatGadgetTransitions",
+      "target": "CombatGadgetWaitForUnequipDecisions"
+    },
+    {
+      "source": "CombatGadgetTransitions",
+      "target": "CombatGadgetWaitForUnequipEvents"
+    },
+    {
+      "source": "CombatGadgetTransitions",
+      "target": "CombatGadgetUnequipEvents"
+    },
+    {
+      "source": "ConsumableTransitions",
+      "target": "ConsumableStartupDecisions"
+    },
+    {
+      "source": "ConsumableTransitions",
+      "target": "ConsumableStartupEvents"
+    },
+    {
+      "source": "ConsumableTransitions",
+      "target": "ConsumableUseDecisions"
+    },
+    {
+      "source": "ConsumableTransitions",
+      "target": "ConsumableUseEvents"
+    },
+    {
+      "source": "ConsumableTransitions",
+      "target": "ConsumableCleanupEvents"
+    },
+    {
+      "source": "ConsumableTransitions",
+      "target": "ConsumableCleanupDecisions"
+    },
+    {
+      "source": "LookAtPresetBaseDecisions",
+      "target": "UnarmedLookAtDecisions"
+    },
+    {
+      "source": "LookAtPresetBaseDecisions",
+      "target": "lookAtPresetGunBaseDecisions"
+    },
+    {
+      "source": "LookAtPresetBaseDecisions",
+      "target": "LookAtPresetMeleeBaseDecisions"
+    },
+    {
+      "source": "LookAtPresetBaseDecisions",
+      "target": "lookAtPresetItemBaseDecisions"
+    },
+    {
+      "source": "LookAtPresetBaseEvents",
+      "target": "lookAtPresetGunBaseEvents"
+    },
+    {
+      "source": "LookAtPresetBaseEvents",
+      "target": "LookAtPresetMeleeBaseEvents"
+    },
+    {
+      "source": "LookAtPresetBaseEvents",
+      "target": "lookAtPresetItemBaseEvents"
+    },
+    {
+      "source": "LookAtPresetBaseEvents",
+      "target": "UnarmedLookAtEvents"
+    },
+    {
+      "source": "BaseCrosshairState",
+      "target": "BaseCrosshairStateEvents"
+    },
+    {
+      "source": "BaseCrosshairState",
+      "target": "SafeCrosshairStateDecisions"
+    },
+    {
+      "source": "BaseCrosshairState",
+      "target": "DriverCombatMountedWeaponsReloadCrosshairStateDecisions"
+    },
+    {
+      "source": "BaseCrosshairState",
+      "target": "QuickHackCrosshairStateDecisions"
+    },
+    {
+      "source": "EquipmentBaseTransition",
+      "target": "EquipmentBaseDecisions"
+    },
+    {
+      "source": "EquipmentBaseTransition",
+      "target": "EquipmentBaseEvents"
+    },
+    {
+      "source": "HighLevelTransition",
+      "target": "ExplorationDecisions"
+    },
+    {
+      "source": "HighLevelTransition",
+      "target": "ExplorationEvents"
+    },
+    {
+      "source": "HighLevelTransition",
+      "target": "SwimmingDecisions"
+    },
+    {
+      "source": "HighLevelTransition",
+      "target": "SwimmingEvents"
+    },
+    {
+      "source": "HighLevelTransition",
+      "target": "AiControlledDecisions"
+    },
+    {
+      "source": "HighLevelTransition",
+      "target": "AiControlledEvents"
+    },
+    {
+      "source": "HighLevelTransition",
+      "target": "DeathEvents"
+    },
+    {
+      "source": "HighLevelTransition",
+      "target": "DeathDecisions"
+    },
+    {
+      "source": "HighLevelTransition",
+      "target": "DeathDecisionsWithResurrection"
+    },
+    {
+      "source": "HighLevelTransition",
+      "target": "ResurrectDecisions"
+    },
+    {
+      "source": "HighLevelTransition",
+      "target": "ResurrectEvents"
+    },
+    {
+      "source": "HighLevelTransition",
+      "target": "InspectionDecisions"
+    },
+    {
+      "source": "HighLevelTransition",
+      "target": "InspectionEvents"
+    },
+    {
+      "source": "HighLevelTransition",
+      "target": "MinigameDecisions"
+    },
+    {
+      "source": "HighLevelTransition",
+      "target": "MinigameEvents"
+    },
+    {
+      "source": "HighLevelTransition",
+      "target": "SceneTierAbstract"
+    },
+    {
+      "source": "InputContextTransition",
+      "target": "InputContextTransitionDecisions"
+    },
+    {
+      "source": "InputContextTransition",
+      "target": "InputContextTransitionEvents"
+    },
+    {
+      "source": "LeftHandCyberwareTransition",
+      "target": "LeftHandCyberwareEventsTransition"
+    },
+    {
+      "source": "LeftHandCyberwareTransition",
+      "target": "LeftHandCyberwareSafeDecisions"
+    },
+    {
+      "source": "LeftHandCyberwareTransition",
+      "target": "LeftHandCyberwareEquipDecisions"
+    },
+    {
+      "source": "LeftHandCyberwareTransition",
+      "target": "LeftHandCyberwareChargeDecisions"
+    },
+    {
+      "source": "LeftHandCyberwareTransition",
+      "target": "LeftHandCyberwareLoopDecisions"
+    },
+    {
+      "source": "LeftHandCyberwareTransition",
+      "target": "LeftHandCyberwareActionAbstractDecisions"
+    },
+    {
+      "source": "LeftHandCyberwareTransition",
+      "target": "LeftHandCyberwareCatchDecisions"
+    },
+    {
+      "source": "LeftHandCyberwareTransition",
+      "target": "LeftHandCyberwareWaitForUnequipDecisions"
+    },
+    {
+      "source": "LocomotionTransition",
+      "target": "CoverActionTransition"
+    },
+    {
+      "source": "LocomotionTransition",
+      "target": "LocomotionBraindance"
+    },
+    {
+      "source": "LocomotionTransition",
+      "target": "LocomotionSwimming"
+    },
+    {
+      "source": "LocomotionTransition",
+      "target": "LocomotionTakedownDecisions"
+    },
+    {
+      "source": "LocomotionTransition",
+      "target": "LocomotionEventsTransition"
+    },
+    {
+      "source": "LocomotionTransition",
+      "target": "LocomotionGroundDecisions"
+    },
+    {
+      "source": "LocomotionTransition",
+      "target": "LocomotionAirDecisions"
+    },
+    {
+      "source": "MeleeTransition",
+      "target": "MeleeEventsTransition"
+    },
+    {
+      "source": "MeleeTransition",
+      "target": "MeleeNotReadyDecisions"
+    },
+    {
+      "source": "MeleeTransition",
+      "target": "MeleeParriedDecisions"
+    },
+    {
+      "source": "MeleeTransition",
+      "target": "MeleeRecoveryDecisions"
+    },
+    {
+      "source": "MeleeTransition",
+      "target": "MeleeIdleDecisions"
+    },
+    {
+      "source": "MeleeTransition",
+      "target": "MeleePublicSafeDecisions"
+    },
+    {
+      "source": "MeleeTransition",
+      "target": "MeleeSafeDecisions"
+    },
+    {
+      "source": "MeleeTransition",
+      "target": "MeleeHoldDecisions"
+    },
+    {
+      "source": "MeleeTransition",
+      "target": "MeleeChargedHoldDecisions"
+    },
+    {
+      "source": "MeleeTransition",
+      "target": "MeleeAttackGenericDecisions"
+    },
+    {
+      "source": "MeleeTransition",
+      "target": "MeleeDeflectDecisions"
+    },
+    {
+      "source": "MeleeTransition",
+      "target": "MeleeBlockDecisions"
+    },
+    {
+      "source": "MeleeTransition",
+      "target": "MeleeTargetingDecisions"
+    },
+    {
+      "source": "MeleeTransition",
+      "target": "MeleeThrowReloadDecisions"
+    },
+    {
+      "source": "MeleeTransition",
+      "target": "MeleeLeapDecisions"
+    },
+    {
+      "source": "MeleeTransition",
+      "target": "MeleeDashDecisions"
+    },
+    {
+      "source": "QuickSlotsTransition",
+      "target": "QuickSlotsDecisions"
+    },
+    {
+      "source": "QuickSlotsTransition",
+      "target": "QuickSlotsEvents"
+    },
+    {
+      "source": "ReactionTransition",
+      "target": "StaggerDecisions"
+    },
+    {
+      "source": "ReactionTransition",
+      "target": "Stagger"
+    },
+    {
+      "source": "ScenesFastForwardTransition",
+      "target": "FastForwardUnavailableDecisions"
+    },
+    {
+      "source": "ScenesFastForwardTransition",
+      "target": "FastForwardUnavailableEvents"
+    },
+    {
+      "source": "ScenesFastForwardTransition",
+      "target": "FastForwardAvailableDecisions"
+    },
+    {
+      "source": "ScenesFastForwardTransition",
+      "target": "FastForwardAvailableEvents"
+    },
+    {
+      "source": "ScenesFastForwardTransition",
+      "target": "FastForwardActiveDecisions"
+    },
+    {
+      "source": "ScenesFastForwardTransition",
+      "target": "FastForwardActiveEvents"
+    },
+    {
+      "source": "ScenesFastForwardTransition",
+      "target": "FastForwardSelfRemovalDecisions"
+    },
+    {
+      "source": "ScenesFastForwardTransition",
+      "target": "FastForwardSelfRemovalEvents"
+    },
+    {
+      "source": "StaminaTransition",
+      "target": "ExhaustedDecisions"
+    },
+    {
+      "source": "StaminaTransition",
+      "target": "StaminaEventsTransition"
+    },
+    {
+      "source": "TimeDilationTransitions",
+      "target": "TimeDilationEventsTransitions"
+    },
+    {
+      "source": "TimeDilationTransitions",
+      "target": "SandevistanDecisions"
+    },
+    {
+      "source": "TimeDilationTransitions",
+      "target": "KerenzikovDecisions"
+    },
+    {
+      "source": "TimeDilationTransitions",
+      "target": "TimeDilationFocusModeDecisions"
+    },
+    {
+      "source": "TurretTransition",
+      "target": "TurretBeginEvents"
+    },
+    {
+      "source": "TurretTransition",
+      "target": "TurretBeginDecisions"
+    },
+    {
+      "source": "TurretTransition",
+      "target": "TurretRipOffEvents"
+    },
+    {
+      "source": "TurretTransition",
+      "target": "TurretEndEvents"
+    },
+    {
+      "source": "TurretTransition",
+      "target": "TurretRipOffDecisions"
+    },
+    {
+      "source": "TurretTransition",
+      "target": "TurretEndDecisions"
+    },
+    {
+      "source": "UpperBodyTransition",
+      "target": "UpperBodyEventsTransition"
+    },
+    {
+      "source": "UpperBodyTransition",
+      "target": "ForceEmptyHandsDecisions"
+    },
+    {
+      "source": "UpperBodyTransition",
+      "target": "ForceSafeDecisions"
+    },
+    {
+      "source": "UpperBodyTransition",
+      "target": "EmptyHandsDecisions"
+    },
+    {
+      "source": "UpperBodyTransition",
+      "target": "SingleWieldDecisions"
+    },
+    {
+      "source": "UpperBodyTransition",
+      "target": "AimingStateDecisions"
+    },
+    {
+      "source": "UpperBodyTransition",
+      "target": "TemporaryUnequipDecisions"
+    },
+    {
+      "source": "UpperBodyTransition",
+      "target": "WaitForEquipDecisions"
+    },
+    {
+      "source": "VehicleTransition",
+      "target": "VehicleEventsTransition"
+    },
+    {
+      "source": "VehicleTransition",
+      "target": "IdleDecisions"
+    },
+    {
+      "source": "VehicleTransition",
+      "target": "EnteringDecisions"
+    },
+    {
+      "source": "VehicleTransition",
+      "target": "PassengerDecisions"
+    },
+    {
+      "source": "VehicleTransition",
+      "target": "GunnerDecisions"
+    },
+    {
+      "source": "VehicleTransition",
+      "target": "DriveDecisions"
+    },
+    {
+      "source": "VehicleTransition",
+      "target": "SwitchSeatsDecisions"
+    },
+    {
+      "source": "VehicleTransition",
+      "target": "EnteringCombatDecisions"
+    },
+    {
+      "source": "VehicleTransition",
+      "target": "ExitingCombatDecisions"
+    },
+    {
+      "source": "VehicleTransition",
+      "target": "SceneExitingCombatDecisions"
+    },
+    {
+      "source": "VehicleTransition",
+      "target": "CombatDecisions"
+    },
+    {
+      "source": "VehicleTransition",
+      "target": "DriverCombatDecisions"
+    },
+    {
+      "source": "VehicleTransition",
+      "target": "ExitingDecisions"
+    },
+    {
+      "source": "VehicleTransition",
+      "target": "WaitingForSceneDecisions"
+    },
+    {
+      "source": "VehicleTransition",
+      "target": "SceneDecisions"
+    },
+    {
+      "source": "VehicleTransition",
+      "target": "SceneExitingDecisions"
+    },
+    {
+      "source": "VehicleTransition",
+      "target": "WaitingForSceneEvents"
+    },
+    {
+      "source": "WeaponTransition",
+      "target": "WeaponEventsTransition"
+    },
+    {
+      "source": "WeaponTransition",
+      "target": "WeaponReadyListenerTransition"
+    },
+    {
+      "source": "WeaponTransition",
+      "target": "SafeDecisions"
+    },
+    {
+      "source": "WeaponTransition",
+      "target": "PublicSafeToReadyDecisions"
+    },
+    {
+      "source": "WeaponTransition",
+      "target": "QuickMeleeDecisions"
+    },
+    {
+      "source": "WeaponTransition",
+      "target": "NoAmmoDecisions"
+    },
+    {
+      "source": "WeaponTransition",
+      "target": "ReloadDecisions"
+    },
+    {
+      "source": "WeaponTransition",
+      "target": "ShootDecisions"
+    },
+    {
+      "source": "WeaponTransition",
+      "target": "CycleRoundDecisions"
+    },
+    {
+      "source": "WeaponTransition",
+      "target": "CycleTriggerModeDecisions"
+    },
+    {
+      "source": "WeaponTransition",
+      "target": "SemiAutoDecisions"
+    },
+    {
+      "source": "WeaponTransition",
+      "target": "FullAutoDecisions"
+    },
+    {
+      "source": "WeaponTransition",
+      "target": "BurstDecisions"
+    },
+    {
+      "source": "WeaponTransition",
+      "target": "ChargeDecisions"
+    },
+    {
+      "source": "WeaponTransition",
+      "target": "ChargeReadyDecisions"
+    },
+    {
+      "source": "WeaponTransition",
+      "target": "ChargeMaxDecisions"
+    },
+    {
+      "source": "WeaponTransition",
+      "target": "DischargeDecisions"
+    },
+    {
+      "source": "WeaponTransition",
+      "target": "OverheatDecisions"
+    },
+    {
+      "source": "ZoomTransition",
+      "target": "ZoomDecisionsTransition"
+    },
+    {
+      "source": "ZoomTransition",
+      "target": "ZoomEventsTransition"
+    },
+    {
+      "source": "FinisherTransition",
+      "target": "FinisherLeapToTargetDecisions"
+    },
+    {
+      "source": "FinisherTransition",
+      "target": "FinisherLeapToTargetEvents"
+    },
+    {
+      "source": "FinisherTransition",
+      "target": "FinisherAttackEvents"
+    },
+    {
+      "source": "FinisherTransition",
+      "target": "FinisherEndEvents"
+    },
+    {
+      "source": "FinisherTransition",
+      "target": "FinisherAttackDecisions"
+    },
+    {
+      "source": "FinisherTransition",
+      "target": "FinisherEndDecisions"
+    },
+    {
+      "source": "MineDispenserTransition",
+      "target": "MineDispenserEventsTransition"
+    },
+    {
+      "source": "MineDispenserTransition",
+      "target": "MineDispenserIdleDecisions"
+    },
+    {
+      "source": "MineDispenserTransition",
+      "target": "MineDispenserCycleItemDecisions"
+    },
+    {
+      "source": "MineDispenserTransition",
+      "target": "MineDispenserPlaceDecisions"
+    },
+    {
+      "source": "ComDeviceTransition",
+      "target": "PhoneOffDecisions"
+    },
+    {
+      "source": "ComDeviceTransition",
+      "target": "PhoneOffEvents"
+    },
+    {
+      "source": "ComDeviceTransition",
+      "target": "PhoneOnDecisions"
+    },
+    {
+      "source": "ComDeviceTransition",
+      "target": "PhoneOnEvents"
+    },
+    {
+      "source": "CarriedObjectDecisions",
+      "target": "CanTransitionToThrowDecisions"
+    },
+    {
+      "source": "CarriedObjectDecisions",
+      "target": "DropDecisions"
+    },
+    {
+      "source": "CarriedObjectDecisions",
+      "target": "DisposeDecisions"
+    },
+    {
+      "source": "CarriedObjectDecisions",
+      "target": "ThrowDecisions"
+    },
+    {
+      "source": "CarriedObjectEvents",
+      "target": "PickUpEvents"
+    },
+    {
+      "source": "CarriedObjectEvents",
+      "target": "CarryEvents"
+    },
+    {
+      "source": "CarriedObjectEvents",
+      "target": "DropEvents"
+    },
+    {
+      "source": "CarriedObjectEvents",
+      "target": "DisposeEvents"
+    },
+    {
+      "source": "CarriedObjectEvents",
+      "target": "ForceDropBodyEvents"
+    },
+    {
+      "source": "CarriedObjectEvents",
+      "target": "AimEvents"
+    },
+    {
+      "source": "CarriedObjectEvents",
+      "target": "ThrowEvents"
+    },
+    {
+      "source": "CarriedObjectEvents",
+      "target": "ReleaseEvents"
+    },
+    {
+      "source": "lookAtPresetGunBaseDecisions",
+      "target": "AssualtRifleLookAtDecisions"
+    },
+    {
+      "source": "lookAtPresetGunBaseDecisions",
+      "target": "HandgunLookAtDecisions"
+    },
+    {
+      "source": "lookAtPresetGunBaseDecisions",
+      "target": "HmgLookAtDecisions"
+    },
+    {
+      "source": "lookAtPresetGunBaseDecisions",
+      "target": "LmgLookAtDecisions"
+    },
+    {
+      "source": "lookAtPresetGunBaseDecisions",
+      "target": "PrecisionRifleLookAtDecisions"
+    },
+    {
+      "source": "lookAtPresetGunBaseDecisions",
+      "target": "RevolverLookAtDecisions"
+    },
+    {
+      "source": "lookAtPresetGunBaseDecisions",
+      "target": "RifleLookAtDecisions"
+    },
+    {
+      "source": "lookAtPresetGunBaseDecisions",
+      "target": "ShotgunLookAtDecisions"
+    },
+    {
+      "source": "lookAtPresetGunBaseDecisions",
+      "target": "ShotgunDualLookAtDecisions"
+    },
+    {
+      "source": "lookAtPresetGunBaseDecisions",
+      "target": "SniperRifleLookAtDecisions"
+    },
+    {
+      "source": "lookAtPresetGunBaseDecisions",
+      "target": "SmgLookAtDecisions"
+    },
+    {
+      "source": "LookAtPresetMeleeBaseDecisions",
+      "target": "FistsLookAtDecisions"
+    },
+    {
+      "source": "LookAtPresetMeleeBaseDecisions",
+      "target": "HammerLookAtDecisions"
+    },
+    {
+      "source": "LookAtPresetMeleeBaseDecisions",
+      "target": "KatanaLookAtDecisions"
+    },
+    {
+      "source": "LookAtPresetMeleeBaseDecisions",
+      "target": "KnifeLookAtDecisions"
+    },
+    {
+      "source": "LookAtPresetMeleeBaseDecisions",
+      "target": "LongBladeLookAtDecisions"
+    },
+    {
+      "source": "LookAtPresetMeleeBaseDecisions",
+      "target": "MeleeLookAtDecisions"
+    },
+    {
+      "source": "LookAtPresetMeleeBaseDecisions",
+      "target": "OneHandedClubLookAtDecisions"
+    },
+    {
+      "source": "LookAtPresetMeleeBaseDecisions",
+      "target": "ShortBladeLookAtDecisions"
+    },
+    {
+      "source": "LookAtPresetMeleeBaseDecisions",
+      "target": "TwoHandedClubLookAtDecisions"
+    },
+    {
+      "source": "lookAtPresetItemBaseDecisions",
+      "target": "GrenadeLookAtDecisions"
+    },
+    {
+      "source": "lookAtPresetGunBaseEvents",
+      "target": "AssualtRifleLookAtEvents"
+    },
+    {
+      "source": "lookAtPresetGunBaseEvents",
+      "target": "HandgunLookAtEvents"
+    },
+    {
+      "source": "lookAtPresetGunBaseEvents",
+      "target": "HmgLookAtEvents"
+    },
+    {
+      "source": "lookAtPresetGunBaseEvents",
+      "target": "LmgLookAtEvents"
+    },
+    {
+      "source": "lookAtPresetGunBaseEvents",
+      "target": "PrecisionRifleLookAtEvents"
+    },
+    {
+      "source": "lookAtPresetGunBaseEvents",
+      "target": "RevolverLookAtEvents"
+    },
+    {
+      "source": "lookAtPresetGunBaseEvents",
+      "target": "RifleLookAtEvents"
+    },
+    {
+      "source": "lookAtPresetGunBaseEvents",
+      "target": "ShotgunLookAtEvents"
+    },
+    {
+      "source": "lookAtPresetGunBaseEvents",
+      "target": "ShotgunDualLookAtEvents"
+    },
+    {
+      "source": "lookAtPresetGunBaseEvents",
+      "target": "SniperRifleLookAtEvents"
+    },
+    {
+      "source": "lookAtPresetGunBaseEvents",
+      "target": "SmgLookAtEvents"
+    },
+    {
+      "source": "LookAtPresetMeleeBaseEvents",
+      "target": "FistsLookAtEvents"
+    },
+    {
+      "source": "LookAtPresetMeleeBaseEvents",
+      "target": "HammerLookAtEvents"
+    },
+    {
+      "source": "LookAtPresetMeleeBaseEvents",
+      "target": "KatanaLookAtEvents"
+    },
+    {
+      "source": "LookAtPresetMeleeBaseEvents",
+      "target": "KnifeLookAtEvents"
+    },
+    {
+      "source": "LookAtPresetMeleeBaseEvents",
+      "target": "LongBladeLookAtEvents"
+    },
+    {
+      "source": "LookAtPresetMeleeBaseEvents",
+      "target": "MeleeLookAtEvents"
+    },
+    {
+      "source": "LookAtPresetMeleeBaseEvents",
+      "target": "OneHandedClubLookAtEvents"
+    },
+    {
+      "source": "LookAtPresetMeleeBaseEvents",
+      "target": "ShortBladeLookAtEvents"
+    },
+    {
+      "source": "LookAtPresetMeleeBaseEvents",
+      "target": "TwoHandedClubLookAtEvents"
+    },
+    {
+      "source": "lookAtPresetItemBaseEvents",
+      "target": "GrenadeLookAtEvents"
+    },
+    {
+      "source": "BaseCrosshairStateEvents",
+      "target": "SafeCrosshairStateEvents"
+    },
+    {
+      "source": "BaseCrosshairStateEvents",
+      "target": "DriverCombatMountedWeaponsReloadCrosshairStateEvents"
+    },
+    {
+      "source": "BaseCrosshairStateEvents",
+      "target": "QuickHackCrosshairStateEvents"
+    },
+    {
+      "source": "EquipmentBaseDecisions",
+      "target": "UnequippedDecisions"
+    },
+    {
+      "source": "EquipmentBaseDecisions",
+      "target": "UnequippedWaitingForExternalFactorsDecisions"
+    },
+    {
+      "source": "EquipmentBaseDecisions",
+      "target": "EquippedDecisions"
+    },
+    {
+      "source": "EquipmentBaseDecisions",
+      "target": "EquipCycleInitDecisions"
+    },
+    {
+      "source": "EquipmentBaseDecisions",
+      "target": "EquipCycleDecisions"
+    },
+    {
+      "source": "EquipmentBaseDecisions",
+      "target": "FirstEquipDecisions"
+    },
+    {
+      "source": "EquipmentBaseDecisions",
+      "target": "UnequipCycleDecisions"
+    },
+    {
+      "source": "EquipmentBaseEvents",
+      "target": "UnequippedEvents"
+    },
+    {
+      "source": "EquipmentBaseEvents",
+      "target": "EquippedEvents"
+    },
+    {
+      "source": "EquipmentBaseEvents",
+      "target": "EquipCycleInitEvents"
+    },
+    {
+      "source": "EquipmentBaseEvents",
+      "target": "EquipCycleEvents"
+    },
+    {
+      "source": "EquipmentBaseEvents",
+      "target": "FirstEquipEvents"
+    },
+    {
+      "source": "EquipmentBaseEvents",
+      "target": "UnequipCycleEvents"
+    },
+    {
+      "source": "EquipmentBaseEvents",
+      "target": "UnequippedWaitingForExternalFactorsEvents"
+    },
+    {
+      "source": "DeathEvents",
+      "target": "GroundDeathEvents"
+    },
+    {
+      "source": "DeathEvents",
+      "target": "SwimmingDeathEvents"
+    },
+    {
+      "source": "DeathEvents",
+      "target": "AirDeathEvents"
+    },
+    {
+      "source": "DeathDecisionsWithResurrection",
+      "target": "GroundDeathDecisions"
+    },
+    {
+      "source": "DeathDecisionsWithResurrection",
+      "target": "AirDeathDecisions"
+    },
+    {
+      "source": "DeathDecisionsWithResurrection",
+      "target": "SwimmingDeathDecisions"
+    },
+    {
+      "source": "SceneTierAbstract",
+      "target": "SceneTierInitialDecisions"
+    },
+    {
+      "source": "SceneTierAbstract",
+      "target": "SceneTierAbstractDecisions"
+    },
+    {
+      "source": "SceneTierAbstract",
+      "target": "SceneTierAbstractEvents"
+    },
+    {
+      "source": "SceneTierAbstract",
+      "target": "SceneTierInitialEvents"
+    },
+    {
+      "source": "InputContextTransitionDecisions",
+      "target": "InitialStateDecisions"
+    },
+    {
+      "source": "InputContextTransitionDecisions",
+      "target": "DeviceControlContextDecisions"
+    },
+    {
+      "source": "InputContextTransitionDecisions",
+      "target": "BraindanceContextDecisions"
+    },
+    {
+      "source": "InputContextTransitionDecisions",
+      "target": "DeadContextDecisions"
+    },
+    {
+      "source": "InputContextTransitionDecisions",
+      "target": "BaseContextDecisions"
+    },
+    {
+      "source": "InputContextTransitionDecisions",
+      "target": "AimingContextDecisions"
+    },
+    {
+      "source": "InputContextTransitionDecisions",
+      "target": "VisionContextDecisions"
+    },
+    {
+      "source": "InputContextTransitionDecisions",
+      "target": "UiContextDecisions"
+    },
+    {
+      "source": "InputContextTransitionDecisions",
+      "target": "UiRadialContextDecisions"
+    },
+    {
+      "source": "InputContextTransitionDecisions",
+      "target": "UiQuickHackPanelContextDecisions"
+    },
+    {
+      "source": "InputContextTransitionDecisions",
+      "target": "UiVendorContextDecisions"
+    },
+    {
+      "source": "InputContextTransitionDecisions",
+      "target": "UiPhoneContextDecisions"
+    },
+    {
+      "source": "InputContextTransitionDecisions",
+      "target": "LadderEnterContextDecisions"
+    },
+    {
+      "source": "InputContextTransitionDecisions",
+      "target": "VehicleBlockInputContextDecisions"
+    },
+    {
+      "source": "InputContextTransitionDecisions",
+      "target": "VehicleGameplayContextDecisions"
+    },
+    {
+      "source": "InputContextTransitionDecisions",
+      "target": "VehicleNoDriveContextDecisions"
+    },
+    {
+      "source": "InputContextTransitionDecisions",
+      "target": "VehicleQuestRestrictedContextDecisions"
+    },
+    {
+      "source": "InputContextTransitionDecisions",
+      "target": "VehicleTankDriverContextDecisions"
+    },
+    {
+      "source": "InputContextTransitionDecisions",
+      "target": "VehicleDriverContextDecisions"
+    },
+    {
+      "source": "InputContextTransitionDecisions",
+      "target": "VehicleDriverCombatContextDecisions"
+    },
+    {
+      "source": "InputContextTransitionDecisions",
+      "target": "VehicleNoDriveCombatContextDecisions"
+    },
+    {
+      "source": "InputContextTransitionDecisions",
+      "target": "VehicleCombatContextDecisions"
+    },
+    {
+      "source": "InputContextTransitionEvents",
+      "target": "DeviceControlContextEvents"
+    },
+    {
+      "source": "InputContextTransitionEvents",
+      "target": "BaseContextEvents"
+    },
+    {
+      "source": "InputContextTransitionEvents",
+      "target": "AimingContextEvents"
+    },
+    {
+      "source": "InputContextTransitionEvents",
+      "target": "UiRadialContextEvents"
+    },
+    {
+      "source": "InputContextTransitionEvents",
+      "target": "UiQuickHackPanelContextEvents"
+    },
+    {
+      "source": "InputContextTransitionEvents",
+      "target": "VehicleBlockInputContextEvents"
+    },
+    {
+      "source": "InputContextTransitionEvents",
+      "target": "VehiclePassengerContextEvents"
+    },
+    {
+      "source": "InputContextTransitionEvents",
+      "target": "VehicleRemoteControlDriverContextEvents"
+    },
+    {
+      "source": "InputContextTransitionEvents",
+      "target": "VehicleNoDriveContextEvents"
+    },
+    {
+      "source": "InputContextTransitionEvents",
+      "target": "VehicleDriverContextEvents"
+    },
+    {
+      "source": "InputContextTransitionEvents",
+      "target": "VehicleDriverCombatContextEvents"
+    },
+    {
+      "source": "InputContextTransitionEvents",
+      "target": "VehicleCombatContextEvents"
+    },
+    {
+      "source": "InputContextTransitionEvents",
+      "target": "LadderEnterContextEvents"
+    },
+    {
+      "source": "LeftHandCyberwareEventsTransition",
+      "target": "LeftHandCyberwareSafeEvents"
+    },
+    {
+      "source": "LeftHandCyberwareEventsTransition",
+      "target": "LeftHandCyberwareEquipEvents"
+    },
+    {
+      "source": "LeftHandCyberwareEventsTransition",
+      "target": "LeftHandCyberwareChargeEvents"
+    },
+    {
+      "source": "LeftHandCyberwareEventsTransition",
+      "target": "LeftHandCyberwareLoopEvents"
+    },
+    {
+      "source": "LeftHandCyberwareEventsTransition",
+      "target": "LeftHandCyberwareActionAbstractEvents"
+    },
+    {
+      "source": "LeftHandCyberwareEventsTransition",
+      "target": "LeftHandCyberwareCatchEvents"
+    },
+    {
+      "source": "LeftHandCyberwareEventsTransition",
+      "target": "LeftHandCyberwareWaitForUnequipEvents"
+    },
+    {
+      "source": "LeftHandCyberwareEventsTransition",
+      "target": "LeftHandCyberwareUnequipEvents"
+    },
+    {
+      "source": "LeftHandCyberwareActionAbstractDecisions",
+      "target": "LeftHandCyberwareQuickActionDecisions"
+    },
+    {
+      "source": "LeftHandCyberwareActionAbstractDecisions",
+      "target": "LeftHandCyberwareChargeActionDecisions"
+    },
+    {
+      "source": "LeftHandCyberwareActionAbstractDecisions",
+      "target": "LeftHandCyberwareChargeRepeatActionDecisions"
+    },
+    {
+      "source": "LeftHandCyberwareActionAbstractDecisions",
+      "target": "LeftHandCyberwareCatchActionDecisions"
+    },
+    {
+      "source": "CoverActionTransition",
+      "target": "CoverActionEventsTransition"
+    },
+    {
+      "source": "CoverActionTransition",
+      "target": "InactiveCoverDecisions"
+    },
+    {
+      "source": "CoverActionTransition",
+      "target": "ActivateCoverDecisions"
+    },
+    {
+      "source": "LocomotionBraindance",
+      "target": "BraindanceFlyDecisions"
+    },
+    {
+      "source": "LocomotionBraindance",
+      "target": "BraindanceFastFlyDecisions"
+    },
+    {
+      "source": "LocomotionSwimming",
+      "target": "SwimmingInitialDecisions"
+    },
+    {
+      "source": "LocomotionSwimming",
+      "target": "SwimmingSurfaceDecisions"
+    },
+    {
+      "source": "LocomotionSwimming",
+      "target": "SwimmingSurfaceFastDecisions"
+    },
+    {
+      "source": "LocomotionSwimming",
+      "target": "SwimmingTransitionDecisions"
+    },
+    {
+      "source": "LocomotionSwimming",
+      "target": "SwimmingDivingDecisions"
+    },
+    {
+      "source": "LocomotionSwimming",
+      "target": "SwimmingFastDivingDecisions"
+    },
+    {
+      "source": "LocomotionSwimming",
+      "target": "SwimmingForceFreezeDecisions"
+    },
+    {
+      "source": "LocomotionTakedownDecisions",
+      "target": "TakedownBeginDecisions"
+    },
+    {
+      "source": "LocomotionTakedownDecisions",
+      "target": "TakedownLeapToPreyDecisions"
+    },
+    {
+      "source": "LocomotionTakedownDecisions",
+      "target": "TakedownSlideToPreyDecisions"
+    },
+    {
+      "source": "LocomotionTakedownDecisions",
+      "target": "TakedownGrapplePreyDecisions"
+    },
+    {
+      "source": "LocomotionTakedownDecisions",
+      "target": "TakedownGrappleFailedDecisions"
+    },
+    {
+      "source": "LocomotionTakedownDecisions",
+      "target": "GrappleMountDecisions"
+    },
+    {
+      "source": "LocomotionTakedownDecisions",
+      "target": "GrappleStandDecisions"
+    },
+    {
+      "source": "LocomotionTakedownDecisions",
+      "target": "GrappleStruggleDecisions"
+    },
+    {
+      "source": "LocomotionTakedownDecisions",
+      "target": "TakedownExecuteTakedownAndDisposeDecisions"
+    },
+    {
+      "source": "LocomotionTakedownDecisions",
+      "target": "TakedownReleasePreyDecisions"
+    },
+    {
+      "source": "LocomotionTakedownDecisions",
+      "target": "TakedownUnmountPreyDecisions"
+    },
+    {
+      "source": "LocomotionTakedownDecisions",
+      "target": "PickUpBodyAfterTakedownDecisions"
+    },
+    {
+      "source": "LocomotionTakedownDecisions",
+      "target": "TakedownEndDecisions"
+    },
+    {
+      "source": "LocomotionTakedownDecisions",
+      "target": "TakedownExecuteTakedownDecisions"
+    },
+    {
+      "source": "LocomotionEventsTransition",
+      "target": "LocomotionBraindanceEvents"
+    },
+    {
+      "source": "LocomotionEventsTransition",
+      "target": "LocomotionSwimmingEvents"
+    },
+    {
+      "source": "LocomotionEventsTransition",
+      "target": "LocomotionTakedownEvents"
+    },
+    {
+      "source": "LocomotionEventsTransition",
+      "target": "LocomotionGroundEvents"
+    },
+    {
+      "source": "LocomotionEventsTransition",
+      "target": "LocomotionAirEvents"
+    },
+    {
+      "source": "LocomotionGroundDecisions",
+      "target": "SwimmingClimbDecisions"
+    },
+    {
+      "source": "LocomotionGroundDecisions",
+      "target": "SwimmingLadderDecisions"
+    },
+    {
+      "source": "LocomotionGroundDecisions",
+      "target": "ForceIdleDecisions"
+    },
+    {
+      "source": "LocomotionGroundDecisions",
+      "target": "WorkspotDecisions"
+    },
+    {
+      "source": "LocomotionGroundDecisions",
+      "target": "ForceWalkDecisions"
+    },
+    {
+      "source": "LocomotionGroundDecisions",
+      "target": "ForceFreezeDecisions"
+    },
+    {
+      "source": "LocomotionGroundDecisions",
+      "target": "InitialDecisions"
+    },
+    {
+      "source": "LocomotionGroundDecisions",
+      "target": "StandDecisions"
+    },
+    {
+      "source": "LocomotionGroundDecisions",
+      "target": "AimWalkDecisions"
+    },
+    {
+      "source": "LocomotionGroundDecisions",
+      "target": "CrouchDecisions"
+    },
+    {
+      "source": "LocomotionGroundDecisions",
+      "target": "SprintDecisions"
+    },
+    {
+      "source": "LocomotionGroundDecisions",
+      "target": "DodgeDecisions"
+    },
+    {
+      "source": "LocomotionGroundDecisions",
+      "target": "ClimbDecisions"
+    },
+    {
+      "source": "LocomotionGroundDecisions",
+      "target": "VaultDecisions"
+    },
+    {
+      "source": "LocomotionGroundDecisions",
+      "target": "LadderDecisions"
+    },
+    {
+      "source": "LocomotionGroundDecisions",
+      "target": "StatusEffectDecisions"
+    },
+    {
+      "source": "LocomotionGroundDecisions",
+      "target": "FelledDecisions"
+    },
+    {
+      "source": "LocomotionGroundDecisions",
+      "target": "PreCrouchLowGravityDecisions"
+    },
+    {
+      "source": "LocomotionGroundDecisions",
+      "target": "CrouchLowGravityDecisions"
+    },
+    {
+      "source": "LocomotionGroundDecisions",
+      "target": "DodgeLowGravityDecisions"
+    },
+    {
+      "source": "LocomotionGroundDecisions",
+      "target": "DodgeCrouchLowGravityDecisions"
+    },
+    {
+      "source": "LocomotionGroundDecisions",
+      "target": "SprintLowGravityDecisions"
+    },
+    {
+      "source": "LocomotionGroundDecisions",
+      "target": "ClimbLowGravityDecisions"
+    },
+    {
+      "source": "LocomotionGroundDecisions",
+      "target": "IdleTier4Decisions"
+    },
+    {
+      "source": "LocomotionGroundDecisions",
+      "target": "IdleTier5Decisions"
+    },
+    {
+      "source": "LocomotionGroundDecisions",
+      "target": "StandLowGravityDecisions"
+    },
+    {
+      "source": "LocomotionGroundDecisions",
+      "target": "AbstractLandDecisions"
+    },
+    {
+      "source": "LocomotionAirDecisions",
+      "target": "CoolExitJumpDecisions"
+    },
+    {
+      "source": "LocomotionAirDecisions",
+      "target": "SlideFallDecisions"
+    },
+    {
+      "source": "LocomotionAirDecisions",
+      "target": "FallDecisions"
+    },
+    {
+      "source": "LocomotionAirDecisions",
+      "target": "AirThrustersDecisions"
+    },
+    {
+      "source": "LocomotionAirDecisions",
+      "target": "AirHoverDecisions"
+    },
+    {
+      "source": "LocomotionAirDecisions",
+      "target": "SuperheroFallDecisions"
+    },
+    {
+      "source": "LocomotionAirDecisions",
+      "target": "JumpDecisions"
+    },
+    {
+      "source": "LocomotionAirDecisions",
+      "target": "ChargeJumpDecisions"
+    },
+    {
+      "source": "LocomotionAirDecisions",
+      "target": "HoverJumpDecisions"
+    },
+    {
+      "source": "LocomotionAirDecisions",
+      "target": "DodgeAirDecisions"
+    },
+    {
+      "source": "LocomotionAirDecisions",
+      "target": "LocomotionAirLowGravityDecisions"
+    },
+    {
+      "source": "MeleeEventsTransition",
+      "target": "MeleeNotReadyEvents"
+    },
+    {
+      "source": "MeleeEventsTransition",
+      "target": "MeleeParriedEvents"
+    },
+    {
+      "source": "MeleeEventsTransition",
+      "target": "MeleeRumblingEvents"
+    },
+    {
+      "source": "MeleeEventsTransition",
+      "target": "MeleeHoldEvents"
+    },
+    {
+      "source": "MeleeEventsTransition",
+      "target": "MeleeAttackGenericEvents"
+    },
+    {
+      "source": "MeleeEventsTransition",
+      "target": "MeleeDeflectEvents"
+    },
+    {
+      "source": "MeleeEventsTransition",
+      "target": "MeleeTargetingEvents"
+    },
+    {
+      "source": "MeleeEventsTransition",
+      "target": "MeleeThrowReloadEvents"
+    },
+    {
+      "source": "MeleeEventsTransition",
+      "target": "MeleeLeapEvents"
+    },
+    {
+      "source": "MeleeEventsTransition",
+      "target": "MeleeDashEvents"
+    },
+    {
+      "source": "MeleeEventsTransition",
+      "target": "MeleeBodySlamAttackEvents"
+    },
+    {
+      "source": "MeleeIdleDecisions",
+      "target": "MeleeEquippingDecisions"
+    },
+    {
+      "source": "MeleeAttackGenericDecisions",
+      "target": "MeleeComboAttackDecisions"
+    },
+    {
+      "source": "MeleeAttackGenericDecisions",
+      "target": "MeleeFinalAttackDecisions"
+    },
+    {
+      "source": "MeleeAttackGenericDecisions",
+      "target": "MeleeSafeAttackDecisions"
+    },
+    {
+      "source": "MeleeAttackGenericDecisions",
+      "target": "MeleeStrongAttackDecisions"
+    },
+    {
+      "source": "MeleeAttackGenericDecisions",
+      "target": "MeleeDeflectAttackDecisions"
+    },
+    {
+      "source": "MeleeAttackGenericDecisions",
+      "target": "MeleeThrowAttackDecisions"
+    },
+    {
+      "source": "MeleeAttackGenericDecisions",
+      "target": "MeleeBlockAttackDecisions"
+    },
+    {
+      "source": "MeleeAttackGenericDecisions",
+      "target": "MeleeBodySlamAttackDecisions"
+    },
+    {
+      "source": "MeleeAttackGenericDecisions",
+      "target": "MeleeCrouchAttackDecisions"
+    },
+    {
+      "source": "MeleeAttackGenericDecisions",
+      "target": "MeleeJumpAttackDecisions"
+    },
+    {
+      "source": "MeleeAttackGenericDecisions",
+      "target": "MeleeSprintAttackDecisions"
+    },
+    {
+      "source": "MeleeAttackGenericDecisions",
+      "target": "MeleeGroundSlamAttackDecisions"
+    },
+    {
+      "source": "MeleeAttackGenericDecisions",
+      "target": "MeleeEquipAttackDecisions"
+    },
+    {
+      "source": "QuickSlotsDecisions",
+      "target": "QuickSlotsHoldDecisions"
+    },
+    {
+      "source": "QuickSlotsDecisions",
+      "target": "QuickSlotsTapDecisions"
+    },
+    {
+      "source": "QuickSlotsDecisions",
+      "target": "QuickSlotsBusyDecisions"
+    },
+    {
+      "source": "QuickSlotsDecisions",
+      "target": "QuickSlotsDisabledDecisions"
+    },
+    {
+      "source": "QuickSlotsDecisions",
+      "target": "QuickSlotsReadyDecisions"
+    },
+    {
+      "source": "QuickSlotsEvents",
+      "target": "QuickSlotsHoldEvents"
+    },
+    {
+      "source": "QuickSlotsEvents",
+      "target": "QuickSlotsTapEvents"
+    },
+    {
+      "source": "QuickSlotsEvents",
+      "target": "QuickSlotsReadyEvents"
+    },
+    {
+      "source": "QuickSlotsEvents",
+      "target": "QuickSlotsBusyEvents"
+    },
+    {
+      "source": "QuickSlotsEvents",
+      "target": "QuickSlotsDisabledEvents"
+    },
+    {
+      "source": "StaminaEventsTransition",
+      "target": "RestedEvents"
+    },
+    {
+      "source": "StaminaEventsTransition",
+      "target": "ExhaustedEvents"
+    },
+    {
+      "source": "TimeDilationEventsTransitions",
+      "target": "SandevistanEvents"
+    },
+    {
+      "source": "TimeDilationEventsTransitions",
+      "target": "KerenzikovEvents"
+    },
+    {
+      "source": "TimeDilationEventsTransitions",
+      "target": "TimeDilationFocusModeEvents"
+    },
+    {
+      "source": "UpperBodyEventsTransition",
+      "target": "ForceEmptyHandsEvents"
+    },
+    {
+      "source": "UpperBodyEventsTransition",
+      "target": "ForceSafeEvents"
+    },
+    {
+      "source": "UpperBodyEventsTransition",
+      "target": "EmptyHandsEvents"
+    },
+    {
+      "source": "UpperBodyEventsTransition",
+      "target": "SingleWieldEvents"
+    },
+    {
+      "source": "UpperBodyEventsTransition",
+      "target": "AimingStateEvents"
+    },
+    {
+      "source": "UpperBodyEventsTransition",
+      "target": "TemporaryUnequipEvents"
+    },
+    {
+      "source": "UpperBodyEventsTransition",
+      "target": "WaitForEquipEvents"
+    },
+    {
+      "source": "UpperBodyEventsTransition",
+      "target": "AdHocAnimationDecisions"
+    },
+    {
+      "source": "VehicleEventsTransition",
+      "target": "IdleEvents"
+    },
+    {
+      "source": "VehicleEventsTransition",
+      "target": "EnteringEvents"
+    },
+    {
+      "source": "VehicleEventsTransition",
+      "target": "PassengerEvents"
+    },
+    {
+      "source": "VehicleEventsTransition",
+      "target": "GunnerEvents"
+    },
+    {
+      "source": "VehicleEventsTransition",
+      "target": "DriveEvents"
+    },
+    {
+      "source": "VehicleEventsTransition",
+      "target": "SwitchSeatsEvents"
+    },
+    {
+      "source": "VehicleEventsTransition",
+      "target": "EnteringCombatEvents"
+    },
+    {
+      "source": "VehicleEventsTransition",
+      "target": "ExitingCombatEvents"
+    },
+    {
+      "source": "VehicleEventsTransition",
+      "target": "SceneExitingCombatEvents"
+    },
+    {
+      "source": "VehicleEventsTransition",
+      "target": "CombatEvents"
+    },
+    {
+      "source": "VehicleEventsTransition",
+      "target": "DriverCombatEvents"
+    },
+    {
+      "source": "VehicleEventsTransition",
+      "target": "ExitingEventsBase"
+    },
+    {
+      "source": "VehicleEventsTransition",
+      "target": "ExitEvents"
+    },
+    {
+      "source": "VehicleEventsTransition",
+      "target": "SceneEvents"
+    },
+    {
+      "source": "VehicleEventsTransition",
+      "target": "SceneExitingEvents"
+    },
+    {
+      "source": "DriverCombatDecisions",
+      "target": "DriverCombatFirearmsDecisions"
+    },
+    {
+      "source": "DriverCombatDecisions",
+      "target": "DriverCombatMountedWeaponsDecisions"
+    },
+    {
+      "source": "ExitingDecisions",
+      "target": "CollisionExitingDecisions"
+    },
+    {
+      "source": "ExitingDecisions",
+      "target": "DeathExitingDecisions"
+    },
+    {
+      "source": "ExitingDecisions",
+      "target": "CombatExitingDecisions"
+    },
+    {
+      "source": "ExitingDecisions",
+      "target": "SpeedExitingDecisions"
+    },
+    {
+      "source": "ExitingDecisions",
+      "target": "SlideExitingDecisions"
+    },
+    {
+      "source": "ExitingDecisions",
+      "target": "CoolExitingDecisions"
+    },
+    {
+      "source": "WeaponEventsTransition",
+      "target": "ReadyEvents"
+    },
+    {
+      "source": "WeaponEventsTransition",
+      "target": "NotReadyEvents"
+    },
+    {
+      "source": "WeaponEventsTransition",
+      "target": "SafeEvents"
+    },
+    {
+      "source": "WeaponEventsTransition",
+      "target": "PublicSafeEvents"
+    },
+    {
+      "source": "WeaponEventsTransition",
+      "target": "PublicSafeToReadyEvents"
+    },
+    {
+      "source": "WeaponEventsTransition",
+      "target": "QuickMeleeEvents"
+    },
+    {
+      "source": "WeaponEventsTransition",
+      "target": "NoAmmoEvents"
+    },
+    {
+      "source": "WeaponEventsTransition",
+      "target": "ReloadEvents"
+    },
+    {
+      "source": "WeaponEventsTransition",
+      "target": "ShootEvents"
+    },
+    {
+      "source": "WeaponEventsTransition",
+      "target": "CycleRoundEvents"
+    },
+    {
+      "source": "WeaponEventsTransition",
+      "target": "CycleTriggerModeEvents"
+    },
+    {
+      "source": "WeaponEventsTransition",
+      "target": "SemiAutoEvents"
+    },
+    {
+      "source": "WeaponEventsTransition",
+      "target": "FullAutoEvents"
+    },
+    {
+      "source": "WeaponEventsTransition",
+      "target": "BurstEvents"
+    },
+    {
+      "source": "WeaponEventsTransition",
+      "target": "ChargeEventsAbstract"
+    },
+    {
+      "source": "WeaponEventsTransition",
+      "target": "DischargeEvents"
+    },
+    {
+      "source": "WeaponEventsTransition",
+      "target": "OverheatEvents"
+    },
+    {
+      "source": "WeaponReadyListenerTransition",
+      "target": "ReadyDecisions"
+    },
+    {
+      "source": "WeaponReadyListenerTransition",
+      "target": "NotReadyDecisions"
+    },
+    {
+      "source": "WeaponReadyListenerTransition",
+      "target": "PublicSafeDecisions"
+    },
+    {
+      "source": "ZoomDecisionsTransition",
+      "target": "ZoomBlockedDecisions"
+    },
+    {
+      "source": "ZoomDecisionsTransition",
+      "target": "ZoomLevelBaseDecisions"
+    },
+    {
+      "source": "ZoomDecisionsTransition",
+      "target": "ZoomLevelAimDecisions"
+    },
+    {
+      "source": "ZoomDecisionsTransition",
+      "target": "ZoomLevelScanDecisions"
+    },
+    {
+      "source": "ZoomDecisionsTransition",
+      "target": "ZoomLevel3Decisions"
+    },
+    {
+      "source": "ZoomDecisionsTransition",
+      "target": "ZoomLevel4Decisions"
+    },
+    {
+      "source": "ZoomDecisionsTransition",
+      "target": "ZoomLevel5Decisions"
+    },
+    {
+      "source": "ZoomDecisionsTransition",
+      "target": "ZoomLevel6Decisions"
+    },
+    {
+      "source": "ZoomEventsTransition",
+      "target": "ZoomBlockedEvents"
+    },
+    {
+      "source": "ZoomEventsTransition",
+      "target": "ZoomLevelBaseEvents"
+    },
+    {
+      "source": "ZoomEventsTransition",
+      "target": "ZoomLevelAimEvents"
+    },
+    {
+      "source": "ZoomEventsTransition",
+      "target": "ZoomLevelScanEvents"
+    },
+    {
+      "source": "ZoomEventsTransition",
+      "target": "ZoomLevel3Events"
+    },
+    {
+      "source": "ZoomEventsTransition",
+      "target": "ZoomLevel4Events"
+    },
+    {
+      "source": "ZoomEventsTransition",
+      "target": "ZoomLevel5Events"
+    },
+    {
+      "source": "ZoomEventsTransition",
+      "target": "ZoomLevel6Events"
+    },
+    {
+      "source": "MineDispenserEventsTransition",
+      "target": "MineDispenserIdleEvents"
+    },
+    {
+      "source": "MineDispenserEventsTransition",
+      "target": "MineDispenserCycleItemEvents"
+    },
+    {
+      "source": "MineDispenserEventsTransition",
+      "target": "MineDispenserPlaceEvents"
+    },
+    {
+      "source": "MineDispenserEventsTransition",
+      "target": "MineDispenserUnequipEvents"
+    },
+    {
+      "source": "CanTransitionToThrowDecisions",
+      "target": "PickUpDecisions"
+    },
+    {
+      "source": "CanTransitionToThrowDecisions",
+      "target": "CarryDecisions"
+    },
+    {
+      "source": "CanTransitionToThrowDecisions",
+      "target": "AimDecisions"
+    },
+    {
+      "source": "SceneTierAbstractDecisions",
+      "target": "SceneTierIIDecisions"
+    },
+    {
+      "source": "SceneTierAbstractDecisions",
+      "target": "SceneTierIIIDecisions"
+    },
+    {
+      "source": "SceneTierAbstractDecisions",
+      "target": "SceneTierIVDecisions"
+    },
+    {
+      "source": "SceneTierAbstractDecisions",
+      "target": "SceneTierVDecisions"
+    },
+    {
+      "source": "SceneTierAbstractEvents",
+      "target": "SceneTierIIEvents"
+    },
+    {
+      "source": "SceneTierAbstractEvents",
+      "target": "SceneTierIIIEvents"
+    },
+    {
+      "source": "SceneTierAbstractEvents",
+      "target": "SceneTierIVEvents"
+    },
+    {
+      "source": "SceneTierAbstractEvents",
+      "target": "SceneTierVEvents"
+    },
+    {
+      "source": "UiQuickHackPanelContextDecisions",
+      "target": "UiQuickHackPanelContextDrivingDecisions"
+    },
+    {
+      "source": "UiQuickHackPanelContextDecisions",
+      "target": "UiQuickHackPanelContextDriverCombatDecisions"
+    },
+    {
+      "source": "UiQuickHackPanelContextDecisions",
+      "target": "UiQuickHackPanelContextRemoteControlDecisions"
+    },
+    {
+      "source": "VehicleGameplayContextDecisions",
+      "target": "VehiclePassengerContextDecisions"
+    },
+    {
+      "source": "VehicleGameplayContextDecisions",
+      "target": "VehiclePassengerRemoteControlDriverContextDecisions"
+    },
+    {
+      "source": "VehicleGameplayContextDecisions",
+      "target": "VehicleRemoteControlDriverContextDecisions"
+    },
+    {
+      "source": "VehicleDriverContextDecisions",
+      "target": "VehicleDriverMountedWeaponsContextDecisions"
+    },
+    {
+      "source": "VehicleDriverCombatContextDecisions",
+      "target": "VehicleDriverCombatTPPContextDecisions"
+    },
+    {
+      "source": "VehicleDriverCombatContextDecisions",
+      "target": "VehicleDriverCombatAimContextDecisions"
+    },
+    {
+      "source": "VehicleDriverCombatContextDecisions",
+      "target": "VehicleDriverCombatMountedWeaponsContextDecisions"
+    },
+    {
+      "source": "UiQuickHackPanelContextEvents",
+      "target": "UiQuickHackPanelContextDrivingEvents"
+    },
+    {
+      "source": "UiQuickHackPanelContextEvents",
+      "target": "UiQuickHackPanelContextDriverCombatEvents"
+    },
+    {
+      "source": "UiQuickHackPanelContextEvents",
+      "target": "UiQuickHackPanelContextRemoteControlEvents"
+    },
+    {
+      "source": "VehiclePassengerContextEvents",
+      "target": "VehiclePassengerRemoteControlDriverContextEvents"
+    },
+    {
+      "source": "VehicleNoDriveContextEvents",
+      "target": "VehicleQuestRestrictedContextEvents"
+    },
+    {
+      "source": "VehicleDriverContextEvents",
+      "target": "VehicleDriverMountedWeaponsContextEvents"
+    },
+    {
+      "source": "VehicleDriverCombatContextEvents",
+      "target": "VehicleDriverCombatTPPContextEvents"
+    },
+    {
+      "source": "VehicleDriverCombatContextEvents",
+      "target": "VehicleDriverCombatAimContextEvents"
+    },
+    {
+      "source": "VehicleDriverCombatContextEvents",
+      "target": "VehicleDriverCombatMountedWeaponsContextEvents"
+    },
+    {
+      "source": "LeftHandCyberwareActionAbstractEvents",
+      "target": "LeftHandCyberwareQuickActionEvents"
+    },
+    {
+      "source": "LeftHandCyberwareActionAbstractEvents",
+      "target": "LeftHandCyberwareChargeActionEvents"
+    },
+    {
+      "source": "LeftHandCyberwareActionAbstractEvents",
+      "target": "LeftHandCyberwareChargeRepeatActionEvents"
+    },
+    {
+      "source": "LeftHandCyberwareActionAbstractEvents",
+      "target": "LeftHandCyberwareCatchActionEvents"
+    },
+    {
+      "source": "CoverActionEventsTransition",
+      "target": "InactiveCoverEvents"
+    },
+    {
+      "source": "CoverActionEventsTransition",
+      "target": "ActivateCoverEvents"
+    },
+    {
+      "source": "GrappleStandDecisions",
+      "target": "GrappleForceShovePreyDecisions"
+    },
+    {
+      "source": "LocomotionBraindanceEvents",
+      "target": "BraindanceFlyEvents"
+    },
+    {
+      "source": "LocomotionBraindanceEvents",
+      "target": "BraindanceFastFlyEvents"
+    },
+    {
+      "source": "LocomotionSwimmingEvents",
+      "target": "SwimmingSurfaceEvents"
+    },
+    {
+      "source": "LocomotionSwimmingEvents",
+      "target": "SwimmingSurfaceFastEvents"
+    },
+    {
+      "source": "LocomotionSwimmingEvents",
+      "target": "SwimmingTransitionEvents"
+    },
+    {
+      "source": "LocomotionSwimmingEvents",
+      "target": "SwimmingDivingEvents"
+    },
+    {
+      "source": "LocomotionSwimmingEvents",
+      "target": "SwimmingFastDivingEvents"
+    },
+    {
+      "source": "LocomotionSwimmingEvents",
+      "target": "SwimmingForceFreezeEvents"
+    },
+    {
+      "source": "LocomotionTakedownEvents",
+      "target": "TakedownBeginEvents"
+    },
+    {
+      "source": "LocomotionTakedownEvents",
+      "target": "TakedownLeapToPreyEvents"
+    },
+    {
+      "source": "LocomotionTakedownEvents",
+      "target": "TakedownSlideToPreyEvents"
+    },
+    {
+      "source": "LocomotionTakedownEvents",
+      "target": "TakedownGrapplePreyEvents"
+    },
+    {
+      "source": "LocomotionTakedownEvents",
+      "target": "TakedownGrappleFailedEvents"
+    },
+    {
+      "source": "LocomotionTakedownEvents",
+      "target": "GrappleMountEvents"
+    },
+    {
+      "source": "LocomotionTakedownEvents",
+      "target": "GrappleStandEvents"
+    },
+    {
+      "source": "LocomotionTakedownEvents",
+      "target": "GrapplePreyDeadEvents"
+    },
+    {
+      "source": "LocomotionTakedownEvents",
+      "target": "GrappleForceShovePreyEvents"
+    },
+    {
+      "source": "LocomotionTakedownEvents",
+      "target": "TakedownExecuteTakedownEvents"
+    },
+    {
+      "source": "LocomotionTakedownEvents",
+      "target": "TakedownExecuteTakedownAndDisposeEvents"
+    },
+    {
+      "source": "LocomotionTakedownEvents",
+      "target": "TakedownReleasePreyEvents"
+    },
+    {
+      "source": "LocomotionTakedownEvents",
+      "target": "TakedownUnmountPreyEvents"
+    },
+    {
+      "source": "LocomotionTakedownEvents",
+      "target": "PickUpBodyAfterTakedownEvents"
+    },
+    {
+      "source": "LocomotionTakedownEvents",
+      "target": "TakedownEndEvents"
+    },
+    {
+      "source": "LocomotionGroundEvents",
+      "target": "ForceIdleEvents"
+    },
+    {
+      "source": "LocomotionGroundEvents",
+      "target": "WorkspotEvents"
+    },
+    {
+      "source": "LocomotionGroundEvents",
+      "target": "ForceWalkEvents"
+    },
+    {
+      "source": "LocomotionGroundEvents",
+      "target": "ForceFreezeEvents"
+    },
+    {
+      "source": "LocomotionGroundEvents",
+      "target": "StandEvents"
+    },
+    {
+      "source": "LocomotionGroundEvents",
+      "target": "AimWalkEvents"
+    },
+    {
+      "source": "LocomotionGroundEvents",
+      "target": "CrouchEvents"
+    },
+    {
+      "source": "LocomotionGroundEvents",
+      "target": "SprintEvents"
+    },
+    {
+      "source": "LocomotionGroundEvents",
+      "target": "DodgeEvents"
+    },
+    {
+      "source": "LocomotionGroundEvents",
+      "target": "ClimbEvents"
+    },
+    {
+      "source": "LocomotionGroundEvents",
+      "target": "VaultEvents"
+    },
+    {
+      "source": "LocomotionGroundEvents",
+      "target": "LadderEvents"
+    },
+    {
+      "source": "LocomotionGroundEvents",
+      "target": "AbstractLandEvents"
+    },
+    {
+      "source": "LocomotionGroundEvents",
+      "target": "StatusEffectEvents"
+    },
+    {
+      "source": "LocomotionGroundEvents",
+      "target": "FelledEvents"
+    },
+    {
+      "source": "LocomotionGroundEvents",
+      "target": "StandLowGravityEvents"
+    },
+    {
+      "source": "LocomotionGroundEvents",
+      "target": "PreCrouchLowGravityEvents"
+    },
+    {
+      "source": "LocomotionGroundEvents",
+      "target": "CrouchLowGravityEvents"
+    },
+    {
+      "source": "LocomotionGroundEvents",
+      "target": "DodgeLowGravityEvents"
+    },
+    {
+      "source": "LocomotionGroundEvents",
+      "target": "DodgeCrouchLowGravityEvents"
+    },
+    {
+      "source": "LocomotionGroundEvents",
+      "target": "SprintLowGravityEvents"
+    },
+    {
+      "source": "LocomotionGroundEvents",
+      "target": "ClimbLowGravityEvents"
+    },
+    {
+      "source": "LocomotionGroundEvents",
+      "target": "IdleTier3Events"
+    },
+    {
+      "source": "LocomotionGroundEvents",
+      "target": "IdleTier4Events"
+    },
+    {
+      "source": "LocomotionGroundEvents",
+      "target": "IdleTier5Events"
+    },
+    {
+      "source": "LocomotionAirEvents",
+      "target": "CoolExitJumpEvents"
+    },
+    {
+      "source": "LocomotionAirEvents",
+      "target": "SlideFallEvents"
+    },
+    {
+      "source": "LocomotionAirEvents",
+      "target": "LadderJumpEvents"
+    },
+    {
+      "source": "LocomotionAirEvents",
+      "target": "FallEvents"
+    },
+    {
+      "source": "LocomotionAirEvents",
+      "target": "AirThrustersEvents"
+    },
+    {
+      "source": "LocomotionAirEvents",
+      "target": "AirHoverEvents"
+    },
+    {
+      "source": "LocomotionAirEvents",
+      "target": "SuperheroFallEvents"
+    },
+    {
+      "source": "LocomotionAirEvents",
+      "target": "JumpEvents"
+    },
+    {
+      "source": "LocomotionAirEvents",
+      "target": "DoubleJumpEvents"
+    },
+    {
+      "source": "LocomotionAirEvents",
+      "target": "ChargeJumpEvents"
+    },
+    {
+      "source": "LocomotionAirEvents",
+      "target": "HoverJumpEvents"
+    },
+    {
+      "source": "LocomotionAirEvents",
+      "target": "BodySlamJumpEvents"
+    },
+    {
+      "source": "LocomotionAirEvents",
+      "target": "DodgeAirEvents"
+    },
+    {
+      "source": "LocomotionAirEvents",
+      "target": "LocomotionAirLowGravityEvents"
+    },
+    {
+      "source": "CrouchDecisions",
+      "target": "CrouchSprintDecisions"
+    },
+    {
+      "source": "CrouchDecisions",
+      "target": "SlideDecisions"
+    },
+    {
+      "source": "LadderDecisions",
+      "target": "LadderSprintDecisions"
+    },
+    {
+      "source": "LadderDecisions",
+      "target": "LadderSlideDecisions"
+    },
+    {
+      "source": "StatusEffectDecisions",
+      "target": "KnockdownDecisions"
+    },
+    {
+      "source": "CrouchLowGravityDecisions",
+      "target": "SlideLowGravityDecisions"
+    },
+    {
+      "source": "SprintLowGravityDecisions",
+      "target": "SprintWindupLowGravityDecisions"
+    },
+    {
+      "source": "AbstractLandDecisions",
+      "target": "FailedLandingAbstractDecisions"
+    },
+    {
+      "source": "AbstractLandDecisions",
+      "target": "SuperheroLandDecisions"
+    },
+    {
+      "source": "AbstractLandDecisions",
+      "target": "SuperheroLandRecoveryDecisions"
+    },
+    {
+      "source": "AbstractLandDecisions",
+      "target": "RegularLandLowGravityDecisions"
+    },
+    {
+      "source": "AbstractLandDecisions",
+      "target": "RegularLandDecisions"
+    },
+    {
+      "source": "FallDecisions",
+      "target": "GrappleFallDecisions"
+    },
+    {
+      "source": "FallDecisions",
+      "target": "UnsecureFootingFallDecisions"
+    },
+    {
+      "source": "JumpDecisions",
+      "target": "DoubleJumpDecisions"
+    },
+    {
+      "source": "JumpDecisions",
+      "target": "BodySlamJumpDecisions"
+    },
+    {
+      "source": "LocomotionAirLowGravityDecisions",
+      "target": "SprintJumpLowGravityDecisions"
+    },
+    {
+      "source": "LocomotionAirLowGravityDecisions",
+      "target": "JumpLowGravityDecisions"
+    },
+    {
+      "source": "LocomotionAirLowGravityDecisions",
+      "target": "FallLowGravityDecisions"
+    },
+    {
+      "source": "LocomotionAirLowGravityDecisions",
+      "target": "DodgeAirLowGravityDecisions"
+    },
+    {
+      "source": "MeleeNotReadyEvents",
+      "target": "MeleeRecoveryEvents"
+    },
+    {
+      "source": "MeleeRumblingEvents",
+      "target": "MeleeEquippingEvents"
+    },
+    {
+      "source": "MeleeRumblingEvents",
+      "target": "MeleeIdleEvents"
+    },
+    {
+      "source": "MeleeRumblingEvents",
+      "target": "MeleePublicSafeEvents"
+    },
+    {
+      "source": "MeleeRumblingEvents",
+      "target": "MeleeChargedHoldEvents"
+    },
+    {
+      "source": "MeleeRumblingEvents",
+      "target": "MeleeBlockEvents"
+    },
+    {
+      "source": "MeleeAttackGenericEvents",
+      "target": "MeleeComboAttackEvents"
+    },
+    {
+      "source": "MeleeAttackGenericEvents",
+      "target": "MeleeFinalAttackEvents"
+    },
+    {
+      "source": "MeleeAttackGenericEvents",
+      "target": "MeleeSafeAttackEvents"
+    },
+    {
+      "source": "MeleeAttackGenericEvents",
+      "target": "MeleeStrongAttackEvents"
+    },
+    {
+      "source": "MeleeAttackGenericEvents",
+      "target": "MeleeMountedStrongAttackEvents"
+    },
+    {
+      "source": "MeleeAttackGenericEvents",
+      "target": "MeleeDeflectAttackEvents"
+    },
+    {
+      "source": "MeleeAttackGenericEvents",
+      "target": "MeleeThrowAttackEvents"
+    },
+    {
+      "source": "MeleeAttackGenericEvents",
+      "target": "MeleeBlockAttackEvents"
+    },
+    {
+      "source": "MeleeAttackGenericEvents",
+      "target": "MeleeCrouchAttackEvents"
+    },
+    {
+      "source": "MeleeAttackGenericEvents",
+      "target": "MeleeJumpAttackEvents"
+    },
+    {
+      "source": "MeleeAttackGenericEvents",
+      "target": "MeleeSprintAttackEvents"
+    },
+    {
+      "source": "MeleeAttackGenericEvents",
+      "target": "MeleeEquipAttackEvents"
+    },
+    {
+      "source": "MeleeAttackGenericEvents",
+      "target": "MeleeGroundSlamAttackEvents"
+    },
+    {
+      "source": "MeleeComboAttackDecisions",
+      "target": "MeleeMountedComboAttackDecisions"
+    },
+    {
+      "source": "MeleeFinalAttackDecisions",
+      "target": "MeleeMountedFinalAttackDecisions"
+    },
+    {
+      "source": "MeleeStrongAttackDecisions",
+      "target": "MeleeMountedStrongAttackDecisions"
+    },
+    {
+      "source": "QuickSlotsHoldDecisions",
+      "target": "WeaponWheelDecisions"
+    },
+    {
+      "source": "QuickSlotsHoldDecisions",
+      "target": "VehicleWheelDecisions"
+    },
+    {
+      "source": "QuickSlotsHoldDecisions",
+      "target": "VehicleInsideWheelDecisions"
+    },
+    {
+      "source": "QuickSlotsHoldDecisions",
+      "target": "PocketRadioWheelDecisions"
+    },
+    {
+      "source": "QuickSlotsHoldDecisions",
+      "target": "VehicleVisualCustomizationDecisions"
+    },
+    {
+      "source": "QuickSlotsTapDecisions",
+      "target": "CycleObjectiveDecisions"
+    },
+    {
+      "source": "QuickSlotsReadyDecisions",
+      "target": "OnlyVehicleDecisions"
+    },
+    {
+      "source": "QuickSlotsHoldEvents",
+      "target": "VehicleWheelEvents"
+    },
+    {
+      "source": "QuickSlotsHoldEvents",
+      "target": "VehicleInsideWheelEvents"
+    },
+    {
+      "source": "QuickSlotsHoldEvents",
+      "target": "WeaponWheelEvents"
+    },
+    {
+      "source": "QuickSlotsHoldEvents",
+      "target": "PocketRadioWheelEvents"
+    },
+    {
+      "source": "QuickSlotsHoldEvents",
+      "target": "VehicleVisualCustomizationEvents"
+    },
+    {
+      "source": "QuickSlotsTapEvents",
+      "target": "CycleObjectiveEvents"
+    },
+    {
+      "source": "QuickSlotsReadyEvents",
+      "target": "OnlyVehicleEvents"
+    },
+    {
+      "source": "TemporaryUnequipEvents",
+      "target": "AdHocAnimationEvents"
+    },
+    {
+      "source": "DriverCombatEvents",
+      "target": "DriverCombatFirearmsEvents"
+    },
+    {
+      "source": "DriverCombatEvents",
+      "target": "DriverCombatMountedWeaponsEvents"
+    },
+    {
+      "source": "ExitingEventsBase",
+      "target": "ExitingEvents"
+    },
+    {
+      "source": "ExitingEventsBase",
+      "target": "ImmediateExitWithForceEvents"
+    },
+    {
+      "source": "ChargeEventsAbstract",
+      "target": "ChargeEvents"
+    },
+    {
+      "source": "ChargeEventsAbstract",
+      "target": "ChargeReadyEvents"
+    },
+    {
+      "source": "ChargeEventsAbstract",
+      "target": "ChargeMaxEvents"
+    },
+    {
+      "source": "GrappleStandEvents",
+      "target": "GrappleStruggleEvents"
+    },
+    {
+      "source": "GrappleStandEvents",
+      "target": "GrapplePreyDeadDecisions"
+    },
+    {
+      "source": "GrappleStandEvents",
+      "target": "GrappleBreakFreeDecisions"
+    },
+    {
+      "source": "GrappleStandEvents",
+      "target": "GrappleBreakFreeEvents"
+    },
+    {
+      "source": "CrouchEvents",
+      "target": "CrouchSprintEvents"
+    },
+    {
+      "source": "CrouchEvents",
+      "target": "SlideEvents"
+    },
+    {
+      "source": "ClimbEvents",
+      "target": "SwimmingClimbEvents"
+    },
+    {
+      "source": "LadderEvents",
+      "target": "SwimmingLadderEvents"
+    },
+    {
+      "source": "LadderEvents",
+      "target": "LadderSprintEvents"
+    },
+    {
+      "source": "LadderEvents",
+      "target": "LadderSlideEvents"
+    },
+    {
+      "source": "AbstractLandEvents",
+      "target": "FailedLandingAbstractEvents"
+    },
+    {
+      "source": "AbstractLandEvents",
+      "target": "RegularLandEvents"
+    },
+    {
+      "source": "AbstractLandEvents",
+      "target": "SuperheroLandEvents"
+    },
+    {
+      "source": "AbstractLandEvents",
+      "target": "SuperheroLandRecoveryEvents"
+    },
+    {
+      "source": "AbstractLandEvents",
+      "target": "RegularLandLowGravityEvents"
+    },
+    {
+      "source": "StatusEffectEvents",
+      "target": "KnockdownEvents"
+    },
+    {
+      "source": "CrouchLowGravityEvents",
+      "target": "SlideLowGravityEvents"
+    },
+    {
+      "source": "SprintLowGravityEvents",
+      "target": "SprintWindupLowGravityEvents"
+    },
+    {
+      "source": "FallEvents",
+      "target": "GrappleFallEvents"
+    },
+    {
+      "source": "FallEvents",
+      "target": "UnsecureFootingFallEvents"
+    },
+    {
+      "source": "LocomotionAirLowGravityEvents",
+      "target": "SprintJumpLowGravityEvents"
+    },
+    {
+      "source": "LocomotionAirLowGravityEvents",
+      "target": "JumpLowGravityEvents"
+    },
+    {
+      "source": "LocomotionAirLowGravityEvents",
+      "target": "FallLowGravityEvents"
+    },
+    {
+      "source": "LocomotionAirLowGravityEvents",
+      "target": "DodgeAirLowGravityEvents"
+    },
+    {
+      "source": "KnockdownDecisions",
+      "target": "ForcedKnockdownDecisions"
+    },
+    {
+      "source": "FailedLandingAbstractDecisions",
+      "target": "HardLandDecisions"
+    },
+    {
+      "source": "FailedLandingAbstractDecisions",
+      "target": "VeryHardLandDecisions"
+    },
+    {
+      "source": "FailedLandingAbstractDecisions",
+      "target": "DeathLandDecisions"
+    },
+    {
+      "source": "MeleePublicSafeEvents",
+      "target": "MeleeSafeEvents"
+    },
+    {
+      "source": "MeleeComboAttackEvents",
+      "target": "MeleeMountedComboAttackEvents"
+    },
+    {
+      "source": "MeleeFinalAttackEvents",
+      "target": "MeleeMountedFinalAttackEvents"
+    },
+    {
+      "source": "ExitingEvents",
+      "target": "CombatExitingEvents"
+    },
+    {
+      "source": "ExitingEvents",
+      "target": "SpeedExitingEvents"
+    },
+    {
+      "source": "ExitingEvents",
+      "target": "SlideExitingEvents"
+    },
+    {
+      "source": "ExitingEvents",
+      "target": "CoolExitingEvents"
+    },
+    {
+      "source": "ImmediateExitWithForceEvents",
+      "target": "CollisionExitingEvents"
+    },
+    {
+      "source": "ImmediateExitWithForceEvents",
+      "target": "DeathExitingEvents"
+    },
+    {
+      "source": "FailedLandingAbstractEvents",
+      "target": "HardLandEvents"
+    },
+    {
+      "source": "FailedLandingAbstractEvents",
+      "target": "VeryHardLandEvents"
+    },
+    {
+      "source": "FailedLandingAbstractEvents",
+      "target": "DeathLandEvents"
+    },
+    {
+      "source": "KnockdownEvents",
+      "target": "ForcedKnockdownEvents"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+    "initialState": "takedownBegin",
+    "transitions": [
+        {
+            "from": "takedownBegin",
+            "to": "takedownLeapToPrey"
+        },
+        {
+            "from": "takedownLeapToPrey",
+            "to": "takedownExecuteTakedown"
+        },
+        {
+            "from": "takedownExecuteTakedown",
+            "to": "takedownReleasePrey"
+        },
+        {
+            "from": "takedownReleasePrey",
+            "to": "takedownUnmountPrey"
+        },
+        {
+            "from": "takedownUnmountPrey",
+            "to": "pickUpBodyAfterTakedown"
+        },
+        {
+            "from": "takedownUnmountPrey",
+            "to": "takedownEnd"
+        },
+        {
+            "from": "takedownLeapToPrey",
+            "to": "takedownEnd"
+        },
+        {
+            "from": "takedownBegin",
+            "to": "takedownSlideToPrey"
+        },
+        {
+            "from": "takedownSlideToPrey",
+            "to": "takedownGrappleFailed"
+        },
+        {
+            "from": "takedownGrappleFailed",
+            "to": "grappleBreakFree"
+        },
+        {
+            "from": "grappleBreakFree",
+            "to": "takedownReleasePrey"
+        },
+        {
+            "from": "takedownSlideToPrey",
+            "to": "takedownGrapplePrey"
+        },
+        {
+            "from": "takedownGrapplePrey",
+            "to": "grappleMount"
+        },
+        {
+            "from": "grappleMount",
+            "to": "grappleStand"
+        },
+        {
+            "from": "grappleStand",
+            "to": "grappleFall"
+        },
+        {
+            "from": "grappleFall",
+            "to": "grappleStand"
+        },
+        {
+            "from": "grappleFall",
+            "to": "grappleForceShovePrey"
+        },
+        {
+            "from": "grappleForceShovePrey",
+            "to": "takedownReleasePrey"
+        },
+        {
+            "from": "grappleStand",
+            "to": "takedownExecuteTakedown"
+        },
+        {
+            "from": "grappleStand",
+            "to": "grappleStruggle"
+        },
+        {
+            "from": "grappleStruggle",
+            "to": "grappleFall"
+        },
+        {
+            "from": "grappleStruggle",
+            "to": "takedownExecuteTakedown"
+        },
+        {
+            "from": "grappleStruggle",
+            "to": "takedownExecuteTakedownAndDispose"
+        },
+        {
+            "from": "takedownExecuteTakedownAndDispose",
+            "to": "takedownEnd"
+        },
+        {
+            "from": "grappleStruggle",
+            "to": "grappleBreakFree"
+        },
+        {
+            "from": "grappleStruggle",
+            "to": "takedownReleasePrey"
+        },
+        {
+            "from": "grappleStruggle",
+            "to": "grapplePreyDead"
+        },
+        {
+            "from": "grapplePreyDead",
+            "to": "takedownReleasePrey"
+        },
+        {
+            "from": "grappleStruggle",
+            "to": "grappleForceShovePrey"
+        },
+        {
+            "from": "grappleStand",
+            "to": "takedownExecuteTakedownAndDispose"
+        },
+        {
+            "from": "grappleStand",
+            "to": "takedownReleasePrey"
+        },
+        {
+            "from": "grappleStand",
+            "to": "grapplePreyDead"
+        },
+        {
+            "from": "grappleStand",
+            "to": "grappleBreakFree"
+        },
+        {
+            "from": "grappleStand",
+            "to": "grappleForceShovePrey"
+        },
+        {
+            "from": "grappleStand",
+            "to": "takedownUnmountPrey"
+        },
+        {
+            "from": "grappleMount",
+            "to": "grapplePreyDead"
+        },
+        {
+            "from": "takedownGrapplePrey",
+            "to": "grapplePreyDead"
+        },
+        {
+            "from": "takedownSlideToPrey",
+            "to": "grapplePreyDead"
+        },
+        {
+            "from": "takedownBegin",
+            "to": "takedownGrappleFailed"
+        },
+        {
+            "from": "takedownBegin",
+            "to": "takedownExecuteTakedown"
+        },
+        {
+            "from": "takedownBegin",
+            "to": "grapplePreyDead"
+        }
+    ]
+}

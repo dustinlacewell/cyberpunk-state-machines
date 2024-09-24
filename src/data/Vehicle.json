@@ -1,0 +1,273 @@
+{
+    "initialState": "idle",
+    "transitions": [
+        {
+            "from": "idle",
+            "to": "exit"
+        },
+        {
+            "from": "idle",
+            "to": "scene"
+        },
+        {
+            "from": "scene",
+            "to": "sceneExiting"
+        },
+        {
+            "from": "sceneExiting",
+            "to": "exit"
+        },
+        {
+            "from": "scene",
+            "to": "combat"
+        },
+        {
+            "from": "combat",
+            "to": "exitingCombat"
+        },
+        {
+            "from": "exitingCombat",
+            "to": "passenger"
+        },
+        {
+            "from": "passenger",
+            "to": "scene"
+        },
+        {
+            "from": "passenger",
+            "to": "switchSeats"
+        },
+        {
+            "from": "switchSeats",
+            "to": "passenger"
+        },
+        {
+            "from": "switchSeats",
+            "to": "drive"
+        },
+        {
+            "from": "drive",
+            "to": "scene"
+        },
+        {
+            "from": "drive",
+            "to": "switchSeats"
+        },
+        {
+            "from": "drive",
+            "to": "driverCombatFirearms"
+        },
+        {
+            "from": "driverCombatFirearms",
+            "to": "drive"
+        },
+        {
+            "from": "driverCombatFirearms",
+            "to": "deathExiting"
+        },
+        {
+            "from": "deathExiting",
+            "to": "exit"
+        },
+        {
+            "from": "driverCombatFirearms",
+            "to": "collisionExiting"
+        },
+        {
+            "from": "collisionExiting",
+            "to": "exit"
+        },
+        {
+            "from": "driverCombatFirearms",
+            "to": "coolExiting"
+        },
+        {
+            "from": "coolExiting",
+            "to": "exit"
+        },
+        {
+            "from": "driverCombatFirearms",
+            "to": "slideExiting"
+        },
+        {
+            "from": "slideExiting",
+            "to": "exit"
+        },
+        {
+            "from": "driverCombatFirearms",
+            "to": "speedExiting"
+        },
+        {
+            "from": "speedExiting",
+            "to": "exit"
+        },
+        {
+            "from": "driverCombatFirearms",
+            "to": "combatExiting"
+        },
+        {
+            "from": "combatExiting",
+            "to": "exit"
+        },
+        {
+            "from": "driverCombatFirearms",
+            "to": "exiting"
+        },
+        {
+            "from": "exiting",
+            "to": "exit"
+        },
+        {
+            "from": "driverCombatFirearms",
+            "to": "switchSeats"
+        },
+        {
+            "from": "drive",
+            "to": "driverCombatMountedWeapons"
+        },
+        {
+            "from": "driverCombatMountedWeapons",
+            "to": "drive"
+        },
+        {
+            "from": "driverCombatMountedWeapons",
+            "to": "deathExiting"
+        },
+        {
+            "from": "driverCombatMountedWeapons",
+            "to": "collisionExiting"
+        },
+        {
+            "from": "driverCombatMountedWeapons",
+            "to": "coolExiting"
+        },
+        {
+            "from": "driverCombatMountedWeapons",
+            "to": "slideExiting"
+        },
+        {
+            "from": "driverCombatMountedWeapons",
+            "to": "speedExiting"
+        },
+        {
+            "from": "driverCombatMountedWeapons",
+            "to": "combatExiting"
+        },
+        {
+            "from": "driverCombatMountedWeapons",
+            "to": "exiting"
+        },
+        {
+            "from": "driverCombatMountedWeapons",
+            "to": "switchSeats"
+        },
+        {
+            "from": "drive",
+            "to": "deathExiting"
+        },
+        {
+            "from": "drive",
+            "to": "collisionExiting"
+        },
+        {
+            "from": "drive",
+            "to": "coolExiting"
+        },
+        {
+            "from": "drive",
+            "to": "slideExiting"
+        },
+        {
+            "from": "drive",
+            "to": "speedExiting"
+        },
+        {
+            "from": "drive",
+            "to": "combatExiting"
+        },
+        {
+            "from": "drive",
+            "to": "exiting"
+        },
+        {
+            "from": "passenger",
+            "to": "combat"
+        },
+        {
+            "from": "passenger",
+            "to": "enteringCombat"
+        },
+        {
+            "from": "enteringCombat",
+            "to": "combat"
+        },
+        {
+            "from": "passenger",
+            "to": "exiting"
+        },
+        {
+            "from": "exitingCombat",
+            "to": "drive"
+        },
+        {
+            "from": "combat",
+            "to": "sceneExitingCombat"
+        },
+        {
+            "from": "sceneExitingCombat",
+            "to": "scene"
+        },
+        {
+            "from": "combat",
+            "to": "exiting"
+        },
+        {
+            "from": "scene",
+            "to": "driverCombatFirearms"
+        },
+        {
+            "from": "scene",
+            "to": "driverCombatMountedWeapons"
+        },
+        {
+            "from": "scene",
+            "to": "allSlotStates"
+        },
+        {
+            "from": "idle",
+            "to": "waitingForScene"
+        },
+        {
+            "from": "waitingForScene",
+            "to": "exit"
+        },
+        {
+            "from": "waitingForScene",
+            "to": "scene"
+        },
+        {
+            "from": "waitingForScene",
+            "to": "entering"
+        },
+        {
+            "from": "entering",
+            "to": "exiting"
+        },
+        {
+            "from": "entering",
+            "to": "scene"
+        },
+        {
+            "from": "entering",
+            "to": "switchSeats"
+        },
+        {
+            "from": "entering",
+            "to": "allSlotStates"
+        },
+        {
+            "from": "idle",
+            "to": "entering"
+        }
+    ]
+}

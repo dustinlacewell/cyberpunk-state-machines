@@ -1,0 +1,13 @@
+{
+    "initialState": "rested",
+    "transitions": [
+        {
+            "from": "rested",
+            "to": "exhausted"
+        },
+        {
+            "from": "exhausted",
+            "to": "rested"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "initialState": "consumableStartup",
+    "transitions": [
+        {
+            "from": "consumableStartup",
+            "to": "consumableUse"
+        },
+        {
+            "from": "consumableUse",
+            "to": "consumableCleanup"
+        }
+    ]
+}

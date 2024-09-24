@@ -1,0 +1,13 @@
+{
+    "initialState": "idleTier5",
+    "transitions": [
+        {
+            "from": "idleTier5",
+            "to": "workspot"
+        },
+        {
+            "from": "workspot",
+            "to": "idleTier5"
+        }
+    ]
+}

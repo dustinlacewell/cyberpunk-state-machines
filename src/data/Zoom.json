@@ -1,0 +1,117 @@
+{
+    "initialState": "zoomLevelBase",
+    "transitions": [
+        {
+            "from": "zoomLevelBase",
+            "to": "zoomBlocked"
+        },
+        {
+            "from": "zoomBlocked",
+            "to": "zoomLevelBase"
+        },
+        {
+            "from": "zoomLevelBase",
+            "to": "zoomLevelAim"
+        },
+        {
+            "from": "zoomLevelAim",
+            "to": "zoomBlocked"
+        },
+        {
+            "from": "zoomLevelAim",
+            "to": "zoomLevelBase"
+        },
+        {
+            "from": "zoomLevelAim",
+            "to": "zoomLevelScan"
+        },
+        {
+            "from": "zoomLevelScan",
+            "to": "zoomBlocked"
+        },
+        {
+            "from": "zoomLevelScan",
+            "to": "zoomLevelBase"
+        },
+        {
+            "from": "zoomLevelScan",
+            "to": "zoomLevelAim"
+        },
+        {
+            "from": "zoomLevelScan",
+            "to": "zoomLevel3"
+        },
+        {
+            "from": "zoomLevel3",
+            "to": "zoomBlocked"
+        },
+        {
+            "from": "zoomLevel3",
+            "to": "zoomLevelBase"
+        },
+        {
+            "from": "zoomLevel3",
+            "to": "zoomLevelAim"
+        },
+        {
+            "from": "zoomLevel3",
+            "to": "zoomLevelScan"
+        },
+        {
+            "from": "zoomLevel3",
+            "to": "zoomLevel4"
+        },
+        {
+            "from": "zoomLevel4",
+            "to": "zoomBlocked"
+        },
+        {
+            "from": "zoomLevel4",
+            "to": "zoomLevelBase"
+        },
+        {
+            "from": "zoomLevel4",
+            "to": "zoomLevelAim"
+        },
+        {
+            "from": "zoomLevel4",
+            "to": "zoomLevel3"
+        },
+        {
+            "from": "zoomLevel4",
+            "to": "zoomLevel5"
+        },
+        {
+            "from": "zoomLevel5",
+            "to": "zoomLevelBase"
+        },
+        {
+            "from": "zoomLevel5",
+            "to": "zoomLevelAim"
+        },
+        {
+            "from": "zoomLevel5",
+            "to": "zoomLevel4"
+        },
+        {
+            "from": "zoomLevel5",
+            "to": "zoomLevel6"
+        },
+        {
+            "from": "zoomLevel6",
+            "to": "zoomLevelBase"
+        },
+        {
+            "from": "zoomLevel6",
+            "to": "zoomLevel5"
+        },
+        {
+            "from": "zoomLevelAim",
+            "to": "zoomLevel3"
+        },
+        {
+            "from": "zoomLevelAim",
+            "to": "zoomLevel4"
+        }
+    ]
+}

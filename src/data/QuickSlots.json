@@ -1,0 +1,145 @@
+{
+    "initialState": "quickSlotsReady",
+    "transitions": [
+        {
+            "from": "quickSlotsReady",
+            "to": "quickSlotsDisabled"
+        },
+        {
+            "from": "quickSlotsDisabled",
+            "to": "quickSlotsReady"
+        },
+        {
+            "from": "quickSlotsDisabled",
+            "to": "CycleObjective"
+        },
+        {
+            "from": "CycleObjective",
+            "to": "quickSlotsDisabled"
+        },
+        {
+            "from": "CycleObjective",
+            "to": "quickSlotsReady"
+        },
+        {
+            "from": "CycleObjective",
+            "to": "quickSlotsBusy"
+        },
+        {
+            "from": "quickSlotsBusy",
+            "to": "quickSlotsDisabled"
+        },
+        {
+            "from": "quickSlotsBusy",
+            "to": "quickSlotsReady"
+        },
+        {
+            "from": "quickSlotsDisabled",
+            "to": "PocketRadioWheel"
+        },
+        {
+            "from": "PocketRadioWheel",
+            "to": "quickSlotsDisabled"
+        },
+        {
+            "from": "PocketRadioWheel",
+            "to": "quickSlotsReady"
+        },
+        {
+            "from": "PocketRadioWheel",
+            "to": "quickSlotsBusy"
+        },
+        {
+            "from": "quickSlotsDisabled",
+            "to": "VehicleVisualCustomization"
+        },
+        {
+            "from": "VehicleVisualCustomization",
+            "to": "quickSlotsDisabled"
+        },
+        {
+            "from": "VehicleVisualCustomization",
+            "to": "quickSlotsReady"
+        },
+        {
+            "from": "VehicleVisualCustomization",
+            "to": "quickSlotsBusy"
+        },
+        {
+            "from": "quickSlotsReady",
+            "to": "onlyVehicle"
+        },
+        {
+            "from": "onlyVehicle",
+            "to": "quickSlotsDisabled"
+        },
+        {
+            "from": "onlyVehicle",
+            "to": "quickSlotsReady"
+        },
+        {
+            "from": "onlyVehicle",
+            "to": "VehicleWheel"
+        },
+        {
+            "from": "VehicleWheel",
+            "to": "quickSlotsDisabled"
+        },
+        {
+            "from": "VehicleWheel",
+            "to": "quickSlotsReady"
+        },
+        {
+            "from": "VehicleWheel",
+            "to": "quickSlotsBusy"
+        },
+        {
+            "from": "quickSlotsReady",
+            "to": "CycleObjective"
+        },
+        {
+            "from": "quickSlotsReady",
+            "to": "WeaponWheel"
+        },
+        {
+            "from": "WeaponWheel",
+            "to": "quickSlotsDisabled"
+        },
+        {
+            "from": "WeaponWheel",
+            "to": "quickSlotsReady"
+        },
+        {
+            "from": "WeaponWheel",
+            "to": "quickSlotsBusy"
+        },
+        {
+            "from": "quickSlotsReady",
+            "to": "VehicleWheel"
+        },
+        {
+            "from": "quickSlotsReady",
+            "to": "VehicleInsideWheel"
+        },
+        {
+            "from": "VehicleInsideWheel",
+            "to": "quickSlotsDisabled"
+        },
+        {
+            "from": "VehicleInsideWheel",
+            "to": "quickSlotsReady"
+        },
+        {
+            "from": "VehicleInsideWheel",
+            "to": "quickSlotsBusy"
+        },
+        {
+            "from": "quickSlotsReady",
+            "to": "PocketRadioWheel"
+        },
+        {
+            "from": "quickSlotsReady",
+            "to": "VehicleVisualCustomization"
+        }
+    ]
+}
