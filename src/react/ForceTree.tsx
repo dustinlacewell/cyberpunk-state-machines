@@ -47,7 +47,9 @@ export const ForceTree: FC<{ machineName: (keyof typeof machines) }> = ({ machin
         } else {
             setHoverNode('');
             if (selectedNode) {
-                highlightTargetNode(data.nodes.find(n => n.id === selectedNode)!);
+                const targetNode = data.nodes.find(n => n.id === selectedNode)
+                if (targetNode)
+                    highlightTargetNode(targetNode);
             } else {
                 highlightNodes.clear();
                 highlightLinks.clear();
@@ -284,6 +286,7 @@ export const ForceTree: FC<{ machineName: (keyof typeof machines) }> = ({ machin
         linkDirectionalParticleColor={linkDirectionalParticleColor}
         linkWidth={linkWidth}
         linkDirectionalParticleWidth={linkDirectionalParticleWidth}
+
         onNodeHover={handleNodeHover}
         onNodeClick={handleNodeClick}
         // onLinkHover={handleLinkHover}
